@@ -1,11 +1,27 @@
-huffman : huff.o main.o  
-	g++ -Wall -g -O3 -o huffman huff.o main.o  
+CXX = g++
+CXXFLAGS += -O3 -Wall -g
+LDFALGS += -lpthread
+SRC = $(wildcard *.cpp)
+OBJ = $(SRC:%.cpp=%.o)
+TARGET = huffman
+TEST = HuckleBerry
+FORMATER = clang-format -i
 
-huff.o : huff.cpp huff.h 
-	g++ -Wall -g -O3 -c huff.cpp
+all: $(SRC) $(TARGET)
 
-main.o : main.cpp 
-	g++ -Wall -g -O3 -c main.cpp
+$(TARGET): $(OBJ)
+	$(CXX) $(LDFALGS) $^ -o $@
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+format:
+	$(FORMATER) $(SRC)
+
+test: all
+	./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
+	./$(TARGET) -d $(TEST).compress.txt -o $(TEST).2.txt
+	diff $(TEST).txt $(TEST).2.txt 
 
 clean : 
-	rm -f huffman huff.o  main.o   
+	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt
