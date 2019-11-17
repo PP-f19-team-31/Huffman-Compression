@@ -9,6 +9,7 @@
 #include <unistd.h>
 
 #include <cstdlib>
+#include <queue>
 
 void putOut();
 Node *constructHeap();
@@ -101,7 +102,8 @@ void decompress() {
 }
 
 Node *constructHeap() {
-  Heap minHeap;
+  auto cmp = [](Node *a, Node *b) { return *a > *b; };
+  std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
   Node *nextNode;
   for (int i = 0; i < 256; i++) {
     if (frequencies[i]) {

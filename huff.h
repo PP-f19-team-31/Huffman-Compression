@@ -12,9 +12,9 @@ class Node{
     Node * leftC;
     Node * rightC;
 public:
-    Node(){}
+    Node(){ data = frequency = min = 0, leftC = rightC = nullptr; };
     Node(const Node &n){data = n.data; frequency = n.frequency; leftC = n.leftC; rightC = n.rightC;}
-    Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){}
+    Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){ leftC = rightC = nullptr;}
     Node(Node *, Node *);
     void fillCodebook(string *, string &);
     bool operator> (const Node &);
