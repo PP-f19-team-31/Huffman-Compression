@@ -173,7 +173,7 @@ int main(int argc, char *argv[]) {
 
     case 'h':
       usage();
-      break;
+      exit(0);
     }
   }
 
