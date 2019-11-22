@@ -14,21 +14,21 @@
 void putOut();
 Node *constructHeap();
 unsigned int frequencies[256] = {0};
-string codebook[256];
+std::string codebook[256];
 
 typedef enum { ENCODE, DECODE } MODES;
 
-ifstream input_file;
-ofstream output_file;
+std::ifstream input_file;
+std::ofstream output_file;
 
 void compress() {
   uint8_t nextChar;
-  input_file >> noskipws;
+  input_file >> std::noskipws;
   while (input_file >> nextChar)
     frequencies[nextChar]++;
 
   Node *root = constructHeap();
-  string code;
+  std::string code;
   root->fillCodebook(codebook, code);
 
   putOut();
@@ -51,7 +51,7 @@ void putOut() {
 
   input_file.clear();
   input_file.seekg(0);
-  input_file >> noskipws;
+  input_file >> std::noskipws;
   while (input_file >> nextChar) {
     for (i = 0; i < codebook[nextChar].size(); i++, bitCounter++) {
       if (bitCounter == 8) {
@@ -68,7 +68,7 @@ void putOut() {
 }
 
 void decompress() {
-  input_file >> noskipws;
+  input_file >> std::noskipws;
   char magic[8];
   input_file.read(magic, 8);
   char nextByte;
@@ -77,7 +77,7 @@ void decompress() {
   }
 
   Node *root = constructHeap();
-  string code;
+  std::string code;
   root->fillCodebook(codebook, code);
 
   while (input_file >> nextByte) {

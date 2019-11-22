@@ -3,8 +3,6 @@
 #include <cstdlib>
 #include <string>
 
-using namespace std;
-
 class Node{
     unsigned char data;
     unsigned int frequency;
@@ -16,7 +14,7 @@ public:
     Node(const Node &n){data = n.data; frequency = n.frequency; leftC = n.leftC; rightC = n.rightC;}
     Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){ leftC = rightC = nullptr;}
     Node(Node *, Node *);
-    void fillCodebook(string *, string &);
+    void fillCodebook(std::string *, std::string &);
     bool operator> (const Node &);
 };
 
