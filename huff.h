@@ -3,6 +3,19 @@
 #include <cstdlib>
 #include <string>
 
+#define START_TIME(start)                                                      \
+  { gettimeofday(&start, NULL); }
+
+#define END_TIME(name, end)                                                    \
+  {                                                                            \
+    gettimeofday(&end, NULL);                                                  \
+    double delta = ((end.tv_sec - start.tv_sec) * 1000000u + end.tv_usec -     \
+                    start.tv_usec) /                                           \
+                   1.e6;                                                       \
+                                                                               \
+    printf("\033[92m[%s]\033[0m Execute time: %lf\n", name, delta);            \
+  }
+
 class Node{
     unsigned char data;
     unsigned int frequency;
