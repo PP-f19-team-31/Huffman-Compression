@@ -2,20 +2,25 @@
 
 #include "huff.h"
 
-#include <fstream>
-
-#include <cstring>
-#include <iostream>
-#include <unistd.h>
-
 #include <algorithm>
+#include <bitset>
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <unordered_map>
+#include <unistd.h>
 #include <cstdlib>
 #include <queue>
+#include <cmath>
+#include <sys/time.h>
+#include <omp.h>
 #include <utility>
 #include <vector>
 
+
 void putOut();
 Node *constructHeap();
+
 unsigned int frequencies[256] = {0};
 std::string codebook[256];
 std::pair<int, int> newcodebook[256];
@@ -97,6 +102,13 @@ void decompress() {
   Node *root = constructHeap();
   std::string code;
   root->fillCodebook(codebook, code);
+  std::unordered_map<std::string, int> codebook_map;
+
+  for (int i = 0; i < 256; ++i) {
+    if (codebook[i] != "") {
+      codebook_map[codebook[i]] = i;
+    }
+  }
 
   while (input_file >> nextByte) {
     for (int i = 0; i < 8; i++) {
@@ -104,15 +116,15 @@ void decompress() {
         code += '1';
       else
         code += '0';
-      for (int i = 0; i < 256; i++) {
-        if (codebook[i] == code) {
-          if (frequencies[i]) {
-            output_file << (unsigned char)i;
-            code.clear();
-            frequencies[i]--;
-            break;
-          } else
-            return;
+
+      auto exist = codebook_map.find(code);
+      if (exist != codebook_map.end()) {
+        int index = exist->second;
+        if (frequencies[index]--) {
+          output_file << (unsigned char)index;
+          code.clear();
+        } else {
+          return;
         }
       }
     }
@@ -120,6 +132,7 @@ void decompress() {
 }
 
 Node *constructHeap() {
+  struct timeval start, end;
   auto cmp = [](Node *a, Node *b) { return *a > *b; };
   std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
   Node *nextNode;
