@@ -1,10 +1,10 @@
 CXX = g++
-CXXFLAGS += -O3 -Wall -g
-LDFALGS += -lpthread
+CXXFLAGS += -O3 -Wall -g -fopenmp
+LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
-TEST = HuckleBerry
+TEST = data32M
 FORMATER = clang-format -i
 
 all: $(SRC) $(TARGET)
@@ -18,10 +18,16 @@ $(TARGET): $(OBJ)
 format:
 	$(FORMATER) $(SRC)
 
-test: all
-	./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
-	./$(TARGET) -d $(TEST).compress.txt -o $(TEST).2.txt
-	diff $(TEST).txt $(TEST).2.txt 
+compress: all
+	time --format="executime time: %E" ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
 
-clean : 
+decompress: all
+	time --format="executime time: %E" ./$(TARGET) -d $(TEST).compress.txt -o $(TEST).2.txt
+
+test: all
+	time --format="executime time: %E" ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
+	time --format="executime time: %E" ./$(TARGET) -d $(TEST).compress.txt -o $(TEST).2.txt
+	diff $(TEST).txt $(TEST).2.txt
+
+clean :
 	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt
