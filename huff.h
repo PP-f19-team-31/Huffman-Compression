@@ -2,6 +2,8 @@
 
 #include <cstdlib>
 #include <string>
+#include <vector>
+#include <utility>
 
 #define START_TIME(start)                                                      \
   { gettimeofday(&start, NULL); }
@@ -28,6 +30,7 @@ public:
     Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){ leftC = rightC = nullptr;}
     Node(Node *, Node *);
     void fillCodebook(std::string *, std::string &);
+    void fillCodebook(std::pair<int, int> *codebook, std::string &code, std::vector<char>& bitvec);
     bool operator> (const Node &);
 };
 

@@ -21,6 +21,38 @@ void Node::fillCodebook(string *codebook, string &code) {
   }
 }
 
+void Node::fillCodebook(pair<int, int> *codebook, string &code,
+                        vector<char> &bitvec) {
+  int begin = bitvec.size();
+  if (!leftC && !rightC) {
+    /*encode here, store to bit vec and */
+    char byte = 0, bitc = 0;
+    for (int i = 0; i < code.size(); i++, bitc++) {
+      // for(int i = code.size() - 1; i >= 0; i--, bitc++){
+      if (bitc == 8)
+        bitvec.push_back(byte), bitc = byte = 0;
+      // if(code[code.size() - 1 - i] == '1') byte |= 0x1 << bitc;
+      if (code[i] == '1')
+        byte |= 0x1 << bitc;
+    }
+    if (bitc)
+      bitvec.push_back(byte << (8 - bitc));
+    codebook[data] = make_pair(begin, code.size());
+    // codebook[data] = code;
+    return;
+  }
+  if (leftC) {
+    code += '0';
+    leftC->fillCodebook(codebook, code, bitvec);
+    code.erase(code.end() - 1);
+  }
+  if (rightC) {
+    code += '1';
+    rightC->fillCodebook(codebook, code, bitvec);
+    code.erase(code.end() - 1);
+  }
+}
+
 Node::Node(Node *rc, Node *lc) {
   frequency = rc->frequency + lc->frequency;
   rightC = rc;
