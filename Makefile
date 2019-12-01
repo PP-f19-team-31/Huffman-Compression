@@ -29,5 +29,8 @@ test: all
 	time --format="executime time: %E" ./$(TARGET) -d $(TEST).compress.txt -o $(TEST).2.txt
 	diff $(TEST).txt $(TEST).2.txt
 
+perf: all
+	perf record --call-graph dwarf ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
+
 clean :
 	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt
