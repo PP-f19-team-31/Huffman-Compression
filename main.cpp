@@ -2,23 +2,18 @@
 
 #include "huff.h"
 
-#include <assert.h>
 #include <algorithm>
 #include <bitset>
 #include <cstring>
 #include <fstream>
 #include <iostream>
-#include <unordered_map>
-#include <unistd.h>
-#include <cstdlib>
-#include <cstdio>
-#include <queue>
-#include <cmath>
-#include <sys/time.h>
 #include <omp.h>
+#include <queue>
+#include <sys/time.h>
+#include <unistd.h>
+#include <unordered_map>
 #include <utility>
 #include <vector>
-
 
 void putOut();
 Node *constructHeap();
@@ -45,23 +40,24 @@ void compress() {
   putOut();
 }
 
-#define BLOCK_N     (4)
-#define BLOCK_SIZE  (50 << 10 << 10)
+#define BLOCK_N (4)
+#define BLOCK_SIZE (50 << 10 << 10)
 #define BUFFER_SIZE ((BLOCK_N) * (BLOCK_SIZE))
 
 char buffer[BUFFER_SIZE];
 
-typedef struct encode_block{
+typedef struct encode_block {
   bool lack;
   std::vector<char> bytes;
   encode_block() : lack(false){};
-  void reset(){ bytes.clear(), lack = false; }
+  void reset() { bytes.clear(), lack = false; }
 } encode_block;
 
-auto encode(encode_block &block, char *block_beg, char *block_end, int bitCounter){
+auto encode(encode_block &block, char *block_beg, char *block_end,
+            int bitCounter) {
   block.reset();
   char nextByte = 0;
-  for(char *chr = block_beg; chr != block_end; chr++){
+  for (char *chr = block_beg; chr != block_end; chr++) {
     int beg = newcodebook[(unsigned char)*chr].first;
     int len = newcodebook[(unsigned char)*chr].second;
     int rst = newcodebook[(unsigned char)*chr].second;
@@ -71,7 +67,7 @@ auto encode(encode_block &block, char *block_beg, char *block_end, int bitCounte
     while (rst) {
       int bit_needed = 8 - bitCounter;
       nextByte |=
-        (lsr(bitvec[beg + (rd / 8)], (8 - bit_provide)) << bitCounter);
+          (lsr(bitvec[beg + (rd / 8)], (8 - bit_provide)) << bitCounter);
       rst -= std::min(bit_provide, bit_needed);
       if (bit_provide >= bit_needed) {
         bit_provide -= bit_needed;
@@ -90,19 +86,20 @@ auto encode(encode_block &block, char *block_beg, char *block_end, int bitCounte
   return block;
 }
 
-int get_index(int len, int size, int nth){
+int get_index(int len, int size, int nth) {
   int mod = len % size;
   int p = len / size;
   int floorp = p, ceilp = p + (mod ? 1 : 0);
   return ceilp * std::min(mod, nth) + floorp * std::max(0, nth - mod);
 }
 
-auto partition(int n, encode_block *blocks, char *buffer, int len, int &bitCounter){
-  for(int wrank = 0; wrank < n; wrank++){
+auto partition(int n, encode_block *blocks, char *buffer, int len,
+               int &bitCounter) {
+  for (int wrank = 0; wrank < n; wrank++) {
     int bits = 0;
     int beg = get_index(len, n, wrank);
     int end = get_index(len, n, wrank + 1);
-    for(int i = beg; i != end; i++)
+    for (int i = beg; i != end; i++)
       bits += newcodebook[(unsigned char)buffer[i]].second;
     encode(blocks[wrank], buffer + beg, buffer + end, bitCounter);
     bitCounter = (bitCounter + bits) % 8;
@@ -110,11 +107,11 @@ auto partition(int n, encode_block *blocks, char *buffer, int len, int &bitCount
   return blocks;
 }
 
-void flush_blocks(char &prefix, encode_block *blocks, int n){
-  for(int i = 0; i < n; i++){
-    if(prefix)
+void flush_blocks(char &prefix, encode_block *blocks, int n) {
+  for (int i = 0; i < n; i++) {
+    if (prefix)
       blocks[i].bytes[0] |= prefix, prefix = 0;
-    if(blocks[i].lack)
+    if (blocks[i].lack)
       prefix = blocks[i].bytes.back(), blocks[i].bytes.pop_back();
     output_file.write(&(blocks[i].bytes[0]), blocks[i].bytes.size());
   }
@@ -142,8 +139,9 @@ void putOut() {
     input_file.read(buffer, sizeof(buffer));
     partition(BLOCK_N, blocks, buffer, input_file.gcount(), bitCounter);
     flush_blocks(prefix, blocks, BLOCK_N);
-  } while(input_file);
-  if(blocks[BLOCK_N - 1].lack) output_file.write(&prefix, 1);
+  } while (input_file);
+  if (blocks[BLOCK_N - 1].lack)
+    output_file.write(&prefix, 1);
 }
 
 void decompress() {
@@ -215,14 +213,14 @@ Node *constructHeap() {
 
 void usage() {
   std::cout << "Usage:\n"
-    "  -c [be compressed file] : Compress file to output file.\n"
-    "  -d [decompressed file]  : Decompress file to output file.\n"
-    "  -o [output file]        : Specify the output file name.\n"
-    "  -h                      : Command line options.\n\n"
-    "e.g.\n"
-    " ./huffman -c a.txt - o a.compres.txt\n"
-    "or \n"
-    " ./huffman - d a.compress.txt -o a.txt\n";
+               "  -c [be compressed file] : Compress file to output file.\n"
+               "  -d [decompressed file]  : Decompress file to output file.\n"
+               "  -o [output file]        : Specify the output file name.\n"
+               "  -h                      : Command line options.\n\n"
+               "e.g.\n"
+               " ./huffman -c a.txt - o a.compres.txt\n"
+               "or \n"
+               " ./huffman - d a.compress.txt -o a.txt\n";
 }
 
 int main(int argc, char *argv[]) {
@@ -232,34 +230,34 @@ int main(int argc, char *argv[]) {
   int opt;
   while ((opt = getopt(argc, argv, "c:d:o:h")) != -1) {
     switch (opt) {
-      case 'c':
-        mode = ENCODE;
-        goto FILE;
-      case 'd':
-        mode = DECODE;
-FILE:
-        if (input_string != nullptr) {
-          fprintf(stderr, "Multiple input files not allowed");
-          exit(-1);
-        }
+    case 'c':
+      mode = ENCODE;
+      goto FILE;
+    case 'd':
+      mode = DECODE;
+    FILE:
+      if (input_string != nullptr) {
+        fprintf(stderr, "Multiple input files not allowed");
+        exit(-1);
+      }
 
-        input_string = (char *)malloc(strlen(optarg) + 1);
-        strcpy(input_string, optarg);
-        break;
+      input_string = (char *)malloc(strlen(optarg) + 1);
+      strcpy(input_string, optarg);
+      break;
 
-      case 'o':
-        if (output_string != nullptr) {
-          fprintf(stderr, "Multiple ouput files not allowed");
-          exit(-1);
-        }
+    case 'o':
+      if (output_string != nullptr) {
+        fprintf(stderr, "Multiple ouput files not allowed");
+        exit(-1);
+      }
 
-        output_string = (char *)malloc(strlen(optarg) + 1);
-        strcpy(output_string, optarg);
-        break;
+      output_string = (char *)malloc(strlen(optarg) + 1);
+      strcpy(output_string, optarg);
+      break;
 
-      case 'h':
-        usage();
-        exit(0);
+    case 'h':
+      usage();
+      exit(0);
     }
   }
 
