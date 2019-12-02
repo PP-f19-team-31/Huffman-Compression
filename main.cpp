@@ -4,19 +4,18 @@
 
 #include <algorithm>
 #include <bitset>
+#include <cmath>
+#include <cstdlib>
 #include <cstring>
 #include <fstream>
 #include <iostream>
-#include <unordered_map>
-#include <unistd.h>
-#include <cstdlib>
-#include <queue>
-#include <cmath>
-#include <sys/time.h>
 #include <omp.h>
+#include <queue>
+#include <sys/time.h>
+#include <unistd.h>
+#include <unordered_map>
 #include <utility>
 #include <vector>
-
 
 void putOut();
 Node *constructHeap();
