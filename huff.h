@@ -3,7 +3,22 @@
 #include <cstdlib>
 #include <string>
 
-using namespace std;
+#include <sys/time.h>
+#include <vector>
+#include <utility>
+
+#define START_TIME(start)                                                      \
+  { gettimeofday(&start, NULL); }
+
+#define END_TIME(name, end)                                                    \
+  {                                                                            \
+    gettimeofday(&end, NULL);                                                  \
+    double delta = ((end.tv_sec - start.tv_sec) * 1000000u + end.tv_usec -     \
+                    start.tv_usec) /                                           \
+                   1.e6;                                                       \
+                                                                               \
+    printf("\033[92m[%s]\033[0m Execute time: %lf\n", name, delta);            \
+  }
 
 class Node{
     unsigned char data;
@@ -12,11 +27,12 @@ class Node{
     Node * leftC;
     Node * rightC;
 public:
-    Node(){}
+    Node(){ data = frequency = min = 0, leftC = rightC = nullptr; };
     Node(const Node &n){data = n.data; frequency = n.frequency; leftC = n.leftC; rightC = n.rightC;}
-    Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){}
+    Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){ leftC = rightC = nullptr;}
     Node(Node *, Node *);
-    void fillCodebook(string *, string &);
+    void fillCodebook(std::string *, std::string &);
+    void fillCodebook(std::pair<int, int> *codebook, std::string &code, std::vector<char>& bitvec);
     bool operator> (const Node &);
 };
 
