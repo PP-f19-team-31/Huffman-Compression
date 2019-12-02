@@ -2,19 +2,29 @@
 
 #include "huff.h"
 
-#include <fstream>
-
+#include <algorithm>
+#include <bitset>
 #include <cstring>
+#include <fstream>
 #include <iostream>
+#include <unordered_map>
 #include <unistd.h>
-
 #include <cstdlib>
 #include <queue>
+#include <cmath>
+#include <sys/time.h>
+#include <omp.h>
+#include <utility>
+#include <vector>
+
 
 void putOut();
 Node *constructHeap();
+
 unsigned int frequencies[256] = {0};
 std::string codebook[256];
+std::pair<int, int> newcodebook[256];
+std::vector<char> bitvec;
 
 typedef enum { ENCODE, DECODE } MODES;
 
@@ -29,7 +39,7 @@ void compress() {
 
   Node *root = constructHeap();
   std::string code;
-  root->fillCodebook(codebook, code);
+  root->fillCodebook(newcodebook, code, bitvec);
 
   putOut();
 }
@@ -53,14 +63,27 @@ void putOut() {
   input_file.seekg(0);
   input_file >> std::noskipws;
   while (input_file >> nextChar) {
-    for (i = 0; i < codebook[nextChar].size(); i++, bitCounter++) {
-      if (bitCounter == 8) {
+    int beg = newcodebook[nextChar].first;
+    int len = newcodebook[nextChar].second;
+    int rst = newcodebook[nextChar].second;
+#define rd (len - rst)
+#define lsr(x, n) (char)(((unsigned char)x) >> (n))
+    int bit_provide = std::min(8, len);
+    while (rst) {
+      int bit_needed = 8 - bitCounter;
+      nextByte |=
+          (lsr(bitvec[beg + (rd / 8)], (8 - bit_provide)) << bitCounter);
+      rst -= std::min(bit_provide, bit_needed);
+      if (bit_provide >= bit_needed) {
+        bit_provide -= bit_needed;
+        if (!bit_provide)
+          bit_provide = std::min(8, rst);
         output_file << nextByte;
-        nextByte = 0;
-        bitCounter = 0;
+        nextByte = bitCounter = 0;
+      } else {
+        bitCounter += bit_provide;
+        bit_provide = std::min(8, rst);
       }
-      if (codebook[nextChar][i] == '1')
-        nextByte = nextByte | (0x01 << bitCounter);
     }
   }
   if (bitCounter)
@@ -79,6 +102,13 @@ void decompress() {
   Node *root = constructHeap();
   std::string code;
   root->fillCodebook(codebook, code);
+  std::unordered_map<std::string, int> codebook_map;
+
+  for (int i = 0; i < 256; ++i) {
+    if (codebook[i] != "") {
+      codebook_map[codebook[i]] = i;
+    }
+  }
 
   while (input_file >> nextByte) {
     for (int i = 0; i < 8; i++) {
@@ -86,15 +116,15 @@ void decompress() {
         code += '1';
       else
         code += '0';
-      for (int i = 0; i < 256; i++) {
-        if (codebook[i] == code) {
-          if (frequencies[i]) {
-            output_file << (unsigned char)i;
-            code.clear();
-            frequencies[i]--;
-            break;
-          } else
-            return;
+
+      auto exist = codebook_map.find(code);
+      if (exist != codebook_map.end()) {
+        int index = exist->second;
+        if (frequencies[index]--) {
+          output_file << (unsigned char)index;
+          code.clear();
+        } else {
+          return;
         }
       }
     }
@@ -102,6 +132,7 @@ void decompress() {
 }
 
 Node *constructHeap() {
+  struct timeval start, end;
   auto cmp = [](Node *a, Node *b) { return *a > *b; };
   std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
   Node *nextNode;
