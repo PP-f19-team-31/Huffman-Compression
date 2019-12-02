@@ -52,14 +52,14 @@ void compress() {
 char buffer[BUFFER_SIZE];
 
 typedef struct encode_block{
-  int begbc, endbc;
+  bool lack;
   std::vector<char> bytes;
-  encode_block() : begbc(0), endbc(0){};
-  encode_block(int bc) : begbc(bc), endbc(0){};
+  encode_block() : lack(false){};
+  void reset(){ bytes.clear(), lack = false; }
 } encode_block;
 
-auto encode(char *block_beg, char *block_end, int &bitCounter){
-  auto block = new encode_block(bitCounter);
+auto encode(encode_block &block, char *block_beg, char *block_end, int bitCounter){
+  block.reset();
   char nextByte = 0;
   for(char *chr = block_beg; chr != block_end; chr++){
     int beg = newcodebook[(unsigned char)*chr].first;
@@ -77,7 +77,7 @@ auto encode(char *block_beg, char *block_end, int &bitCounter){
         bit_provide -= bit_needed;
         if (!bit_provide)
           bit_provide = std::min(8, rst);
-        block->bytes.push_back(nextByte);
+        block.bytes.push_back(nextByte);
         nextByte = bitCounter = 0;
       } else {
         bitCounter += bit_provide;
@@ -85,11 +85,10 @@ auto encode(char *block_beg, char *block_end, int &bitCounter){
       }
     }
   }
-  if (bitCounter) block->bytes.push_back(nextByte);
-  block->endbc = bitCounter;
+  if (bitCounter)
+    block.bytes.push_back(nextByte), block.lack = true;
   return block;
 }
-
 
 int get_index(int len, int size, int nth){
   int mod = len % size;
@@ -98,30 +97,26 @@ int get_index(int len, int size, int nth){
   return ceilp * std::min(mod, nth) + floorp * std::max(0, nth - mod);
 }
 
-auto partition(int n, char *buffer, int len, int &bitCounter){
-  auto blocks = new encode_block*[n];
+auto partition(int n, encode_block *blocks, char *buffer, int len, int &bitCounter){
   for(int wrank = 0; wrank < n; wrank++){
     int bits = 0;
     int beg = get_index(len, n, wrank);
     int end = get_index(len, n, wrank + 1);
-    int prebitCounter = bitCounter;
     for(int i = beg; i != end; i++)
       bits += newcodebook[(unsigned char)buffer[i]].second;
-    blocks[wrank] = encode(buffer + beg, buffer + end, bitCounter);
-    prebitCounter = (prebitCounter + bits) % 8;
-    //printf("%d == %d? (%d, %d)\n", prebitCounter, bitCounter, beg, end);
-    //assert(prebitCounter == bitCounter);
+    encode(blocks[wrank], buffer + beg, buffer + end, bitCounter);
+    bitCounter = (bitCounter + bits) % 8;
   }
   return blocks;
 }
 
-void flush_blocks(char &prefix, encode_block **blocks, int n){
+void flush_blocks(char &prefix, encode_block *blocks, int n){
   for(int i = 0; i < n; i++){
-    if(blocks[i]->begbc)
-      blocks[i]->bytes[0] |= prefix;
-    if(blocks[i]->endbc)
-      prefix = blocks[i]->bytes.back(), blocks[i]->bytes.pop_back();
-    output_file.write(&(blocks[i]->bytes[0]), blocks[i]->bytes.size());
+    if(prefix)
+      blocks[i].bytes[0] |= prefix, prefix = 0;
+    if(blocks[i].lack)
+      prefix = blocks[i].bytes.back(), blocks[i].bytes.pop_back();
+    output_file.write(&(blocks[i].bytes[0]), blocks[i].bytes.size());
   }
 }
 
@@ -142,13 +137,13 @@ void putOut() {
 
   int bitCounter = 0;
   char prefix = 0;
-  encode_block **blocks;
+  encode_block blocks[BLOCK_N];
   do {
     input_file.read(buffer, sizeof(buffer));
-    blocks = partition(BLOCK_N, buffer, input_file.gcount(), bitCounter);
+    partition(BLOCK_N, blocks, buffer, input_file.gcount(), bitCounter);
     flush_blocks(prefix, blocks, BLOCK_N);
   } while(input_file);
-  if(blocks[BLOCK_N - 1]->endbc) output_file.write(&prefix, 1);
+  if(blocks[BLOCK_N - 1].lack) output_file.write(&prefix, 1);
 }
 
 void decompress() {
