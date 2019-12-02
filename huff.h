@@ -2,6 +2,7 @@
 
 #include <cstdlib>
 #include <string>
+#include <sys/time.h>
 
 #define START_TIME(start)                                                      \
   { gettimeofday(&start, NULL); }
