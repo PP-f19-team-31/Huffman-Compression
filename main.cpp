@@ -188,7 +188,6 @@ void decompress() {
 }
 
 Node *constructHeap() {
-  struct timeval start, end;
   auto cmp = [](Node *a, Node *b) { return *a > *b; };
   std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
   Node *nextNode;
