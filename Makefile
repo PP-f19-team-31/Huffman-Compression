@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS += -O3 -Wall -g -fopenmp
+CXXFLAGS += -O3 -Wall -g -fopenmp -mavx
 LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
