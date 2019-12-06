@@ -183,6 +183,8 @@ void putOut() {
     output_file.write(&prefix, 1);
 }
 
+// 2002 Journal
+// Parallel Huffman Decoding with Application to JPEG Files
 void decompress() {
   input_file >> std::noskipws;
   char magic[8];
