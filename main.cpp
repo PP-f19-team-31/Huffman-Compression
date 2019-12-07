@@ -29,11 +29,50 @@ typedef enum { ENCODE, DECODE } MODES;
 std::ifstream input_file;
 std::ofstream output_file;
 
+#define NUM_BLOCKS 48
+
 void compress() {
   uint8_t nextChar;
+  input_file.seekg(0, std::ifstream::end);
+  size_t size_of_file = input_file.tellg();
+  std::cout << "size of file (bytes): " << size_of_file << "\n";
+  input_file.seekg(0);
   input_file >> std::noskipws;
-  while (input_file >> nextChar)
-    frequencies[nextChar]++;
+
+  // split the file into blocks based on number of threads
+  size_t avg_chunk_size = size_of_file / NUM_BLOCKS;
+  size_t *chunk_sizes = (size_t *)malloc(NUM_BLOCKS * sizeof *chunk_sizes);
+  size_t *from = (size_t *)malloc(NUM_BLOCKS * sizeof *from);
+  size_t *to = (size_t *)malloc(NUM_BLOCKS * sizeof *to);
+
+  // compute the correspoing chunk_size for each thread
+  from[0] = 0;
+  for (size_t i = 0; i < NUM_BLOCKS; ++i) {
+    chunk_sizes[i] =
+        i < size_of_file % NUM_BLOCKS ? avg_chunk_size + 1 : avg_chunk_size;
+    to[i] = from[i] + chunk_sizes[i] - 1;
+    from[i + 1] = to[i] + 1;
+  }
+
+  // reading from file into buffer
+  unsigned char *buffer = new unsigned char[size_of_file];
+  input_file.read((char *)buffer, size_of_file);
+
+  // frequenices counting (parallel)
+  unsigned int frequencies_threads[NUM_BLOCKS][256] = {0};
+#pragma omp parallel for num_threads(16)
+  for (size_t i = 0; i < NUM_BLOCKS; ++i) {
+    for (size_t j = from[i]; j < to[i] + 1; ++j) {
+      frequencies_threads[i][buffer[j]]++;
+    }
+  }
+
+  // adding up frequencies array
+  for (size_t i = 0; i < NUM_BLOCKS; ++i) {
+    for (size_t j = 0; j < 256; ++j) {
+      frequencies[j] += frequencies_threads[i][j];
+    }
+  }
 
   Node *root = make_tree();
   bitvec = (char *)calloc(code_length(root, 0), sizeof(char));
@@ -145,6 +184,8 @@ void putOut() {
     output_file.write(&prefix, 1);
 }
 
+// 2002 Journal
+// Parallel Huffman Decoding with Application to JPEG Files
 void decompress() {
   input_file >> std::noskipws;
   char magic[8];
