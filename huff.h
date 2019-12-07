@@ -21,18 +21,18 @@
   }
 
 class Node{
-    unsigned char data;
-    unsigned int frequency;
-    unsigned char min;
-    Node * leftC;
-    Node * rightC;
 public:
-    Node(){ data = frequency = min = 0, leftC = rightC = nullptr; };
-    Node(const Node &n){data = n.data; frequency = n.frequency; leftC = n.leftC; rightC = n.rightC;}
-    Node(unsigned char d, unsigned int f): data(d), frequency(f), min(d){ leftC = rightC = nullptr;}
+    unsigned char data;
+    unsigned freq;
+    Node *left, *right;
+    Node() = delete;
+    Node(unsigned char d, unsigned f):
+      data(d), freq(f), left(nullptr), right(nullptr){}
     Node(Node *, Node *);
     void fillCodebook(std::string *, std::string &);
     void fillCodebook(std::pair<int, int> *codebook, std::string &code, std::vector<char>& bitvec);
+    void fillCodebook(std::pair<int, int> *codebook, std::string &code, char *bitvec);
+    int  fillCodebook(std::pair<int, int> *codebook, char *bitvec, int beg, int len);
     bool operator> (const Node &);
 };
 

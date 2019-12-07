@@ -16,12 +16,13 @@
 #include <vector>
 
 void putOut();
-Node *constructHeap();
+Node *make_tree();
+int code_length(Node *, int);
 
 unsigned int frequencies[256] = {0};
 std::string codebook[256];
 std::pair<int, int> newcodebook[256];
-std::vector<char> bitvec;
+char *bitvec;
 
 typedef enum { ENCODE, DECODE } MODES;
 
@@ -34,9 +35,9 @@ void compress() {
   while (input_file >> nextChar)
     frequencies[nextChar]++;
 
-  Node *root = constructHeap();
-  std::string code;
-  root->fillCodebook(newcodebook, code, bitvec);
+  Node *root = make_tree();
+  bitvec = (char *)calloc(code_length(root, 0), sizeof(char));
+  root->fillCodebook(newcodebook, bitvec, 0, 0);
   putOut();
 }
 
@@ -153,7 +154,7 @@ void decompress() {
     input_file.read((char *)&frequencies[i], 4);
   }
 
-  Node *root = constructHeap();
+  Node *root = make_tree();
   std::string code;
   root->fillCodebook(codebook, code);
   std::unordered_map<std::string, int> codebook_map;
@@ -185,20 +186,26 @@ void decompress() {
   }
 }
 
-Node *constructHeap() {
+int code_length(Node *tree, int depth) {
+  if (!tree)
+    return 0;
+  else if (!tree->left && !tree->right)
+    return (depth + 1) / 8 + (depth % 8 ? 1 : 0);
+  else
+    return code_length(tree->left, depth + 1) +
+           code_length(tree->right, depth + 1);
+}
+
+Node *make_tree() {
   auto cmp = [](Node *a, Node *b) { return *a > *b; };
   std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
-  Node *nextNode;
   for (int i = 0; i < 256; i++) {
     if (frequencies[i]) {
-      nextNode = new Node(i, frequencies[i]);
-      minHeap.push(nextNode);
+      minHeap.push(new Node(i, frequencies[i]));
     }
   }
 
-  Node *node1;
-  Node *node2;
-  Node *merged;
+  Node *node1, *node2, *merged;
   while (minHeap.size() > 1) {
     node1 = minHeap.top();
     minHeap.pop();
