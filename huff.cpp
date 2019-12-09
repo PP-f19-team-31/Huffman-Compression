@@ -2,21 +2,23 @@
 
 #include "huff.h"
 #include <iostream>
+#include <map>
+
 using namespace std;
 
 void Node::fillCodebook(string *codebook, string &code) {
-  if (!leftC && !rightC) {
+  if (!left && !right) {
     codebook[data] = code;
     return;
   }
-  if (leftC) {
+  if (left) {
     code += '0';
-    leftC->fillCodebook(codebook, code);
+    left->fillCodebook(codebook, code);
     code.erase(code.end() - 1);
   }
-  if (rightC) {
+  if (right) {
     code += '1';
-    rightC->fillCodebook(codebook, code);
+    right->fillCodebook(codebook, code);
     code.erase(code.end() - 1);
   }
 }
@@ -24,7 +26,7 @@ void Node::fillCodebook(string *codebook, string &code) {
 void Node::fillCodebook(pair<int, int> *codebook, string &code,
                         vector<char> &bitvec) {
   int begin = bitvec.size();
-  if (!leftC && !rightC) {
+  if (!left && !right) {
     /*encode here, store to bit vec and */
     char byte = 0, bitc = 0;
     for (size_t i = 0; i < code.size(); i++, bitc++) {
@@ -38,23 +40,56 @@ void Node::fillCodebook(pair<int, int> *codebook, string &code,
     codebook[data] = make_pair(begin, code.size());
     return;
   }
-  if (leftC) {
+  if (left) {
     code += '0';
-    leftC->fillCodebook(codebook, code, bitvec);
+    left->fillCodebook(codebook, code, bitvec);
     code.erase(code.end() - 1);
   }
-  if (rightC) {
+  if (right) {
     code += '1';
-    rightC->fillCodebook(codebook, code, bitvec);
+    right->fillCodebook(codebook, code, bitvec);
     code.erase(code.end() - 1);
   }
 }
 
-Node::Node(Node *rc, Node *lc) {
-  frequency = rc->frequency + lc->frequency;
-  rightC = rc;
-  leftC = lc;
-  min = (rc->min < lc->min) ? rc->min : lc->min;
+int Node::fillCodebook(pair<int, int> *codebook, char *bitvec, int cur,
+                       int len) {
+  int pre = cur;
+  static map<int, int> idx2len;
+  if (!left && !right) {
+    codebook[data] = make_pair(cur, len);
+    idx2len[cur] = len;
+    if (len % 8)
+      bitvec[cur + len / 8] <<= (8 - len % 8);
+    return cur + (len / 8) + ((len % 8) ? 1 : 0);
+  }
+
+  if (left)
+    cur = left->fillCodebook(codebook, bitvec, cur, len + 1);
+
+  if (right) {
+    if (pre != cur) {
+      int count = len, ptr = 0;
+      while (count >= 8)
+        bitvec[cur + ptr] = bitvec[pre + ptr], ptr++, count -= 8;
+      if (ptr == idx2len[pre] / 8)
+        for (int i = 0, offset = idx2len[pre] - ptr * 8; i < count; i++)
+          bitvec[cur + len / 8] |=
+              (bitvec[pre + ptr] & (0x1 << (8 - offset + i))) >> (8 - offset);
+      else
+        for (int i = 0; i < count; i++)
+          bitvec[cur + len / 8] |= bitvec[pre + ptr] & (0x1 << i);
+    }
+    bitvec[cur + len / 8] |= 0x1 << (len % 8);
+    cur = right->fillCodebook(codebook, bitvec, cur, len + 1);
+  }
+  return cur;
+}
+
+Node::Node(Node *lc, Node *rc) : left(lc), right(rc) {
+  freq = lc->freq + rc->freq;
+  left = lc, right = rc;
+  data = min(lc->data, rc->data);
 }
 
 void Heap::push(Node *newNode) {
@@ -88,12 +123,5 @@ void Heap::pop() {
 }
 
 bool Node::operator>(const Node &rhs) {
-  if (frequency > rhs.frequency)
-    return true;
-  if (frequency < rhs.frequency)
-    return false;
-  if (frequency == rhs.frequency)
-    if (min > rhs.min)
-      return true;
-  return false;
+  return freq == rhs.freq ? data > rhs.data : freq > rhs.freq;
 }
