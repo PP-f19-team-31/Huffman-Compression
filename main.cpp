@@ -44,7 +44,7 @@ void compress() {
   size_t *from = (size_t *)malloc(NUM_BLOCKS * sizeof *from);
   size_t *to = (size_t *)malloc(NUM_BLOCKS * sizeof *to);
 
-  // compute the correspoing chunk_size for each thread
+  // compute the corresponding chunk_size for each thread
   from[0] = 0;
   for (size_t i = 0; i < NUM_BLOCKS; ++i) {
     chunk_sizes[i] =
