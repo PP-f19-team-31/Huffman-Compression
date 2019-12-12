@@ -291,7 +291,7 @@ void decompress() {
   size_t block_idx = 0;
   size_t it_offset = 0;
 
-  while (block_idx != num_of_block - 1) {
+  // while (block_idx != num_of_block - 1) {
     // flush the codewords
     auto ps = indices_codewords[block_idx];
     auto p = ps.begin();
@@ -350,26 +350,26 @@ void decompress() {
               std::cout << "match the sync point at " << bit_index << "\n";
 
               it_offset = r;
-              goto STOP;
+              // goto STOP;
             }
           }
         }
         offset = 0;
       }
     } else {
-      std::cout << "match the boundary\n";
+      // std::cout << "match the boundary\n";
 
-      offset = 0;
-      unsigned long long start_index = block_idx * block_size;
-      unsigned long long end_index =
-          start_index +
-          (block_idx != num_of_block - 1 ? block_size : last_block_size);
-      idx = start_index;
+      // offset = 0;
+      // unsigned long long start_index = block_idx * block_size;
+      // unsigned long long end_index =
+      //     start_index +
+      //     (block_idx != num_of_block - 1 ? block_size : last_block_size);
+      // idx = start_index;
     }
-  STOP:
-    std::cout << "do sth\n";
-    // block_idx++;
-  }
+  // STOP:
+  //   std::cout << "do sth\n";
+  //   // block_idx++;
+  // }
 }
 
 Node *constructHeap() {
