@@ -292,80 +292,90 @@ void decompress() {
   size_t it_offset = 0;
 
   // while (block_idx != num_of_block - 1) {
-    // flush the codewords
-    auto ps = indices_codewords[block_idx];
-    auto p = ps.begin();
-    std::advance(p, it_offset);
-    std::for_each(p, ps.end(), [](std::pair<unsigned long long, int> key_pair) {
-      output_file << (unsigned char)(key_pair.second);
-    });
+  // flush the codewords
+  auto ps = indices_codewords[block_idx];
+  auto p = ps.begin();
+  std::advance(p, it_offset);
+  std::for_each(p, ps.end(), [](std::pair<unsigned long long, int> key_pair) {
+    output_file << (unsigned char)(key_pair.second);
+  });
 
-    // rollback
-    auto idx = indexs[block_idx].first;
-    auto offset = indexs[block_idx].second;
-    auto bit_index = indices_codewords[block_idx].back().first;
-    int nextByte = buffer[idx];
-    std::string code;
-    code.clear();
+  // rollback
+  auto idx = indexs[block_idx].first;
+  auto offset = indexs[block_idx].second;
+  auto bit_index = indices_codewords[block_idx].back().first;
+  int nextByte = buffer[idx];
+  std::string code;
+  code.clear();
 
-    // temp for chcecking
+  // temp for chcecking
+  unsigned long long start_index = block_idx * block_size;
+  unsigned long long end_index =
+      start_index +
+      (block_idx != num_of_block - 1 ? block_size : last_block_size);
+
+  block_idx++;
+  if (bit_index != end_index * 8) {
     unsigned long long start_index = block_idx * block_size;
     unsigned long long end_index =
         start_index +
         (block_idx != num_of_block - 1 ? block_size : last_block_size);
 
-    block_idx++;
-    if (bit_index != end_index * 8) {
-      unsigned long long start_index = block_idx * block_size;
-      unsigned long long end_index =
-          start_index +
-          (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    for (; idx < end_index; idx++) {
+      // unsigned long long offset  = 0;
+      // check the buffer[j] in byte (bit by bit)
+      // to check weather there is a key stored in codebook_map
 
-      for (; idx < end_index; idx++) {
-        // unsigned long long offset  = 0;
-        // check the buffer[j] in byte (bit by bit)
-        // to check weather there is a key stored in codebook_map
+      for (int k = offset; k < 8; ++k) {
+        code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
 
-        for (int k = offset; k < 8; ++k) {
-          code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
+        offset++;
+        // find the code in codebook
+        auto exist = codebook_map.find(code);
+        if (exist != codebook_map.end()) {
+          // found a codeword, extract its index
+          int decoded_char = exist->second;
 
-          offset++;
-          // find the code in codebook
-          auto exist = codebook_map.find(code);
-          if (exist != codebook_map.end()) {
-            // found a codeword, extract its index
-            int decoded_char = exist->second;
+          // record the bit index of the codeword
+          output_file << (unsigned char)(decoded_char);
+          code.clear();
 
-            // record the bit index of the codeword
-            output_file << (unsigned char)(decoded_char);
-            code.clear();
+          // checking weather it match or not
+          auto bit_index = idx * 8 + offset;
+          int r = 0;
 
-            // checking weather it match or not
 
-            auto bit_index = idx * 8 + offset;
-            int r = 0;
-            while (bit_index > indices_codewords[block_idx][r].first)
-              r++;
-            if (indices_codewords[block_idx][r].first == bit_index) {
-              std::cout << "match the sync point at " << bit_index << "\n";
+          while (bit_index > indices_codewords[block_idx][r].first)
+            r++;
+          if (indices_codewords[block_idx][r].first == bit_index) {
+            std::cout << "match the sync point at " << bit_index << "\n";
+            it_offset = r;
 
-              it_offset = r;
-              // goto STOP;
-            }
+            // auto ps = indices_codewords[block_idx];
+            // auto p = ps.begin();
+            // std::advance(p, it_offset);
+            // std::for_each(p, ps.end(),
+            //               [](std::pair<unsigned long long, int> key_pair) {
+            //                 output_file << (unsigned char)(key_pair.second);
+            //               });
+
+            return;
+            // goto STOP;
           }
         }
-        offset = 0;
       }
-    } else {
-      // std::cout << "match the boundary\n";
-
-      // offset = 0;
-      // unsigned long long start_index = block_idx * block_size;
-      // unsigned long long end_index =
-      //     start_index +
-      //     (block_idx != num_of_block - 1 ? block_size : last_block_size);
-      // idx = start_index;
+      offset = 0;
     }
+  } else {
+    // std::cout << "match the boundary\n";
+
+    // offset = 0;
+    // unsigned long long start_index = block_idx * block_size;
+    // unsigned long long end_index =
+    //     start_index +
+    //     (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    // idx = start_index;
+  }
   // STOP:
   //   std::cout << "do sth\n";
   //   // block_idx++;
