@@ -292,7 +292,6 @@ void decompress() {
   size_t it_offset = 0;
 
   while (block_idx != num_of_block - 1) {
-
     // flush the codewords
     auto ps = indices_codewords[block_idx];
     auto p = ps.begin();
@@ -315,8 +314,8 @@ void decompress() {
         start_index +
         (block_idx != num_of_block - 1 ? block_size : last_block_size);
 
+    block_idx++;
     if (bit_index != end_index * 8) {
-      block_idx++;
       unsigned long long start_index = block_idx * block_size;
       unsigned long long end_index =
           start_index +
@@ -342,15 +341,16 @@ void decompress() {
             code.clear();
 
             // checking weather it match or not
-            auto bit_index = idx * 8 + offset;
 
+            auto bit_index = idx * 8 + offset;
             int r = 0;
             while (bit_index > indices_codewords[block_idx][r].first)
               r++;
-            if (r == bit_index) {
+            if (indices_codewords[block_idx][r].first == bit_index) {
               std::cout << "match the sync point at " << bit_index << "\n";
-              exit(1);
-              // not_sync = false;
+
+              it_offset = r;
+              goto STOP;
             }
           }
         }
@@ -358,7 +358,7 @@ void decompress() {
       }
     } else {
       std::cout << "match the boundary\n";
-      block_idx++;
+
       offset = 0;
       unsigned long long start_index = block_idx * block_size;
       unsigned long long end_index =
@@ -366,7 +366,9 @@ void decompress() {
           (block_idx != num_of_block - 1 ? block_size : last_block_size);
       idx = start_index;
     }
-    block_idx++;
+  STOP:
+    std::cout << "do sth\n";
+    // block_idx++;
   }
 }
 
