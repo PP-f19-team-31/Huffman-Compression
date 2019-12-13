@@ -16,6 +16,7 @@
 #include <unordered_map>
 #include <utility>
 #include <vector>
+#include <cstdio>
 
 void putOut();
 Node *constructHeap();
@@ -49,7 +50,7 @@ void compress() {
   from[0] = 0;
   for (size_t i = 0; i < NUM_BLOCKS; ++i) {
     chunk_sizes[i] =
-        i < size_of_file % NUM_BLOCKS ? avg_chunk_size + 1 : avg_chunk_size;
+      i < size_of_file % NUM_BLOCKS ? avg_chunk_size + 1 : avg_chunk_size;
     to[i] = from[i] + chunk_sizes[i] - 1;
     from[i + 1] = to[i] + 1;
   }
@@ -94,7 +95,7 @@ typedef struct encode_block {
 } encode_block;
 
 auto encode(encode_block &block, char *block_beg, char *block_end,
-            int bitCounter) {
+    int bitCounter) {
   block.reset();
   char nextByte = 0;
   for (char *chr = block_beg; chr != block_end; chr++) {
@@ -107,7 +108,7 @@ auto encode(encode_block &block, char *block_beg, char *block_end,
     while (rst) {
       int bit_needed = 8 - bitCounter;
       nextByte |=
-          (lsr(bitvec[beg + (rd / 8)], (8 - bit_provide)) << bitCounter);
+        (lsr(bitvec[beg + (rd / 8)], (8 - bit_provide)) << bitCounter);
       rst -= std::min(bit_provide, bit_needed);
       if (bit_provide >= bit_needed) {
         bit_provide -= bit_needed;
@@ -134,7 +135,7 @@ int get_index(int len, int size, int nth) {
 }
 
 auto partition(int n, encode_block *blocks, char *buffer, int len,
-               int &bitCounter) {
+    int &bitCounter) {
   for (int wrank = 0; wrank < n; wrank++) {
     int bits = 0;
     int beg = get_index(len, n, wrank);
@@ -216,13 +217,15 @@ void decompress() {
   for (int i = 0; i < 256; ++i) {
     if (codebook[i] != "") {
       codebook_map[codebook[i]] = i;
+      std::cout << (unsigned char)i << " : " <<  codebook[i]<< std::endl;
     }
   }
   // -----------------------------------------------------------------------
   //                 split the input_file into blocks
   // -----------------------------------------------------------------------
   // split the file into blocks based on number of threads
-  size_t block_size = 31; // (bytes) 31 256
+  //size_t block_size = 31; // (bytes) 31 256
+  size_t block_size = 256; // (bytes) 31 256
   size_t num_of_block = ceild(encoded_size, block_size);
 
   std::cout << "block size: " << block_size << std::endl;
@@ -235,15 +238,15 @@ void decompress() {
   size_t last_block_size = encoded_size - (num_of_block - 1) * block_size;
 
   std::vector<std::vector<std::pair<unsigned long long, int>>>
-      indices_codewords(num_of_block);
+    indices_codewords(num_of_block);
 
   std::vector<std::pair<unsigned long long, unsigned long long>> indexs(
       num_of_block);
 
-// -----------------------------------------------------------------------
-//                 starting parallel for each block_i
-// -----------------------------------------------------------------------
-#pragma omp parallel for num_threads(16)
+  // -----------------------------------------------------------------------
+  //                 starting parallel for each block_i
+  // -----------------------------------------------------------------------
+  //#pragma omp parallel for num_threads(16)
   for (size_t block_idx = 0; block_idx < num_of_block; ++block_idx) {
     unsigned long long bit_index = 0;
     unsigned long long offset = 0;
@@ -251,9 +254,10 @@ void decompress() {
     std::string code;
     unsigned long long start_index = block_idx * block_size;
     unsigned long long end_index =
-        start_index +
-        (block_idx != num_of_block - 1 ? block_size : last_block_size);
+      start_index +
+      (block_idx != num_of_block - 1 ? block_size : last_block_size);
     unsigned long long idx = start_index;
+    unsigned long long last_code_len = 0;
     {
       // idx is a global index of the buffer
       unsigned long long store_idx = 0;
@@ -265,7 +269,8 @@ void decompress() {
         offset = 0;
         int temp_offset = 0;
         for (int k = 0; k < 8; ++k) {
-          code += ((nextByte >> k) & 0x01) ? '1' : '0';
+          //code += ((nextByte >> k) & 0x01) ? '1' : '0';
+          code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
           temp_offset++;
           // find the code in codebook
           auto exist = codebook_map.find(code);
@@ -273,61 +278,82 @@ void decompress() {
             // found a codeword, extract its index
             int decoded_char = exist->second;
             // record the bit index of the codeword
-            bit_index = idx * 8 + offset;
+            //bit_index = idx * 8 + offset;
+            bit_index = idx * 8 + k - code.size() + 1;
+            //if(bit_index == 1000) printf("fuck %d %c\n", bit_index, decoded_char), exit(0);
             indices_codewords[block_idx].push_back(
                 std::make_pair(bit_index, decoded_char));
 
             offset = temp_offset;
             store_idx = idx;
-
+            last_code_len = code.size();
             code.clear();
           }
         }
       }
-      indexs[block_idx] = std::make_pair(store_idx, offset);
+      //indexs[block_idx] = std::make_pair(store_idx + offset / 8, offset % 8);
+      unsigned long long bidx = indices_codewords[block_idx].back().first \
+                                + last_code_len;
+      //+ indices_codewords[block_idx].back().second - 1;
+      indexs[block_idx] = std::make_pair(bidx / 8, bidx % 8);
+
+
     }
   }
 
+  unsigned long long last_bit = indexs[num_of_block - 1].first * 8 + indexs[num_of_block - 1].second;
+  bool shit = false;
   size_t block_idx = 0;
   size_t it_offset = 0;
-
   // while (block_idx != num_of_block - 1) {
   // flush the codewords
   auto ps = indices_codewords[block_idx];
   auto p = ps.begin();
   std::advance(p, it_offset);
   std::for_each(p, ps.end(), [](std::pair<unsigned long long, int> key_pair) {
-    output_file << (unsigned char)(key_pair.second);
-  });
+      output_file << (unsigned char)(key_pair.second);
+      });
 
-  // rollback
-  auto idx = indexs[block_idx].first;
-  auto offset = indexs[block_idx].second;
-  auto bit_index = indices_codewords[block_idx].back().first;
-  int nextByte = buffer[idx];
   std::string code;
+  unsigned long long last_idx = 0;
+doTail:
+  // rollback
+  auto idx = indexs.at(block_idx).first;
+  auto offset = indexs[block_idx].second;
   code.clear();
+newblock:
+  auto bit_index = indices_codewords.at(block_idx).back().first;
+  int nextByte = buffer[idx];
+  //if(shit) output_file << "{" << code << "}";
 
   // temp for chcecking
   unsigned long long start_index = block_idx * block_size;
   unsigned long long end_index =
-      start_index +
-      (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    start_index +
+    (block_idx != num_of_block - 1 ? block_size : last_block_size);
 
   block_idx++;
   if (bit_index != end_index * 8) {
     unsigned long long start_index = block_idx * block_size;
     unsigned long long end_index =
-        start_index +
-        (block_idx != num_of_block - 1 ? block_size : last_block_size);
-
+      start_index +
+      (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    int ffuck = -1;
+    //output_file << "^";
     for (; idx < end_index; idx++) {
       // unsigned long long offset  = 0;
       // check the buffer[j] in byte (bit by bit)
       // to check weather there is a key stored in codebook_map
 
+
       for (int k = offset; k < 8; ++k) {
+        if(idx * 8 + k >= last_bit) return;
+        if(shit && last_idx >= idx * 8 + k) continue;
+        //if(shit) output_file << "(idx" << idx * 8 + k << ", " << last_idx << "," << (((buffer[idx] >> k) & 0x01) ? '1' : '0')<< ")";
+        //if(shit) shit = false;
+        if(!shit) last_idx = idx * 8 + k;
         code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
+        if(ffuck < 0) ffuck = idx * 8 + k;
 
         offset++;
         // find the code in codebook
@@ -338,35 +364,89 @@ void decompress() {
 
           // record the bit index of the codeword
           output_file << (unsigned char)(decoded_char);
+          //output_file << "(" << ffuck + code.size() - 1 <<")";
+          ffuck = -1;
           code.clear();
 
           // checking weather it match or not
+nextblock:
+          //auto bit_index = idx * 8 + offset;
           auto bit_index = idx * 8 + offset;
+          //auto bit_index = idx * 8 + k + 1 + 1;
           int r = 0;
+          for(; r < indices_codewords[block_idx].size(); r++){
+            if(bit_index <= indices_codewords[block_idx][r].first) break;
+          }
 
 
-          while (bit_index > indices_codewords[block_idx][r].first)
-            r++;
+          if(block_idx >= indices_codewords.size()){
+
+            //std::cout << code << " <- fuck" << std::endl;
+            return;
+          }
+
+          if(bit_index > indices_codewords[block_idx][r].first){
+            //output_file << "FUCK";
+            block_idx++;
+            goto nextblock;
+            // fully pass the block
+          }
+          //output_file << " YO";
+
+
+          //bool fuckyou = (unsigned char)(decoded_char) == 'n' && block_idx == 4;
+          //if(fuckyou){
+          //  std::cout << "fuck: " << bit_index << " " << bit_index << "\n";
+          //}
+
           if (indices_codewords[block_idx][r].first == bit_index) {
-            std::cout << "match the sync point at " << bit_index << "\n";
+            //std::cout << "match the sync point at " << bit_index << "\n";
             it_offset = r;
 
-            // auto ps = indices_codewords[block_idx];
-            // auto p = ps.begin();
-            // std::advance(p, it_offset);
-            // std::for_each(p, ps.end(),
-            //               [](std::pair<unsigned long long, int> key_pair) {
-            //                 output_file << (unsigned char)(key_pair.second);
-            //               });
+reFlushVec:
+            //output_file << "|";
+            auto ps = indices_codewords[block_idx];
+            auto p = ps.begin();
+            std::advance(p, it_offset);
+            std::for_each(p, ps.end(),
+                [](std::pair<unsigned long long, int> key_pair) {
+                output_file << (unsigned char)(key_pair.second);
+                //output_file << ",";
+                });
 
-            return;
+            //std::cout<< "index:" << bit_index;
+            //std::for_each(p, ps.end(),
+            //    [](std::pair<unsigned long long, int> key_pair) {
+            //    std::cout<< "==>" << (key_pair.first) << std::endl;
+            //    //output_file << ",";
+            //    });
+            //output_file << "$";
+            //bit_index != end_index * 8
+            //output_file << "%";
+            //std::cout << indices_codewords.size() << " fuck " << block_idx << std::endl;
+            if(indices_codewords.at(block_idx).back().first != end_index){
+              //block_idx++;
+              //output_file << "^";
+              //std::cout << "doTail\n";
+              goto doTail;
+            }
+            else{//clear
+              block_idx++;
+              output_file << "@";
+              std::cout << "reflush\n";
+              goto reFlushVec;
+            }
             // goto STOP;
           }
+        }
+        else{
+          //output_file << " YOZ";
         }
       }
       offset = 0;
     }
   } else {
+    output_file << " SHIT";
     // std::cout << "match the boundary\n";
 
     // offset = 0;
@@ -375,6 +455,25 @@ void decompress() {
     //     start_index +
     //     (block_idx != num_of_block - 1 ? block_size : last_block_size);
     // idx = start_index;
+  }
+  if(block_idx < num_of_block){
+    //block_idx++;
+    block_idx--;
+    //output_file << "{" << code << " <- code " << num_of_block << " " << block_idx << ", " << last_idx <<"}";
+    //output_file << "%";
+    if(block_idx == 11414) shit = true;
+    auto bits = indexs.at(block_idx).first * 8 + indexs[block_idx].second + 1;
+    idx = bits / 8;
+    offset = bits % 8;
+    goto newblock;
+    //auto ps = indices_codewords[block_idx];
+    //auto p = ps.begin();
+    //std::advance(p, it_offset);
+    //std::for_each(p, ps.end(), [](std::pair<unsigned long long, int> key_pair) {
+    //    output_file << (unsigned char)(key_pair.second);
+    //    });
+    //  output_file << "%";
+    //  goto doTail;
   }
   // STOP:
   //   std::cout << "do sth\n";
@@ -410,14 +509,14 @@ Node *constructHeap() {
 
 void usage() {
   std::cout << "Usage:\n"
-               "  -c [be compressed file] : Compress file to output file.\n"
-               "  -d [decompressed file]  : Decompress file to output file.\n"
-               "  -o [output file]        : Specify the output file name.\n"
-               "  -h                      : Command line options.\n\n"
-               "e.g.\n"
-               " ./huffman -c a.txt - o a.compres.txt\n"
-               "or \n"
-               " ./huffman - d a.compress.txt -o a.txt\n";
+    "  -c [be compressed file] : Compress file to output file.\n"
+    "  -d [decompressed file]  : Decompress file to output file.\n"
+    "  -o [output file]        : Specify the output file name.\n"
+    "  -h                      : Command line options.\n\n"
+    "e.g.\n"
+    " ./huffman -c a.txt - o a.compres.txt\n"
+    "or \n"
+    " ./huffman - d a.compress.txt -o a.txt\n";
 }
 
 int main(int argc, char *argv[]) {
@@ -427,34 +526,34 @@ int main(int argc, char *argv[]) {
   int opt;
   while ((opt = getopt(argc, argv, "c:d:o:h")) != -1) {
     switch (opt) {
-    case 'c':
-      mode = ENCODE;
-      goto FILE;
-    case 'd':
-      mode = DECODE;
-    FILE:
-      if (input_string != nullptr) {
-        fprintf(stderr, "Multiple input files not allowed");
-        exit(-1);
-      }
+      case 'c':
+        mode = ENCODE;
+        goto FILE;
+      case 'd':
+        mode = DECODE;
+FILE:
+        if (input_string != nullptr) {
+          fprintf(stderr, "Multiple input files not allowed");
+          exit(-1);
+        }
 
-      input_string = (char *)malloc(strlen(optarg) + 1);
-      strcpy(input_string, optarg);
-      break;
+        input_string = (char *)malloc(strlen(optarg) + 1);
+        strcpy(input_string, optarg);
+        break;
 
-    case 'o':
-      if (output_string != nullptr) {
-        fprintf(stderr, "Multiple ouput files not allowed");
-        exit(-1);
-      }
+      case 'o':
+        if (output_string != nullptr) {
+          fprintf(stderr, "Multiple ouput files not allowed");
+          exit(-1);
+        }
 
-      output_string = (char *)malloc(strlen(optarg) + 1);
-      strcpy(output_string, optarg);
-      break;
+        output_string = (char *)malloc(strlen(optarg) + 1);
+        strcpy(output_string, optarg);
+        break;
 
-    case 'h':
-      usage();
-      exit(0);
+      case 'h':
+        usage();
+        exit(0);
     }
   }
 

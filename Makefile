@@ -5,6 +5,9 @@ SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
 TEST = HuckleBerry
+#TEST = data32M
+#TEST = ~/test
+
 FORMATER = clang-format -i
 
 all: $(SRC) $(TARGET)
