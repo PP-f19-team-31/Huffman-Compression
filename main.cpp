@@ -4,9 +4,12 @@
 
 #include <algorithm>
 #include <bitset>
+#include <cmath>
+#include <cstdio>
 #include <cstring>
 #include <fstream>
 #include <iostream>
+#include <iterator>
 #include <omp.h>
 #include <queue>
 #include <sys/time.h>
@@ -31,7 +34,6 @@ std::ofstream output_file;
 #define NUM_BLOCKS 48
 
 void compress() {
-  uint8_t nextChar;
   input_file.seekg(0, std::ifstream::end);
   size_t size_of_file = input_file.tellg();
   std::cout << "size of file (bytes): " << size_of_file << "\n";
@@ -183,46 +185,201 @@ void putOut() {
     output_file.write(&prefix, 1);
 }
 
+#define ceild(n, d) ceil(((double)(n)) / ((double)(d)))
+
 // 2002 Journal
 // Parallel Huffman Decoding with Application to JPEG Files
 void decompress() {
+  // -----------------------------------------------------------------------
+  // calculate the encoded code size (exclude the magic number and frequencies)
+  // -----------------------------------------------------------------------
+  input_file.seekg(0, std::ifstream::end);
+  size_t size_of_file = input_file.tellg();
+  input_file.seekg(0);
   input_file >> std::noskipws;
   char magic[8];
-  input_file.read(magic, 8);
-  char nextByte;
+  input_file.read(magic, 8); // 8 bytes
   for (int i = 0; i < 256; i++) {
-    input_file.read((char *)&frequencies[i], 4);
+    input_file.read((char *)&frequencies[i], 4); // 4 bytes * 256 = 1024
   }
+  size_t encoded_size = size_of_file - 1032;
+  std::cout << "encoded size (bytes): " << encoded_size << "\n";
+  // 1024 + 8 = 1032 bytes
+  // -----------------------------------------------------------------------
 
   Node *root = constructHeap();
-  std::string code;
-  root->fillCodebook(codebook, code);
+  {
+    std::string code;
+    root->fillCodebook(codebook, code);
+  }
   std::unordered_map<std::string, int> codebook_map;
 
   for (int i = 0; i < 256; ++i) {
     if (codebook[i] != "") {
       codebook_map[codebook[i]] = i;
+      std::cout << (unsigned char)i << " : " << codebook[i] << std::endl;
+    }
+  }
+  // -----------------------------------------------------------------------
+  //                 split the input_file into blocks
+  // -----------------------------------------------------------------------
+  // split the file into blocks based on number of threads
+  // size_t block_size = 31; // (bytes) 31 256
+  size_t block_size = 256; // (bytes) 31 256
+  size_t num_of_block = ceild(encoded_size, block_size);
+
+  std::cout << "block size: " << block_size << std::endl;
+  std::cout << "number of block: " << num_of_block << std::endl;
+
+  // reading from file into buffer
+  unsigned char *buffer = new unsigned char[encoded_size];
+  input_file.read((char *)buffer, size_of_file);
+
+  size_t last_block_size = encoded_size - (num_of_block - 1) * block_size;
+
+  std::vector<std::vector<std::pair<unsigned long long, int>>>
+      indices_codewords(num_of_block);
+
+  std::vector<std::pair<unsigned long long, unsigned long long>> indexs(
+      num_of_block);
+
+  // -----------------------------------------------------------------------
+  //                 starting parallel for each block_i
+  // -----------------------------------------------------------------------
+#pragma omp parallel for num_threads(16)
+  for (size_t block_idx = 0; block_idx < num_of_block; ++block_idx) {
+    unsigned long long bit_index = 0;
+    char nextByte;
+    std::string code;
+    unsigned long long start_index = block_idx * block_size;
+    unsigned long long end_index =
+        start_index +
+        (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    unsigned long long idx = start_index;
+    unsigned long long last_code_len = 0;
+    {
+      // idx is a global index of the buffer
+      for (; idx < end_index; ++idx) {
+        // extract a byte from buffer
+        nextByte = buffer[idx];
+        // check the buffer[j] in byte (bit by bit)
+        // to check weather there is a key stored in codebook_map
+        for (int k = 0; k < 8; ++k) {
+          code += ((nextByte >> k) & 0x01) ? '1' : '0';
+          // find the code in codebook
+          auto exist = codebook_map.find(code);
+          if (exist != codebook_map.end()) {
+            // found a codeword, extract its index
+            int decoded_char = exist->second;
+            // record the bit index of the codeword
+            bit_index = idx * 8 + k - code.size() + 1;
+            indices_codewords[block_idx].push_back(
+                std::make_pair(bit_index, decoded_char));
+            last_code_len = code.size();
+            code.clear();
+          }
+        }
+      }
+
+      unsigned long long bidx =
+          indices_codewords[block_idx].back().first + last_code_len;
+      indexs[block_idx] = std::make_pair(bidx / 8, bidx % 8);
     }
   }
 
-  while (input_file >> nextByte) {
-    for (int i = 0; i < 8; i++) {
-      if ((nextByte >> i) & 0x01)
-        code += '1';
-      else
-        code += '0';
+  unsigned long long last_bit =
+      indices_codewords[num_of_block - 1].back().first;
+  bool shit = false;
+  size_t block_idx = 0;
+  size_t it_offset = 0;
 
-      auto exist = codebook_map.find(code);
-      if (exist != codebook_map.end()) {
-        int index = exist->second;
-        if (frequencies[index]--) {
-          output_file << (unsigned char)index;
-          code.clear();
-        } else {
+  // flush the codewords
+  auto ps = indices_codewords[block_idx];
+  auto p = std::next(ps.begin(), it_offset);
+  std::for_each(p, ps.end(), [](std::pair<unsigned long long, int> key_pair) {
+    output_file << (unsigned char)(key_pair.second);
+  });
+
+  std::string code;
+  unsigned long long last_idx = 0;
+DOTAIL:
+  // rollback
+  auto idx = indexs[block_idx].first;
+  auto offset = indexs[block_idx].second;
+  code.clear();
+  auto bit_index = indices_codewords[block_idx].back().first;
+
+  // increase the block index
+  block_idx++;
+  if (bit_index % block_size != 0) {
+    unsigned long long start_index = block_idx * block_size;
+    unsigned long long end_index =
+        start_index +
+        (block_idx != num_of_block - 1 ? block_size : last_block_size);
+
+    // decode next codeword
+    while (true) {
+      for (int k = offset; k < 8; ++k) {
+        // reached the last bit, stops the decompress process
+        if (idx * 8 + k >= last_bit)
           return;
+
+        last_idx = idx * 8 + k;
+        code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
+        offset++;
+
+        // find the code in codebook
+        auto exist = codebook_map.find(code);
+        if (exist != codebook_map.end()) {
+          // found a codeword, extract the codeword
+          int decoded_cahr = exist->second;
+
+          // flush the codeword
+          output_file << (unsigned char)(decoded_cahr);
+          code.clear();
+
+        NEXTBLOCK:
+          auto bit_index = idx * 8 + offset;
+          int r = 0;
+          for (; r < indices_codewords[block_idx].size(); r++) {
+            if (bit_index <= indices_codewords[block_idx][r].first)
+              break;
+          }
+
+          if (bit_index > indices_codewords[block_idx][r].first) {
+            block_idx++;
+            goto NEXTBLOCK;
+            // fully pass the block
+          }
+
+          if (indices_codewords[block_idx][r].first == bit_index) {
+            it_offset = r;
+
+            while (true) {
+              auto ps = indices_codewords[block_idx];
+              auto p = ps.begin();
+              std::advance(p, it_offset);
+              std::for_each(p, ps.end(),
+                            [](std::pair<unsigned long long, int> key_pair) {
+                              output_file << (unsigned char)(key_pair.second);
+                            });
+              if (indices_codewords[block_idx].back().first % block_size != 0) {
+                goto DOTAIL;
+              } else {
+                // clear
+                block_idx++;
+              }
+            }
+          }
         }
       }
+
+      offset = 0;
+      idx++;
     }
+  } else {
+    // match the boundary
+    // but do nothing
   }
 }
 
