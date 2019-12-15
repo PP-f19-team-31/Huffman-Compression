@@ -25,7 +25,6 @@ fi
 
 split --numeric-suffixes -b 10M $TARGET tmp
 
-#for i in {01..05}; do echo "$i"; done
 for f in $(seq -f '%02g' 1 $FILENUM);do
     for c in $(seq -f '%02g' 1 $f);do
         cat tmp${c} >> d${f}

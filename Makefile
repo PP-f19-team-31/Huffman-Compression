@@ -6,7 +6,7 @@ OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
 TEST = HuckleBerry
 #TEST = data32M
-#TEST = ~/test
+#TEST = ~/test200M
 
 FORMATER = clang-format -i
 
