@@ -136,15 +136,24 @@ int get_index(int len, int size, int nth) {
 
 auto partition(int n, encode_block *blocks, char *buffer, int len,
                int &bitCounter) {
+  int begs[n], ends[n], counters[n];
   for (int wrank = 0; wrank < n; wrank++) {
     int bits = 0;
     int beg = get_index(len, n, wrank);
     int end = get_index(len, n, wrank + 1);
     for (int i = beg; i != end; i++)
       bits += newcodebook[(unsigned char)buffer[i]].second;
-    encode(blocks[wrank], buffer + beg, buffer + end, bitCounter);
+    begs[wrank] = beg;
+    ends[wrank] = end;
+    counters[wrank] = bitCounter;
     bitCounter = (bitCounter + bits) % 8;
   }
+
+#pragma omp parallel for num_threads(16)
+  for (int i = 0; i < n; i++) {
+    encode(blocks[i], buffer + begs[i], buffer + ends[i], counters[i]);
+  }
+
   return blocks;
 }
 
