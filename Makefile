@@ -1,19 +1,20 @@
 CXX = g++
+MPI = /home/PP-f19/MPI/bin/mpic++
 CXXFLAGS += -O3 -Wall -g -fopenmp
 LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
-TEST = data32M
+TEST = HuckleBerry
 FORMATER = clang-format -i
 
-all: $(SRC) $(TARGET)
+all: $(OBJ) $(TARGET) 
 
 $(TARGET): $(OBJ)
-	$(CXX) $(LDFALGS) $^ -o $@
+	$(MPI) $(LDFALGS) $^ -o $@
 
 %.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+	$(MPI) $(CXXFLAGS) -c $< -o $@
 
 format:
 	$(FORMATER) $(SRC)
@@ -31,6 +32,9 @@ test: all
 
 perf: all
 	perf record --call-graph dwarf ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
+mpi: all
+	./$(TARGET) -c $(TEST).txt -o $(TEST)_compressed.txt
+	/home/PP-f19/MPI/bin/mpiexec --npernode 1 --hostfile $(TARGET) -d $(TEST)_compressed.txt -o extract.txt
 
 clean :
 	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt

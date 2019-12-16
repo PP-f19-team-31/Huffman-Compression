@@ -27,7 +27,7 @@ void Node::fillCodebook(pair<int, int> *codebook, string &code,
   if (!leftC && !rightC) {
     /*encode here, store to bit vec and */
     char byte = 0, bitc = 0;
-    for (int i = 0; i < code.size(); i++, bitc++) {
+    for (size_t i = 0; i < code.size(); i++, bitc++) {
       // for(int i = code.size() - 1; i >= 0; i--, bitc++){
       if (bitc == 8)
         bitvec.push_back(byte), bitc = byte = 0;
