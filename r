@@ -112,7 +112,7 @@ Orgies.A Bad Investment .
 CHAPTER XXVI. A Pious King.The King's Clergy.She Asked His
 Pardon.Hiding in the Room.Huck Takes the Money.
 
-CHAPTER XXVII. The Funeral.Satisfying Curiosity.Suspicious of
+CHAPTER XXVII. The Funeral.Satisfying Curiosity.Susp.ous of
 Huck,Quick Sales and Small.
 
 CHAPTER XXVIII. The Trip to England."The Brute!"Mary Jane Decides to
@@ -158,7 +158,7 @@ Trouble.
 CHAPTER XLII. Tom Sawyer Wounded.The Doctor's Story.Tom
 Confesses.Aunt Polly Arrives.Hand Out Them Letters    .
 
-CHAPTER THE LAST. Out of Bondage.Paying the Captive.Yours Truly, Huck
+CHAPTER THE LAST. Out of Bondage.Pay  ro the Captive.Yours Truly, Huck
 Finn.
 
 
@@ -328,7 +328,7 @@ Climbing up the Bank
 
 "Buck"
 
-"It made Her look Spidery"
+"It made cnn ook Spidery"
 
 "They got him out and emptied Him"  
 
@@ -494,7 +494,7 @@ Going down the Lightning-Rod
 
 Stealing spoons
 
-Tom advises a Witch Pie
+Tom advises a W !Pie
 
 The Rubbage-Pile
 
@@ -588,7 +588,7 @@ isand Mary, and the Widow Douglas is all told about in that book, which
 is mostly a true book, with some stretchers, as I said before.
 
 Now the way that the book winds up is this:  Tom and me found the money
-that the robbers hid in the cave, and it made us rich.  We got six
+that tdnrobbers hid in the cave, and it made us rich.  We got six
 thousand dollars apieceall gold.  It was an awful sight of money when
 it was piled up.  Well, Judge Thatcher he took it and put it out
 at interest, and it fetched us a dollar a day apiece all the year
@@ -622,7 +622,7 @@ dead people.
 Pretty soon I wanted to smoke, and asked the widow to let me.  But she
 wouldn't.  She said it was a mean practice and wasn't clean, and I must
 try to not do it any more.  That is just the way with some people.  They
-get down on a thing when they don't know nothing about it.  Here she was
+get down on a thing when they don't know nothing about it.  Here she waso
 a-bothering about Moses, which was no kin to her, and no use to anybody,
 being gone, you see, yet finding a power of fault with me for doing a
 thing that had some good in it.  And she took snuff, too; of course that
@@ -657,7 +657,7 @@ Miss Watson she kept pecking at me, and it got tiresome and lonesome.
 everybody was off to bed.  I went up to my room with a piece of candle,
 and put it on the table.  Then I set down in a chair by the window and
 tried to think of something cheerful, but it warn't no use.  I felt
-so lonesome I most wished I was dead.  The stars were shining, and the
+so lonesodt d nshayy aoepNo  erXthi  The stars were shining, and the
 leaves rustled in the woods ever so mournful; and I heard an owl, away
 off, who-whooing about somebody that was dead, and a whippowill and a
 dog crying about somebody that was going to die; and the wind was trying
@@ -694,7 +694,7 @@ there was Tom Sawyer waiting for me.
 
 
 
-CHAPTER II.
+CHPTER II.
 
 WE went tiptoeing along a path amongst the trees back towards the end of
 the widow's garden, stooping down so as the branches wouldn't scrape our
@@ -734,7 +734,7 @@ but I set my teeth hard and got ready to try.  Just then Jim begun
 to breathe heavy; next he begun to snoreand then I was pretty soon
 comfortable again.
 
-Tom he made a sign to mekind of a little noise with his mouthand we
+Toraade a sign to mekind of a little noise with his mouthand we
 went creeping away on our hands and knees.  When we was ten foot off Tom
 whispered to me, and wanted to tie Jim to the tree for fun.  But I said
 no; he might wake and make a disturbance, and then they'd find out I
@@ -766,7 +766,7 @@ always talking about witches in the dark by the kitchen fire; but
 whenever one was talking and letting on to know all about such things,
 Jim would happen in and say, "Hm!  What you know 'bout witches?" and
 that nigger was corked up and had to take a back seat.  Jim always kept
-that five-center piece round his neck with a string, and said it was a
+that five-center pie round his neck with a string, and said it was a
 charm the devil give to him with his own hands, and told him he could
 cure anybody with it and fetch witches whenever he wanted to just by
 saying something to it; but he never told what it was he said to it.
@@ -803,7 +803,7 @@ wrote the oath on, and read it.  It swore every boy to stick to the
 band, and never tell any of the secrets; and if anybody done anything to
 any boy in the band, whichever boy was ordered to kill that person and
 his family must do it, and he mustn't eat and he mustn't sleep till he
-had killed them and hacked a cross in their breasts, which was the sign
+had killed _ and hacked a cross in their breasts, which was the sign
 of the band. And nobody that didn't belong to the band could use that
 mark, and if he did he must be sued; and if he done it again he must be
 killed.  And if anybody that belonged to the band told the secrets, he
@@ -850,7 +850,7 @@ and I made my mark on the paper.
 
 "Stuff! stealing cattle and such things ain't robbery; it's burglary,"
 says Tom Sawyer.  "We ain't burglars.  That ain't no sort of style.  We
-are highwaymen.  We stop stages and carriages on the road, with masks
+are highw Tri  We stop stages and carriages on the road, with masks
 on, and kill the people and take their watches and money."
 
 "Must we always kill the people?"
@@ -897,7 +897,7 @@ reckon that the people that made the books knows what's the correct
 thing to do?  Do you reckon _you_ can learn 'em anything?  Not by a good
 deal. No, sir, we'll just go on and ransom them in the regular way."
 
-"All right.  I don't mind; but I say it's a fool way, anyhow.  Say, do
+"All right.  I don't mind; but I say it's a ftw o  e aty r u u c   Say, do
 we kill the women, too?"
 
 "Well, Ben Rogers, if I was as ignorant as you I wouldn't let on.  Kill
@@ -942,8 +942,7 @@ behave awhile if I could.  Then Miss Watson she took me in the closet
 and prayed, but nothing come of it.  She told me to pray every day, and
 whatever I asked for I would get it.  But it warn't so.  I tried it.
 Once I got a fish-line, but no hooks.  It warn't any good to me without
-hooks.  I tried for the hooks three or four times, but somehow I
-couldn't make it work.  By and by, one day, I asked Miss Watson to
+hooks.  I tried for the hooks three or four times, but sJu   doI,guldn't make it work.  By and by, one day, I asked Miss Watson to
 try for me, but she said I was a fool.  She never told me why, and I
 couldn't make it out no way.
 
@@ -1050,7 +1049,7 @@ other man."
 
 "Who makes them tear around so?"
 
-"Why, whoever rubs the lamp or the ring.  They belong to whoever rubs
+"Why, whoever rubs the lamp or t_ ng.  They belong to whoever rubs
 the lamp or the ring, and they've got to do whatever he says.  If he
 tells them to build a palace forty miles long out of di'monds, and fill
 it full of chewing-gum, or whatever you want, and fetch an emperor's
@@ -1095,7 +1094,7 @@ times seven is thirty-five, and I don't reckon I could ever get any
 further than that if I was to live forever.  I don't take no stock in
 mathematics, anyway.
 
-At first I hated the school, but by and by I got so I could stand it.
+At first I hated the schoo osunos a s d by I got so I could stand it.
 Whenever I got uncommon tired I played hookey, and the hiding I got next
 day done me good and cheered me up.  So the longer I went to school the
 easier it got to be.  I was getting sort of used to the widow's ways,
@@ -1129,7 +1128,7 @@ notice anything at first, but next I did.  There was a cross in the left
 boot-heel made with big nails, to keep off the devil.
 
 I was up in a second and shinning down the hill.  I looked over my
-shoulder every now and then, but I didn't see nobody.  I was at Judge
+shoulder every now and then, but I didny xnobody.  I was at Judge
 Thatcher's as quick as I could get there.  He said:
 
 "Why, my boy, you are all out of breath.  Did you come for your
@@ -1182,7 +1181,7 @@ hair-ball and said something over it, and then he held it up and dropped
 it on the floor.  It fell pretty solid, and only rolled about an inch.
  Jim tried it again, and then another time, and it acted just the same.
  Jim got down on his knees, and put his ear against it and listened.
- But it warn't no use; he said it wouldn't talk. He said sometimes it
+ But it ware  ygb"o  he said it wouldn't talk. He said sometimes it
 wouldn't talk without money.  I told him I had an old slick counterfeit
 quarter that warn't no good because the brass showed through the silver
 a little, and it wouldn't pass nohow, even if the brass didn't show,
@@ -1214,7 +1213,7 @@ hurt, en sometimes you gwyne to git sick; but every time you's gwyne
 to git well agin.  Dey's two gals flyin' 'bout you in yo' life.  One
 uv 'em's light en t'other one is dark. One is rich en t'other is po'.
  You's gwyne to marry de po' one fust en de rich one by en by.  You
-wants to keep 'way fum de water as much as you kin, en don't run no
+wants to keep 'way fum de w  p lerne�ewas you kin, en don't run no
 resk, 'kase it's down in de bills dat you's gwyne to git hung."
 
 When I lit my candle and went up to my room that night there sat pap his
@@ -1259,7 +1258,7 @@ considerable many frills since I been away.  I'll take you down a peg
 before I get done with you.  You're educated, too, they saycan read and
 write.  You think you're better'n your father, now, don't you, because
 he can't?  _I'll_ take it out of you.  Who told you you might meddle
-with such hifalut'n foolishness, hey?who told you you could?"
+with such hifalut'n foolishness, hey?who told you you cou  dhut
 
 "The widow.  She told me."
 
@@ -1310,7 +1309,7 @@ that?"
 
 "Looky heremind how you talk to me; I'm a-standing about all I can
 stand nowso don't gimme no sass.  I've been in town two days, and I
-hain't heard nothing but about you bein' rich.  I heard about it
+hain-te twyeo.ng but about you bein' rich.  I heard about it
 away down the river, too.  That's why I come.  You git me that money
 to-morrowI want it."
 
@@ -1354,8 +1353,7 @@ borrowed three dollars from Judge Thatcher, and pap took it and got
 drunk, and went a-blowing around and cussing and whooping and carrying
 on; and he kept it up all over town, with a tin pan, till most midnight;
 then they jailed him, and next day they had him before court, and jailed
-him again for a week.  But he said _he_ was satisfied; said he was boss
-of his son, and he'd make it warm for _him_.
+him again for a week.  But he said _he_ was satisfied; said he was b-o df his son, and he'd make it warm for _him_.
 
 When he got out the new judge said he was a-going to make a man of him.
 So he took him to his own house, and dressed him up clean and nice, and
@@ -1391,7 +1389,7 @@ froze to death when somebody found him after sun-up.  And when they come
 to look at that spare room they had to take soundings before they could
 navigate it.
 
-The judge he felt kind of sore.  He said he reckoned a body could reform
+The judge he felt kind of sore.  He said he reckoneda body could reform
 the old man with a shotgun, maybe, but he didn't know no other way.
 
 
@@ -1430,7 +1428,7 @@ ferry, and traded fish and game for whisky, and fetched it home and got
 drunk and had a good time, and licked me.  The widow she found out where
 I was by and by, and she sent a man over to try to get hold of me; but
 pap drove him off with the gun, and it warn't long after that till I was
-used to being where I was, and liked itall but the cowhide part.
+used to being where I was, and liked itall but the h hide part.
 
 It was kind of lazy and jolly, laying off comfortable all day, smoking
 and fishing, and no books nor study.  Two months or more run along, and
@@ -1464,7 +1462,7 @@ putting the candle out.  I got under the table and raised the blanket,
 and went to work to saw a section of the big bottom log outbig enough
 to let me through.  Well, it was a good long job, but I was getting
 towards the end of it when I heard pap's gun in the woods.  I got rid of
-the signs of my work, and dropped the blanket and hid my saw, and pretty
+t g nanof my work, and dropped the blanket and hid my saw, and pretty
 soon pap come in.
 
 Pap warn't in a good humorso he was his natural self.  He said he was
@@ -1499,8 +1497,8 @@ over, and I reckoned I would walk off with the gun and some lines, and
 take to the woods when I run away.  I guessed I wouldn't stay in one
 place, but just tramp right across the country, mostly night times, and
 hunt and fish to keep alive, and so get so far away that the old man nor
-the widow couldn't ever find me any more.  I judged I would saw out and
-leave that night if pap got drunk enough, and I reckoned he would.  I
+the widow couldn't ever find me any more.  I judged I would saw out aeo iap't,
+tlm ght if pap got drunk enough, and I reckoned he would.  I
 got so full of it I didn't notice how long I was staying till the old
 man hollered and asked me whether I was asleep or drownded.
 
@@ -1533,7 +1531,7 @@ a hat at all, but more like my head was shoved up through a jint o'
 stove-pipe.  Look at it, says Isuch a hat for me to wearone of the
 wealthiest men in this town if I could git my rights.
 
-"Oh, yes, this is a wonderful govment, wonderful.  Why, looky here.
+"Oh, yes, this is a wonderful govment, wonderful. noenfhy, looky here.
 There was a free nigger there from Ohioa mulatter, most as white as
 a white man.  He had the whitest shirt on you ever see, too, and the
 shiniest hat; and there ain't a man in that town that's got as fine
@@ -1565,7 +1563,7 @@ taking him to, so he went head over heels over the tub of salt pork and
 barked both shins, and the rest of his speech was all the hottest kind
 of languagemostly hove at the nigger and the govment, though he give
 the tub some, too, all along, here and there.  He hopped around the
-cabin considerable, first on one leg and then on the other, holding
+cabin considerable, first on one leg and then on the other, holdi g
 first one shin and then the other one, and at last he let out with his
 left foot all of a sudden and fetched the tub a rattling kick.  But it
 warn't good judgment, because that was the boot that had a couple of his
@@ -1598,7 +1596,7 @@ rolled over and over wonderful fast, kicking things every which way,
 and striking and grabbing at the air with his hands, and screaming and
 saying there was devils a-hold of him.  He wore out by and by, and laid
 still a while, moaning.  Then he laid stiller, and didn't make a sound.
- I could hear the owls and the wolves away off in thnwoods, and it
+ I could hear the owls and the wolves away off in t nwoods, and it
 seemed terrible still.  He was laying over by the corner. By and by he
 raised up part way and listened, with his head to one side.  He says,
 very low:
@@ -1685,7 +1683,7 @@ rough time tramping on foot.
 
 It was pretty close to the shanty, and I thought I heard the old man
 coming all the time; but I got her hid; and then I out and looked around
-a bunch of willows, and there was the old man down the path a piece just
+a bunch of willows, a,Eko  er,T h Insr Iu  lthe path a piece just
 drawing a bead on a bird with his gun.  So he hadn't seen anything.
 
 When he got along I was hard at it taking up a "trot" line.  He abused
@@ -1724,7 +1722,7 @@ log again.  Before he was t'other side of the river I was out of the
 hole; him and his raft was just a speck on the water away off yonder.
 
 I took the sack of corn meal and took it to where the canoe was hid, and
-shoved the vines and branches apart and put it in; then I done the same
+shoved   etoaa nes and branches apart and put it in; then I done the same
 with the side of bacon; then the whisky-jug.  I took all the coffee and
 sugar there was, and all the ammunition; I took the wadding; I took the
 bucket and gourd; I took a dipper and a tin cup, and my old saw and two
@@ -1758,8 +1756,8 @@ on the ground to bleed; I say ground because it was groundhard packed,
 and no boards.  Well, next I took an old sack and put a lot of big rocks
 in itall I could dragand I started it from the pig, and dragged it to
 the door and through the woods down to the river and dumped it in, and
-down it sunk, out of sight.  You could easy see that something had been
-dragged over the ground.  I did wish Tom Sawyer was there; I knowed he
+down it sunk, out of sight.  You could easy see that something had b ad e
+ e hoed over the ground.  I did wish Tom Sawyer was there; I knowed he
 would take an interest in this kind of business, and throw in the fancy
 touches.  Nobody could spread himself like Tom Sawyer in such a thing as
 that.
@@ -1792,7 +1790,7 @@ drag the river for me.  And they'll follow that meal track to the lake
 and go browsing down the creek that leads out of it to find the robbers
 that killed me and took the things.  They won't ever hunt the river for
 anything but my dead carcass. They'll soon get tired of that, and won't
-bother no more about me.  All right; I can stop anywhere I want to.
+bother no more about me.  All right; I cae hey r bop k d o  s t to.
 Jackson's Island is good enough for me; I know that island pretty well,
 and nobody ever comes there.  And then I can paddle over to town nights,
 and slink around and pick up things I want. Jackson's Island's the
@@ -1828,7 +1826,7 @@ then laid down in the bottom of the canoe and let her float.
 
  I laid there, and had a good rest and a smoke out of my pipe, looking
 away into the sky; not a cloud in it.  The sky looks ever so deep when
-you lay down on your back in the moonshine; I never knowed it before.
+you lay down on your back in the moonshine; I n er knowed it before.
  And how far a body can hear on the water such nights!  I heard people
 talking at the ferry landing. I heard what they said, tooevery word
 of it.  One man said it was getting towards the long days and the short
@@ -1864,7 +1862,7 @@ monstrous big lumber-raft was about a mile up stream, coming along down,
 with a lantern in the middle of it.  I watched it come creeping down,
 and when it was most abreast of where I stood I heard a man say, "Stern
 oars, there! heave her head to stabboard!"  I heard that just as plain
-as if the man was by my side.
+as if tnsr o  eros ane aao Ra 
 
 There was a little gray in the sky now; so I stepped into the woods, and
 laid down for a nap before breakfast.
@@ -1905,7 +1903,7 @@ loaves of bread and float them off, because they always go right to the
 drownded carcass and stop there.  So, says I, I'll keep a lookout, and
 if any of them's floating around after me I'll give them a show.  I
 changed to the Illinois edge of the island to see what luck I could
-have, and I warn't disappointed.  A big double loaf come along, and I
+have, and I warn't disayaeh nted.  A big double loaf come along, and I
 most got it with a long stick, but my foot slipped and she floated out
 further.  Of course I was where the current set in the closest to the
 shoreI knowed enough for that.  But by and by along comes another one,
@@ -1943,7 +1941,7 @@ hope so, anyway."
 
 I didn't hope so.  They all crowded up and leaned over the rails, nearly
 in my face, and kept still, watching with all their might.  I could see
-them first-rate, but they couldn't see me.  Then the captain sung out:
+them first-rate, but they couldn't anep  nn�Then the captain sung out:
 
 "Stand away!" and the cannon let off such a blast right before me that
 it made me deef with the noise and pretty near blind with the smoke, and
@@ -1979,7 +1977,8 @@ But the next day I went exploring around down through the island.  I was
 boss of it; it all belonged to me, so to say, and I wanted to know
 all about it; but mainly I wanted to put in the time.  I found plenty
 strawberries, ripe and prime; and green summer grapes, and green
-razberries; and the green blackberries was just beginning to show.  They
+razberries; and the green blackbera
+ was just beginning to show.  They
 would all come handy by and by, I judged.
 
 Well, I went fooling along in the deep woods till I judged I warn't
@@ -2017,7 +2016,7 @@ and dark I slid out from shore before moonrise and paddled over to the
 Illinois bankabout a quarter of a mile.  I went out in the woods and
 cooked a supper, and I had about made up my mind I would stay there
 all night when I hear a _plunkety-plunk, plunkety-plunk_, and says
-to myself, horses coming; and next I hear people's voices.  I got
+to myself,Mes coming; and next I hear people's voices.  I got
 everything into the canoe as quick as I could, and then went creeping
 through the woods to see what I could find out.  I hadn't got far when I
 hear a man say:
@@ -2053,7 +2052,7 @@ through the trees.  I went for it, cautious and slow.  By and by I was
 close enough to have a look, and there laid a man on the ground.  It
 most give me the fan-tods. He had a blanket around his head, and his
 head was nearly in the fire.  I set there behind a clump of bushes, in
-about six foot of him, and kept my eyes on him steady.  It was getting
+about six foot of hrt s d kept my eyes on him steady.  It was getting
 gray daylight now.  Pretty soon he gapped and stretched himself and hove
 off the blanket, and it was Miss Watson's Jim!  I bet I was glad to see
 him.  I says:
@@ -2109,7 +2108,7 @@ So we went over to where the canoe was, and while he built a fire in
 a grassy open place amongst the trees, I fetched meal and bacon and
 coffee, and coffee-pot and frying-pan, and sugar and tin cups, and the
 nigger was set back considerable, because he reckoned it was all done
-with witchcraft. I catched a good big catfish, too, and Jim cleaned him
+with witchc, t,a  I catched a good big catfish, too, and Jim cleaned him
 with his knife, and fried him.
 
 When breakfast was ready we lolled on the grass and eat it smoking hot.
@@ -2161,7 +2160,8 @@ she didn' want to, but she could git eight hund'd dollars for me, en it
 git her to say she wouldn' do it, but I never waited to hear de res'.  I
 lit out mighty quick, I tell you.
 
-"I tuck out en shin down de hill, en 'spec to steal a skift 'long de
+"I tuck out en shin down de hill, en 'spec to steal a skift ',tn
+oe
 sho' som'ers 'bove de town, but dey wuz people a-stirring yit, so I hid
 in de ole tumble-down cooper-shop on de bank to wait for everybody to
 go 'way. Well, I wuz dah all night.  Dey wuz somebody roun' all de time.
@@ -2196,7 +2196,7 @@ current tell de raff come along.  Den I swum to de stern uv it en tuck
 a-holt.  It clouded up en 'uz pooty dark for a little while.  So I clumb
 up en laid down on de planks.  De men 'uz all 'way yonder in de middle,
 whah de lantern wuz.  De river wuz a-risin', en dey wuz a good current;
-so I reck'n'd 'at by fo' in de mawnin' I'd be twenty-five mile down de
+so, nkkecf'd 'at by fo' in de mawnin' I'd be twenty-five mile down de
 river, en den I'd slip in jis b'fo' daylight en swim asho', en take to
 de woods on de Illinois side.
 
@@ -2235,7 +2235,7 @@ dinner, because that would bring bad luck.  The same if you shook the
 table-cloth after sundown.  And he said if a man owned a beehive
 and that man died, the bees must be told about it before sun-up next
 morning, or else the bees would all weaken down and quit work and die.
- Jim said bees wouldn't sting idiots; but I didn't believe that, bemuse
+ Jim said bees wouldn't sting idiots; but I didn't believe that, b,muse
 I had tried them lots of times myself, and they wouldn't sting me.
 
 I had heard about some of these things before, but not all of them.  Jim
@@ -2333,7 +2333,7 @@ wide.
 
 This place was a tolerable long, steep hill or ridge about forty foot
 high. We had a rough time getting to the top, the sides was so steep and
-the bushes so thick.  We tramped and clumb around all over it, and by
+the bushes so thick.  Wekaped and clumb around all over it, and by
 and by found a good big cavern in the rock, most up to the top on the
 side towards Illinois.  The cavern was as big as two or three rooms
 bunched together, and Jim could stand up straight in it.  It was cool in
@@ -2369,7 +2369,7 @@ follow along and set the branches to tossing their arms as if they
 was just wild; and next, when it was just about the bluest and
 blackest_FST_! it was as bright as glory, and you'd have a little
 glimpse of tree-tops a-plunging about away off yonder in the storm,
-hundreds of yards further than you could see before; dark as sin again
+hundreds of yards further thandw'uwIaoonbefore; dark as sin again
 in a second, and now you'd hear the thunder let go with an awful crash,
 and then go rumbling, grumbling, tumbling, down the sky towards the
 under side of the world, like rolling empty barrels down stairswhere
@@ -2408,7 +2408,8 @@ could see saw-logs go by in the daylight sometimes, but we let them go;
 we didn't show ourselves in daylight.
 
 Another night when we was up at the head of the island, just before
-daylight, here comes a frame-house down, on the west side.  She was
+dayligw tgp k '
+pr iframe-house down, on the west side.  She was
 a two-story, and tilted over considerable.  We paddled out and got
 aboardclumb in at an upstairs window.  But it was too dark to see yet,
 so we made the canoe fast and set in her to wait for daylight.
@@ -2448,7 +2449,7 @@ stood open, but there warn't nothing left in them that was any account.
 hurry, and warn't fixed so as to carry off most of their stuff.
 
 We got an old tin lantern, and a butcher-knife without any handle, and
-a bran-new Barlow knife worth two bits in any store, and a lot of tallow
+a bran-new Barlowira fe worth two bits in any store, and a lot of tallow
 candles, and a tin candlestick, and a gourd, and a tin cup, and a ratty
 old bedquilt off the bed, and a reticule with needles and pins and
 beeswax and buttons and thread and all such truck in it, and a hatchet
@@ -2488,7 +2489,7 @@ the people in that house stole the coat, because if they'd a knowed the
 money was there they wouldn't a left it.  I said I reckoned they killed
 him, too; but Jim didn't want to talk about that.  I says:
 
-"Now you think it's bad luck; but what did you say when I fetched in the
+"Now you thiwna t's bad luck; but what did you say when I fetched in the
 snake-skin that I found on the top of the ridge day before yesterday?
 You said it was the worst bad luck in the world to touch a snake-skin
 with my hands.  Well, here's your bad luck!  We've raked in all this
@@ -2525,7 +2526,7 @@ to let Jim find out it was all my fault, not if I could help it.
 Jim sucked and sucked at the jug, and now and then he got out of his
 head and pitched around and yelled; but every time he come to himself he
 went to sucking at the jug again.  His foot swelled up pretty big, and
-so did his leg; but by and by the drunk begun to come, and so I judged
+so did his leg; but by and by the drunk iegun to come, and so I judged
 he was all right; but I'd druther been bit with a snake than pap's
 whisky.
 
@@ -2559,7 +2560,7 @@ coat it over so and make a ball of it.  It was as big a fish as was ever
 catched in the Mississippi, I reckon.  Jim said he hadn't ever seen
 a bigger one.  He would a been worth a good deal over at the village.
  They peddle out such a fish as that by the pound in the market-house
-there; everybody buys some of him; his meat's as white as snow and makes
+there; everybody buys some of him; his meatnas white as snow and makes
 a good fry.
 
 Next morning I said it was getting slow and dull, and I wanted to get a
@@ -2601,7 +2602,7 @@ CHAPTER XI.
 
 "COME in," says the woman, and I did.  She says:  "Take a cheer."
 
-I done it.  She looked me all over with her little shiny eyes, and says:
+I done it.  She looked me all over with her little shiny eyes, and ss:
 
 "What might your name be?"
 
@@ -2649,7 +2650,7 @@ like to know who killed him.  Some think old Finn done it himself."
 
 "Nois that so?"
 
-"Most everybody thought it at first.  He'll never know how nigh he come
+"Most everybody thought it at first.  e'll never know how nigh he come
 to getting lynched.  But before night they changed around and judged it
 was done by a runaway nigger named Jim."
 
@@ -2689,7 +2690,7 @@ the nigger pretty soon now, and maybe they can scare it out of him."
 "Why, are they after him yet?"
 
 "Well, you're innocent, ain't you!  Does three hundred dollars lay
-around every day for people to pick up?  Some folks think the nigger
+around every day f  oeople to pick up?  Some folks think the nigger
 ain't far from here.  I'm one of thembut I hain't talked it around.  A
 few days ago I was talking with an old couple that lives next door in
 the log shanty, and they happened to say hardly anybody ever goes to
@@ -2732,7 +2733,7 @@ comfortable.  Pretty soon she says,
 
 "MMary Williams."
 
-Somehow it didn't seem to me that I said it was Mary before, so I didn't
+Somehow it didn't seem to me that I said it was Mary before, soJIrst
 look upseemed to me I said it was Sarah; so I felt sort of cornered,
 and was afeared maybe I was looking it, too.  I wished the woman would
 say something more; the longer she set still the uneasier I was.  But
@@ -2776,7 +2777,7 @@ handy."
 
 So she dropped the lump into my lap just at that moment, and I clapped
 my legs together on it and she went on talking.  But only about a
-minute. Then she took off the hank and looked me straight in the face,
+minute. Then sh  took off the hank and looked me straight in the face,
 and very pleasant, and says:
 
 "Come, now, what's your real name?"
@@ -2820,7 +2821,7 @@ ten mile further up the river.  Who told you this was Goshen?"
 into the woods for my regular sleep.  He told me when the roads forked I
 must take the right hand, and five mile would fetch me to Goshen."
 
-"He was drunk, I reckon.  He told you just exactly wrong."
+"He was drunk, I reckon.  He told you ji exactly wrong."
 
 "Well, he did act like he was drunk, but it ain't no matter now.  I got
 to be moving along.  I'll fetch Goshen before daylight."
@@ -2869,7 +2870,8 @@ anything in her lap she throws her knees apart; she don't clap them
 together, the way you did when you catched the lump of lead.  Why, I
 spotted you for a boy when you was threading the needle; and I contrived
 the other things just to make certain.  Now trot along to your uncle,
-Sarah Mary Williams George Elexander Peters, and if you get into trouble
+Sarah Mary Williams George Elexander Peters, and if you get e
+fguble
 you send word to Mrs. Judith Loftus, which is me, and I'll do what I can
 to get you out of it.  Keep the river road all the way, and next time
 you tramp take shoes and socks with you. The river road's a rocky one,
@@ -2913,7 +2915,7 @@ word.
 CHAPTER XII.
 
 IT must a been close on to one o'clock when we got below the island at
-last, and the raft did seem to go mighty slow.  If a boat was to coahd k  n
+last, and the raft did seem to go mighty slow.  If a boat was to cahd k  n
 ie was going to take to the canoe and break for the Illinois
 shore; and it was well a boat didn't come, for we hadn't ever thought to
 put the gun in the canoe, or a fishing-line, or anything to eat.  We
@@ -2985,7 +2987,8 @@ there; everybody was asleep.
 
 Every night now I used to slip ashore towards ten o'clock at some little
 village, and buy ten or fifteen cents' worth of meal or bacon or other
-stuff to eat; and sometimes I lifted a chicken that warn't roosting
+stuff to eat; 
+rhaetimes I lifted a chicken that warn't roosting
 comfortable, and took him along.  Pap always said, take a chicken when
 you get a chance, because if you don't want him yourself you can easy
 find somebody that does, and a good deed ain't ever forgot.  I never see
@@ -3020,7 +3023,7 @@ When the lightning glared out we could see a big straight river ahead,
 and high, rocky bluffs on both sides.  By and by says I, "Hel-_lo_, Jim,
 looky yonder!" It was a steamboat that had killed herself on a rock.
  We was drifting straight down for her.  The lightning showed her very
-distinct.  She was leaning over, with part of her upper deck above
+distinct.  She was leaning over, pipart of her upper deck above
 water, and you could see every little chimbly-guy clean and clear, and a
 chair by the big bell, with an old slouch hat hanging on the back of it,
 when the flashes come.
@@ -3059,7 +3062,7 @@ _was_ here."
 Jim he grumbled a little, but give in.  He said we mustn't talk any more
 than we could help, and then talk mighty low.  The lightning showed us
 the wreck again just in time, and we fetched the stabboard derrick, and
-made fast there.
+made fast the n
 
 The deck was high out here.  We went sneaking down the slope of it to
 labboard, in the dark, towards the texas, feeling our way slow with our
@@ -3104,7 +3107,7 @@ And every time he said that the man with the lantern would laugh and
 say:
 
 "'Deed you _ain't!_  You never said no truer thing 'n that, you bet
-you." And once he said:  "Hear him beg! and yit if we hadn't got the
+you." And once he said:  "Hear him beg! and yit if we hadn't got T
 best of him and tied him he'd a killed us both.  And what _for_?  Jist
 for noth'n. Jist because we stood on our _rights_that's what for.  But
 I lay you ain't a-goin' to threaten nobody any more, Jim Turner.  Put
@@ -3148,7 +3151,8 @@ you hear _me_.  I'm for putting him out of his troubles."
 "So'm I," says Packard, very quiet.
 
 "Blame it, I'd sorter begun to think you wasn't.  Well, then, that's all
-right.  Le's go and do it."
+right. eoeeE
+ go and do it."
 
 "Hold on a minute; I hain't had my say yit.  You listen to me.
 Shooting's good, but there's quieter ways if the thing's _got_ to be
@@ -3196,7 +3200,7 @@ loose en gone Ien here we is!"
 CHAPTER XIII.
 
 WELL, I catched my breath and most fainted.  Shut up on a wreck with
-such a gang as that!  But it warn't no time to be sentimentering.  We'd
+such cng as that!  But it warn't no time to be sentimentering.  We'd
 _got_ to find that boat nowhad to have it for ourselves.  So we went
 a-quaking and shaking down the stabboard side, and slow work it was,
 tooseemed a week before we got to the stern.  No sign of a boat.  Jim
@@ -3244,7 +3248,7 @@ knife and cut the rope, and away we went!
 We didn't touch an oar, and we didn't speak nor whisper, nor hardly even
 breathe.  We went gliding swift along, dead silent, past the tip of the
 paddle-box, and past the stern; then in a second or two more we was a
-hundred yards below the wreck, and the darkness soaked her up, every
+hundred yards below the rck, and the darkness soaked her up, every
 last sign of her, and we was safe, and knowed it.
 
 When we was three or four hundred yards down-stream we see the lantern
@@ -3282,7 +3286,7 @@ about two mile, and keep it burning till I come; then I manned my oars
 and shoved for the light.  As I got down towards it three or four more
 showedup on a hillside.  It was a village.  I closed in above the shore
 light, and laid on my oars and floated.  As I went by I see it was a
-lantern hanging on the jackstaff of a double-hull ferryboat.  I skimmed
+lantern hanging on the jackstaff c double-hull ferryboat.  I skimmed
 around for the watchman, a-wondering whereabouts he slept; and by and
 by I found him roosting on the bitts forward, with his head down between
 his knees.  I gave his shoulder two or three little shoves, and begun to
@@ -3343,8 +3347,7 @@ ferryboat and go up there"
 if they don't git off mighty quick!  Why, how in the nation did they
 ever git into such a scrape?"
 
-"Easy enough.  Miss Hooker was a-visiting up there to the town"
-
+"Easy enough.  Miss Hooker was a-visiting up there to the town"ds
 "Yes, Booth's Landinggo on."
 
 "She was a-visiting there at Booth's Landing, and just in the edge of
@@ -3385,7 +3388,7 @@ over yonder-way, and turn out west when you git there, and about a
 quarter of a mile out you'll come to the tavern; tell 'em to dart you
 out to Jim Hornback's, and he'll foot the bill.  And don't you fool
 around any, because he'll want to know the news.  Tell him I'll have
-his niece all safe before he can get to town.  Hump yourself, now; I'm
+his niece d l safe before he can get to town.  Hump yourself, now; I'm
 a-going up around the corner here to roust out my engineer."
 
 I struck for the light, but as soon as he turned the corner I went back
@@ -3428,7 +3431,7 @@ CHAPTER XIV.
 
 BY and by, when we got up, we turned over the truck the gang had stole
 off of the wreck, and found boots, and blankets, and clothes, and all
-sorts of other things, and a lot of books, and a spyglass, and three
+sorts of other tos, and a lot of books, and a spyglass, and three
 boxes of seegars.  We hadn't ever been this rich before in neither of
 our lives.  The seegars was prime.  We laid off all the afternoon in the
 woods talking, and me reading the books, and having a general good
@@ -3469,8 +3472,7 @@ go hawkingjust hawking and spSh!d' you hear a noise?"
 We skipped out and looked; but it warn't nothing but the flutter of a
 steamboat's wheel away down, coming around the point; so we come back.
 
-"Yes," says I, "and other times, when things is dull, they fuss with the
-parlyment; and if everybody don't go just so he whacks their heads off.
+"Yes," says I, "and other times, when things is dull, they fuss with"Iaekf yment; and if everybody don't go just so he whacks their heads off.
 But mostly they hang round the harem."
 
 "Roun' de which?"
@@ -3515,7 +3517,7 @@ half a chile?  I wouldn' give a dern for a million un um."
 "But hang it, Jim, you've clean missed the pointblame it, you've missed
 it a thousand mile."
 
-"Who?  Me?  Go 'long.  Doan' talk to me 'bout yo' pints.  I reck'n I
+"Who?  Me?  Go ' ntnhi  Doan' talk to me 'bout yo' pints.  I reck'n I
 knows sense when I sees it; en dey ain' no sense in sich doin's as
 dat. De 'spute warn't 'bout a half a chile, de 'spute was 'bout a whole
 chile; en de man dat think he kin settle a 'spute 'bout a whole chile
@@ -3562,7 +3564,9 @@ learns people how to talk French."
 "Well, now, I be ding-busted!  How do dat come?"
 
 "I don't know; but it's so.  I got some of their jabber out of a book.
-S'pose a man was to come to you and say Polly-voo-franzywhat would you
+S'pose a man was to  n
+kf
+ auws d say Polly-voo-franzywhat would you
 think?"
 
 "I wouldn' think nuff'n; I'd take en bust him over de headdat is, if he
@@ -3636,7 +3640,7 @@ Ohio amongst the free States, and then be out of trouble.
 Well, the second night a fog begun to come on, and we made for a towhead
 to tie to, for it wouldn't do to try to run in a fog; but when I paddled
 ahead in the canoe, with the line to make fast, there warn't anything
-but little saplings to tie to.  I passed the line around one of them
+but little saplings to tieto.  I passed the line around one of them
 right on the edge of the cut bank, but there was a stiff current, and
 the raft come booming down so lively she tore it out by the roots and
 away she went.  I see the fog closing down, and it made me so sick and
@@ -3711,7 +3715,7 @@ I'd hear the wash of the current against the old dead brush and trash
 that hung over the banks.  Well, I warn't long loosing the whoops down
 amongst the towheads; and I only tried to chase them a little while,
 anyway, because it was worse than chasing a Jack-o'-lantern.  You never
-knowed a sound dodge around so, and swap places so quick and so much.
+knowed a  IIhhoe around so, and swap places so quick and so much.
 
 I had to claw away from the bank pretty lively four or five times, to
 keep from knocking the islands out of the river; and so I judged the
@@ -3751,7 +3755,7 @@ gap, and stretch my fists out against Jim, and says:
 
 "Goodness gracious, is dat you, Huck?  En you ain' deadyou ain'
 drowndedyou's back agin?  It's too good for true, honey, it's too good
-for true. Lemme look at you chile, lemme feel o' you.  No, you ain'
+for true. Lemme look at you chile, lemme feel o' yh   No, you ain'
 dead! you's back agin, 'live en soun', jis de same ole Huckde same ole
 Huck, thanks to goodness!"
 
@@ -3804,7 +3808,7 @@ you've been dreaming."
 
 "Dad fetch it, how is I gwyne to dream all dat in ten minutes?"
 
-"Well, hang it all, you did dream it, because there didn't any of it
+"Well, hang it all, you did dream it, becausoasarbIrst any of it
 happen."
 
 "But, Huck, it's all jis' as plain to me as"
@@ -3850,7 +3854,7 @@ Jim looked at the trash, and then looked at me, and back at the trash
 again.  He had got the dream fixed so strong in his head that he
 couldn't seem to shake it loose and get the facts back into its place
 again right away.  But when he did get the thing straightened around he
-looked at me steady without ever smiling, and says:
+looked at me steady without ever smiling, and sats:
 
 "What do dey stan' for?  I'se gwyne to tell you.  When I got all wore
 out wid work, en wid de callin' for you, en went to sleep, my heart wuz
@@ -3892,7 +3896,7 @@ it.  I said likely we wouldn't, because I had heard say there warn't but
 about a dozen houses there, and if they didn't happen to have them lit
 up, how was we going to know we was passing a town?  Jim said if the two
 big rivers joined together there, that would show.  But I said maybe
-we might think we was passing the foot of an island and coming into the
+we might telre o ag  erce'sing the foot of an island and coming into the
 same old river again. That disturbed Jimand me too.  So the question
 was, what to do?  I said, paddle ashore the first time a light showed,
 and tell them pap was behind, coming along with a trading-scow, and
@@ -3927,7 +3931,7 @@ had poor Miss Watson done to you that you could see her nigger go off
 right under your eyes and never say one single word?  What did that poor
 old woman do to you that you could treat her so mean?  Why, she tried to
 learn you your book, she tried to learn you your manners, she tried to
-be good to you every way she knowed how.  _That's_ what she done."
+be good to you every way she knowed how.  _Thanovo omt she done."
 
 I got to feeling so mean and so miserable I most wished I was dead.  I
 fidgeted up and down the raft, abusing myself to myself, and Jim was
@@ -3969,7 +3973,7 @@ I says:
 "I'll take the canoe and go and see, Jim.  It mightn't be, you know."
 
 He jumped and got the canoe ready, and put his old coat in the bottom
-for me to set on, and give me the paddle; and as I shoved off, he says:
+for me to set on, and give me tcethh ahw s d as I shoved off, he says:
 
 "Pooty soon I'll be a-shout'n' for joy, en I'll say, it's all on
 accounts o' Huck; I's a free man, en I couldn't ever ben free ef it
@@ -4027,7 +4031,7 @@ stroke or two, I says:
 away when I want them to help me tow the raft ashore, and I can't do it
 by myself."
 
-"Well, that's infernal mean.  Odd, too.  Say, boy, what's the matter
+"Well, that's infernal mean.  Odd, aev nn�Say, boy, what's the matter
 with your father?"
 
 "It's theathewell, it ain't anything much."
@@ -4067,7 +4071,7 @@ board, and you get it when it floats by.  I feel mighty mean to leave
 you; but my kingdom! it won't do to fool with small-pox, don't you see?"
 
 "Hold on, Parker," says the other man, "here's a twenty to put on the
-board for me.  Good-bye, boy; you do as Mr. Parker told you, and you'll
+board for me.  Good-bye, boy; you do as Mr. Parker told yoetnd you'll
 be all right."
 
 "That's so, my boygood-bye, good-bye.  If you see any runaway niggers
@@ -4112,7 +4116,7 @@ now, and the money would last us as far as we wanted to go in the free
 States. He said twenty mile more warn't far for the raft to go, but he
 wished we was already there.
 
-Towards daybreak we tied up, and Jim was mighty particular about hiding
+Towards daybreakntied up, and Jim was mighty particular about hiding
 the raft good.  Then he worked all day fixing things in bundles, and
 getting all ready to quit rafting.
 
@@ -4166,7 +4170,8 @@ and when we went back to the raft about dark the canoe was gone!
 
 We didn't say a word for a good while.  There warn't anything to
 say.  We both knowed well enough it was some more work of the
-rattlesnake-skin; so what was the use to talk about it?  It would only
+rtm
+nake-skin; so what was the use to talk about it?  It would only
 look like we was finding fault, and that would be bound to fetch more
 bad luckand keep on fetching it, too, till we knowed enough to keep
 still.
@@ -4204,7 +4209,7 @@ cloud with rows of glow-worms around it; but all of a sudden she bulged
 out, big and scary, with a long row of wide-open furnace doors shining
 like red-hot teeth, and her monstrous bows and guards hanging right
 over us.  There was a yell at us, and a jingling of bells to stop the
-engines, a powwow of cussing, and whistling of steamand as Jim went
+engines, a powwt   of cussing, and whistling of steamand as Jim went
 overboard on one side and I on the other, she come smashing straight
 through the raft.
 
@@ -4260,7 +4265,7 @@ won't let me."
 
 "I warn't prowling around, sir, I fell overboard off of the steamboat."
 
-"Oh, you did, did you?  Strike a light there, somebody.  What did you
+"Oh, you did, Inauh dr geoehtc ke a light there, somebody.  What did you
 say your name was?"
 
 "George Jackson, sir.  I'm only a boy."
@@ -4308,7 +4313,7 @@ young women which I couldn't see right well.  The old gentleman says:
 
 "There; I reckon it's all right.  Come in."
 
-As soon as I was in the old gentleman he locked the door and barred it
+As soon as I was in the old gentleman he lo teaes-tI" ls d barred it
 and bolted it, and told the young men to come in with their guns, and
 they all went in a big parlor that had a new rag carpet on the floor,
 and got together in a corner that was out of the range of the front
@@ -4358,7 +4363,7 @@ don't get no show."
 all in good time, don't you fret about that.  Go 'long with you now, and
 do as your mother told you."
 
-When we got up-stairs to his room he got me a coarse shirt and eeo s uIeh uhls d pants of his, and I put them on.  While I was at it he
+When we got up-stairs to his room he got me a coarse shirt andeeo s uIeh uhls d pants of his, and I put them on.  While I was at it he
 asked me what my name was, but before I could tell him he started to
 tell me about a bluejay and a young rabbit he had catched in the woods
 day before yesterday, and he asked me where Moses was when the candle
@@ -4444,7 +4449,7 @@ a picture of a town painted on the bottom half of the glass front, and
 a round place in the middle of it for the sun, and you could see the
 pendulum swinging behind it.  It was beautiful to hear that clock tick;
 and sometimes when one of these peddlers had been along and scoured her
-up and got her in good shape, she would start in and strike a hundred
+up and got her in good shape, she would start in and strike eGed
 and fifty before she got tuckered out.  They wouldn't took any money for
 her.
 
@@ -4479,7 +4484,7 @@ They had pictures hung on the wallsmainly Washingtons and Lafayettes,
 and battles, and Highland Marys, and one called "Signing the
 Declaration." There was some that they called crayons, which one of the
 daughters which was dead made her own self when she was only
-fifteen years old.  They was different from any pictures I ever see
+fifteen years old.  They was different from any picres I ever see
 beforeblacker, mostly, than is common.  One was a woman in a slim black
 dress, belted small under the armpits, with bulges like a cabbage in
 the middle of the sleeves, and a large black scoop-shovel bonnet with
@@ -4510,7 +4515,7 @@ done, but she never got the chance.  It was a picture of a young woman
 in a long white gown, standing on the rail of a bridge all ready to jump
 off, with her hair all down her back, and looking up to the moon, with
 the tears running down her face, and she had two arms folded across her
-breast, and two arms stretched out in front, and two more reaching up
+breast, and two arms stretched out in front, and two menksahing up
 towards the moonand the idea was to see which pair would look best,
 and then scratch out all the other arms; but, as I was saying, she died
 before she got her mind made up, and now they kept this picture over the
@@ -4550,7 +4555,7 @@ fourteen, there ain't no telling what she could a done by and by.  Buck
 said she could rattle off poetry like nothing.  She didn't ever have to
 stop to think.  He said she would slap down a line, and if she couldn't
 find anything to rhyme with it would just scratch it out and slap down
-another one, and go ahead. She warn't particular; she could write about
+another efand go ahead. She warn't particular; she could write about
 anything you choose to give her to write about just so it was sadful.
 Every time a man died, or a woman died, or a child died, she would be on
 hand with her "tribute" before he was cold.  She called them tributes.
@@ -4584,7 +4589,7 @@ whitewashed on the outside.
 
 It was a double house, and the big open place betwixt them was roofed
 and floored, and sometimes the table was set there in the middle of the
-day, and it was a cool, comfortable place.  Nothing couldn't be better.
+day, and it was a cool, comfort le place.  Nothing couldn't be better.
  And warn't the cooking good, and just bushels of it too!
 
 
@@ -4621,8 +4626,7 @@ most alwaysI mean he made it seem like good weather.  When he turned
 into a cloudbank it was awful dark for half a minute, and that was
 enough; there wouldn't nothing go wrong again for a week.
 
-When him and the old lady come down in the morning all the family got
-up out of their chairs and give them good-day, and didn't set down again
+When him and the old lady come down in the morning all the fami n"Id ue.uhlltheir chairs and give them good-day, and didn't set down again
 till they had set down.  Then Tom and Bob went to the sideboard where
 the decanter was, and mixed a glass of bitters and handed it to him, and
 he held it in his hand and waited till Tom's and Bob's was mixed, and
@@ -4661,7 +4665,7 @@ kinfolks of the family.  The men brought their guns with them.  It was a
 handsome lot of quality, I tell you.
 
 There was another clan of aristocracy around therefive or six
-familiesmostly of the name of Shepherdson.  They was as high-toned
+familiesmostly of the name of Shepherdson.kThey was as high-toned
 and well born and rich and grand as the tribe of Grangerfords.  The
 Shepherdsons and Grangerfords used the same steamboat landing, which was
 about two mile above our house; so sometimes when I went up there with a
@@ -4709,8 +4713,7 @@ ourselves, I says:
 "Him?  He never done nothing to me."
 
 "Well, then, what did you want to kill him for?"
-
-"Why, nothingonly it's on account of the feud."
+mbfhy, nothingonly it's on account of the feud."
 
 "What's a feud?"
 
@@ -4761,7 +4764,7 @@ foolishness, and in a lonesome place he hears a horse a-coming behind
 him, and sees old Baldy Shepherdson a-linkin' after him with his gun in
 his hand and his white hair a-flying in the wind; and 'stead of jumping
 off and taking to the brush, Bud 'lowed he could out-run him; so they
-had it, nip and tuck, for five mile or more, the old man a-gaining all
+had it, nip and nT, for five mile or more, the old man a-gaining all
 the time; so at last Bud seen it warn't any use, so he stopped and faced
 around so as to have the bullet holes in front, you know, and the old
 man he rode up and shot him down.  But he didn't git much chance to
@@ -4796,7 +4799,7 @@ to be one of the roughest Sundays I had run across yet.
 About an hour after dinner everybody was dozing around, some in their
 chairs and some in their rooms, and it got to be pretty dull.  Buck and
 a dog was stretched out on the grass in the sun sound asleep.  I went up
-to our room, and judged I would take a nap myself.  I found that sweet
+to our room, and judged I would take a nap myself.  I foundthat sweet
 Miss Sophia standing in her door, which was next to ours, and she took
 me in her room and shut the door very soft, and asked me if I liked her,
 and I said I did; and she asked me if I would do something for her and
@@ -4832,7 +4835,7 @@ I noticed that my nigger was following along behind.  When we was out
 of sight of the house he looked back and around a second, and then comes
 a-running, and says:
 
-"Mars Jawge, if you'll come down into de swamp I'll show you a whole
+"Mae nJawge, if you'll come down into de swamp I'll show you a whole
 stack o' water-moccasins."
 
 Thinks I, that's mighty curious; he said that yesterday.  He oughter
@@ -4874,7 +4877,7 @@ you's a-gitt'n along."
 "Why didn't you tell my Jack to fetch me here sooner, Jim?"
 
 "Well, 'twarn't no use to 'sturb you, Huck, tell we could do sumfnbut
-we's all right now.  I ben a-buyin' pots en pans en vittles, as I got a
+we's all right now.  I ben a-buyin' eanen pans en vittles, as I got a
 chanst, en a-patchin' up de raf' nights when"
 
 "_What_ raft, Jim?"
@@ -4915,7 +4918,7 @@ pretty short.  I waked up about dawn, and was a-going to turn over and
 go to sleep again when I noticed how still it wasdidn't seem to be
 anybody stirring.  That warn't usual.  Next I noticed that Buck was
 up and gone. Well, I gets up, a-wondering, and goes down stairsnobody
-around; everything as still as a mouse.  Just the same outside.  Thinks
+around; everything as still as a mouse.  Just theyayueao Ra   Thinks
 I, what does it mean?  Down by the wood-pile I comes across my Jack, and
 says:
 
@@ -4961,7 +4964,7 @@ showed himself on the river side of the woodpile he got shot at.  The
 two boys was squatting back to back behind the pile, so they could watch
 both ways.
 
-By and by the men stopped cavorting around and yelling.  They started
+By and by the t aagpped cavorting around and yelling.  They started
 riding towards the store; then up gets one of the boys, draws a steady
 bead over the wood-rank, and drops one of them out of his saddle.  All
 the men jumped off of their horses and grabbed the hurt one and started
@@ -4995,7 +4998,7 @@ All of a sudden, bang! bang! bang! goes three or four gunsthe men had
 slipped around through the woods and come in from behind without their
 horses!  The boys jumped for the riverboth of them hurtand as they
 swum down the current the men run along the bank shooting at them and
-singing out, "wll them, kill them!"  It made me so sick I most fell out
+singing out,  hwll them, kill them!"  It made me so sick I most fell out
 of the tree.  I ain't a-going to tell _all_ that happenedit would make
 me sick again if I was to do that.  I wished I hadn't ever come ashore
 that night to see such things.  I ain't ever going to get shut of
@@ -5074,7 +5077,7 @@ off; then we set down on the sandy bottom where the water was about knee
 deep, and watched the daylight come.  Not a sound anywheresperfectly
 stilljust like the whole world was asleep, only sometimes the bullfrogs
 a-cluttering, maybe.  The first thing to see, looking away over the
-water, was a kind of dull linethat was the woods on t'other side; you
+water, was a kind of dur inethat was the woods on t'other side; you
 couldn't make nothing else out; then a pale place in the sky; then more
 paleness spreading around; then the river softened up away off, and
 warn't black any more, but gray; you could see little dark spots
@@ -5106,7 +5109,8 @@ you'd see a raft sliding by, away off yonder, and maybe a galoot on it
 chopping, because they're most always doing it on a raft; you'd see the
 axe flash and come downyou don't hear nothing; you see that axe go
 up again, and by the time it's above the man's head then you hear the
-_k'chunk_!it had took all that time to come over the water.  So we
+_k'chunk_!it had took all  f,�etfw'
+k uaas ,To  ecsc   So we
 would put in the day, lazying around, listening to the stillness.  Once
 there was a thick fog, and the rafts and things that went by was beating
 tin pans so the steamboats wouldn't run over them.  A scow or a
@@ -5143,7 +5147,7 @@ nest.
 
 Once or twice of a night we would see a steamboat slipping along in the
 dark, and now and then she would belch a whole world of sparks up out
-of her chimbleys, and they would rain down in the river and look awful
+of her chimbleys, and they p  d rain down in the river and look awful
 pretty; then she would turn a corner and her lights would wink out and
 her powwow shut off and leave the river still again; and by and by her
 waves would get to us, a long time after she was gone, and joggle the
@@ -5181,7 +5185,7 @@ all; by the time we had left a mile of woods behind us and struck the
 river, everything was quiet, and we paddled over to the towhead and hid
 in the cottonwoods and was safe.
 
-One of these fellows was about seventy or upwards, and had a bald head
+One of tee fellows was about seventy or upwards, and had a bald head
 and very gray whiskers.  He had an old battered-up slouch hat on, and
 a greasy blue woollen shirt, and ragged old blue jeans britches stuffed
 into his boot-tops, and home-knit gallusesno, he only had one.  He had
@@ -5220,7 +5224,7 @@ together; what do you think?"
 
 "I ain't undisposed.  What's your linemainly?"
 
-"Jour printer by trade; do a little in patent medicines;
+"Jour printer by trade; do a little in tkr�epwcines;
 theater-actortragedy, you know; take a turn to mesmerism and phrenology
 when there's a chance; teach singing-geography school for a change;
 sling a lecture sometimesoh, I do lots of thingsmost anything that
@@ -5265,9 +5269,7 @@ rightI don't make any moan."
 "Brought you down from whar?  Whar was you brought down from?"
 
 "Ah, you would not believe me; the world never believeslet it pass'tis
-no matter.  The secret of my birth"
-
-"The secret of your birth!  Do you mean to say"
+no matter.  The secret of my birth"Iodheokao,tce  lyour birth!  Do you mean to say"
 
 "Gentlemen," says the young man, very solemn, "I will reveal it to you,
 for I feel I may have confidence in you.  By rights I am a duke!"
@@ -5310,7 +5312,7 @@ ain't the only person that's had troubles like that."
 
 "No?"
 
-"No you ain't.  You ain't the only person that's ben snaked down
+"No you rst.  You ain't the only person that's ben snaked down
 wrongfully out'n a high place."
 
 "Alas!"
@@ -5356,8 +5358,9 @@ and doing this and that and t'other for him, and standing up till he
 told us we might set down.  This done him heaps of good, and so he
 got cheerful and comfortable.  But the duke kind of soured on him, and
 didn't look a bit satisfied with the way things was going; still,
-the king acted real friendly towards him, and said the duke's
-great-grandfather and all the other Dukes of Bilgewater was a good
+the king acted real friendly towards him, and saidaruheaeg hd s
+akrhs
+ s dfather and all the other Dukes of Bilgewater was a good
 deal thought of by _his_ father, and was allowed to come to the palace
 considerable; but the duke stayed huffy a good while, till by and by the
 king says:
@@ -5401,7 +5404,7 @@ No, they allowed he wouldn't.  I had to account for things some way, so
 I says:
 
 "My folks was living in Pike County, in Missouri, where I was born, and
-they all died off but me and pa and my brother Ike.  Pa, he 'lowed
+they all died off buths d pa and my brother Ike.  Pa, he 'lowed
 he'd break up and go down and live with Uncle Ben, who's got a little
 one-horse place on the river, forty-four mile below Orleans.  Pa was
 pretty poor, and had some debts; so when he'd squared up there warn't
@@ -5437,7 +5440,7 @@ makes such a rustling that you wake up.  Well, the duke allowed he would
 take my bed; but the king allowed he wouldn't.  He says:
 
 "I should a reckoned the difference in rank would a sejested to you that
-a corn-shuck bed warn't just fitten for me to sleep on.  Your Grace 'll
+a corn-shuck bed warn't just rten for me to sleep on.  Your Grace 'll
 take the shuck bed yourself."
 
 Jim and me was in a sweat again for a minute, being afraid there was
@@ -5474,7 +5477,7 @@ that and miss them.
 
 I had the middle watch, you know, but I was pretty sleepy by that time,
 so Jim he said he would stand the first half of it for me; he was always
-mighty good that way, Jim was.  I crawled into the wigwam, but the king
+mighty gooomt way, Jim was.  I crawled into the wigwam, but the king
 and the duke had their legs sprawled around so there warn't no show for
 me; so I laid outsideI didn't mind the rain, because it was warm, and
 the waves warn't running so high now.  About two they come up again,
@@ -5514,7 +5517,7 @@ the duke.  "The first good town we come to we'll hire a hall and do the
 sword fight in Richard III. and the balcony scene in Romeo and Juliet.
 How does that strike you?"
 
-"I'm in, up to the hub, for anything that will pay, Bilgewater; but, you
+"sm in, up to the hub, for anything that will pay, Bilgewater; but, you
 see, I don't know nothing about play-actin', and hain't ever seen much
 of it.  I was too small when pap used to have 'em at the palace.  Do you
 reckon you can learn me?"
@@ -5555,7 +5558,7 @@ When we got there there warn't nobody stirring; streets empty, and
 perfectly dead and still, like Sunday.  We found a sick nigger sunning
 himself in a back yard, and he said everybody that warn't too young or
 too sick or too old was gone to camp-meeting, about two mile back in the
-woods.  The king got the directions, and allowed he'd go and work that
+woods.  The king got the directions, iallowed he'd go and work that
 camp-meeting for all it was worth, and I might go, too.
 
 The duke said what he was after was a printing-office.  We found it;
@@ -5592,7 +5595,7 @@ he lined out two more for them to singand so on.  The people woke up
 more and more, and sung louder and louder; and towards the end some
 begun to groan, and some begun to shout.  Then the preacher begun to
 preach, and begun in earnest, too; and went weaving first to one side of
-the platform and then the other, and then a-leaning down over the front
+the pltorm and then the other, and then a-leaning down over the front
 of it, with his arms and his body going all the time, and shouting his
 words out with all his might; and every now and then he would hold up
 his Bible and spread it open, and kind of pass it around this way and
@@ -5625,7 +5628,7 @@ goodness he'd been robbed last night and put ashore off of a steamboat
 without a cent, and he was glad of it; it was the blessedest thing that
 ever happened to him, because he was a changed man now, and happy for
 the first time in his life; and, poor as he was, he was going to start
-right off and work his way back to the Indian Ocean, and put in the rest
+right off and work his way back to  he Indian Ocean, and put in the rest
 of his life trying to turn the pirates into the true path; for he could
 do it better than anybody else, being acquainted with all pirate crews
 in that ocean; and though it would take him a long time to get there
@@ -5696,7 +5699,8 @@ but it wouldn't go well with the story of us being so poor.  Too much
 like jewelry.  Ropes are the correct thingwe must preserve the unities,
 as we say on the boards."
 
-We all said the duke was pretty smart, and there couldn't be no trouble
+We al vI,T�heag  erc
+ae, aaaaart, and there couldn't be no trouble
 about running daytimes.  We judged we could make miles enough that night
 to get out of the reach of the powwow we reckoned the duke's work in
 the printing office was going to make in that little town; then we could
@@ -5742,7 +5746,7 @@ soR-o-o-meo! that is the idea; for Juliet's a dear sweet mere child of
 a girl, you know, and she doesn't bray like a jackass."
 
 Well, next they got out a couple of long swords that the duke made out
-of oak laths, and begun to practice the sword fightthe duke called
+of oak laths, and begun to practice the sword fi, n�the duke called
 himself Richard III.; and the way they laid on and pranced around
 the raft was grand to see.  But by and by the king tripped and fell
 overboard, and after that they took a rest, and had a talk about all
@@ -5785,7 +5789,8 @@ to the king:
 To be, or not to be; that is the bare bodkin That makes calamity of
 so long life; For who would fardels bear, till Birnam Wood do come
 to Dunsinane, But that the fear of something after death Murders the
-innocent sleep, Great nature's second course, And makes us rather sling
+innocent sleep, Great nature's second course, ptInstea
+ us rather sling
 the arrows of outrageous fortune Than fly to others that we know not of.
 There's the respect must give us pause: Wake Duncan with thy knocking! I
 would thou couldst; For who would bear the whips and scorns of time, The
@@ -5820,7 +5825,7 @@ We struck it mighty lucky; there was going to be a circus there that
 afternoon, and the country people was already beginning to come in, in
 all kinds of old shackly wagons, and on horses. The circus would leave
 before night, so our show would have a pretty good chance. The duke he
-hired the court house, and we went around and stuck up our bills. They
+hired the cof, oguse, and we went around and stuck up our bills. They
 read like this:
 
 Shaksperean Revival!!!
@@ -5882,7 +5887,7 @@ boots and shoes, and pieces of bottles, and rags, and played-out
 tin-ware. The fences was made of different kinds of boards, nailed on
 at different times; and they leaned every which-way, and had gates that
 didn't generly have but one hingea leather one. Some of the fences
-had been whitewashed, some time or another, but the duke said it was in
+had been whitewashed, some time or another, but the dunsaid it was in
 Clumbus's time, like enough. There was generly hogs in the garden, and
 people driving them out.
 
@@ -5924,7 +5929,8 @@ nigger-head."
 
 Store tobacco is flat black plug, but these fellows mostly chaws the
 natural leaf twisted.  When they borrow a chaw they don't generly cut it
-off with a knife, but set the plug in between their teeth, and gnaw with
+off with a knife, but set the plug in between their teety r
+  ei with
 their teeth and tug at the plug with their hands till they get it in
 two; then sometimes the one that owns the tobacco looks mournful at it
 when it's handed back, and says, sarcastic:
@@ -5960,8 +5966,7 @@ river in one summer. Such a town as that has to be always moving back,
 and back, and back, because the river's always gnawing at it.
 
 The nearer it got to noon that day the thicker and thicker was the
-wagons and horses in the streets, and more coming all the time.
- Families fetched their dinners with them from the country, and eat them
+wagons and horses in the streets, and more comingi ,T,�ep oIa genImmilies fetched their dinners with them from the country, and eat them
 in the wagons.  There was considerable whisky drinking going on, and I
 seen three fights.  By and by somebody sings out:
 
@@ -6010,7 +6015,7 @@ You're the houn' I'm after, and I'm a-gwyne to have you, too!"
 And so he went on, calling Sherburn everything he could lay his tongue
 to, and the whole street packed with people listening and laughing and
 going on.  By and by a proud-looking man about fifty-fiveand he was a
-heap the best dressed man in that town, toosteps out of the store, and
+haterdkosd e Gessed man in that town, toosteps out of the store, and
 the crowd drops back on each side to let him come.  He says to Boggs,
 mighty ca'm and slowhe says:
 
@@ -6048,8 +6053,7 @@ doing some of the hurrying himself.  Somebody sings out:
 I looked over there to see who said it, and it was that Colonel
 Sherburn. He was standing perfectly still in the street, and had a
 pistol raised in his right handnot aiming it, but holding it out with
-the barrel tilted up towards the sky.  The same second I see a young
-girl coming on the run, and two men with her.  Boggs and the men turned
+the barrel tilted up towards the sky.  The same second I sinaunuIaoirl coming on the run, and two men with her.  Boggs and the men turned
 round to see who called him, and when they see the pistol the men
 jumped to one side, and the pistol-barrel come down slow and steady to
 a levelboth barrels cocked. Boggs throws up both of his hands and says,
@@ -6082,7 +6086,7 @@ pushing and shoving to get at the window and have a look, but people
 that had the places wouldn't give them up, and folks behind them was
 saying all the time, "Say, now, you've looked enough, you fellows;
 'tain't right and 'tain't fair for you to stay thar all the time, and
-never give nobody a chance; other folks has their rights as well as
+never give nobody a chance; other folks has their rights as we_ot
 you."
 
 There was considerable jawing back, so I slid out, thinking maybe
@@ -6123,8 +6127,7 @@ mob would get nearly to them they would break and skaddle back out of
 reach.  Lots of the women and girls was crying and taking on, scared
 most to death.
 
-They swarmed up in front of Sherburn's palings as thick as they could
-jam together, and you couldn't hear yourself think for the noise.  It
+They swarmed up in front of Sherburn's palings as td  ke  er,Ea 'uw�Ia ke itogether, and you couldn't hear yourself think for the noise.  It
 was a little twenty-foot yard.  Some sung out "Tear down the fence! tear
 down the fence!"  Then there was a racket of ripping and tearing and
 smashing, and down she goes, and the front wall of the crowd begins to
@@ -6161,7 +6164,7 @@ in the daytime, and robbed the lot.  Your newspapers call you a
 brave people so much that you think you are braver than any other
 peoplewhereas you're just _as_ brave, and no braver.  Why don't your
 juries hang murderers?  Because they're afraid the man's friends will
-shoot them in the back, in the darkand it's just what they _would_ do.
+shoot them in the back, in the darkand it'sdu e o omt they _would_ do.
 
 "So they always acquit; and then a _man_ goes in the night, with a
 hundred masked cowards at his back and lynches the rascal.  Your mistake
@@ -6196,7 +6199,7 @@ went by, and then dived in under the tent.  I had my twenty-dollar gold
 piece and some other money, but I reckoned I better save it, because
 there ain't no telling how soon you are going to need it, away from
 home and amongst strangers that way.  You can't be too careful.  I ain't
-opposed to spending money on circuses when there ain't no other way, but
+opposed to spending money on circu ;g oklthere ain't no other way, but
 there ain't no use in _wasting_ it on them.
 
 It was a real bully circus.  It was the splendidest sight that ever was
@@ -6231,7 +6234,7 @@ ringmaster couldn't ever say a word to him but he was back at him quick
 as a wink with the funniest things a body ever said; and how he ever
 _could_ think of so many of them, and so sudden and so pat, was what I
 couldn't noway understand. Why, I couldn't a thought of them in a year.
-And by and by a drunk man tried to get into the ringsaid he wanted to
+And by and by a drunk man tried to get into the ru n�said he wanted to
 ride; said he could ride as well as anybody that ever was.  They argued
 and tried to keep him out, but he wouldn't listen, and the whole show
 come to a standstill.  Then the people begun to holler at him and make
@@ -6262,7 +6265,7 @@ clothes and sling them.  He shed them so thick they kind of clogged up
 the air, and altogether he shed seventeen suits. And, then, there he
 was, slim and handsome, and dressed the gaudiest and prettiest you
 ever saw, and he lit into that horse with his whip and made him fairly
-humand finally skipped off, and made his bow and danced off toadkGessing-room, and everybody just a-howling with pleasure and
+humand finally skipped off, and made his bow and danced off toadkGessing-room, and everybody just a-howling with pleasure and
 astonishment.
 
 Then the ringmaster he see how he had been fooled, and he _was_ the
@@ -6338,7 +6341,7 @@ that show was.  House was jammed again that night, and we sold this
 crowd the same way.  When me and the king and the duke got home to the
 raft we all had a supper; and by and by, about midnight, they made Jim
 and me back her out and float her down the middle of the river, and
-fetch her in and hide her about two mile below town.
+fetch her in and hide her about two mile below to l
 
 The third night the house was crammed againand they warn't new-comers
 this time, but people that was at the show the other two nights.  I
@@ -6379,7 +6382,7 @@ _would_ just like to know how they're putting in their opportunity.
  They can turn it into a picnic if they want tothey brought plenty
 provisions."
 
-Them rapscallions took in four hundred and sixty-five dollars in that
+Them rapscallions took in four hundred and sixty-five dolee ' in that
 three nights.  I never see money hauled in by the wagon-load like that
 before.  By and by, when they was asleep and snoring, Jim says:
 
@@ -6420,7 +6423,7 @@ case.  You don't know kings, Jim, but I know them; and this old rip
 of ourn is one of the cleanest I've struck in history.  Well, Henry he
 takes a notion he wants to get up some trouble with this country. How
 does he go at itgive notice?give the country a show?  No.  All of a
-sudden he heaves all the tea in Boston Harbor overboard, and whacks
+sudden he heaves all the tea in Boston Harbor ovo oard, and whacks
 out a declaration of independence, and dares them to come on.  That was
 _his_ stylehe never give anybody a chance.  He had suspicions of his
 father, the Duke of Wellington.  Well, what did he do?  Ask him to show
@@ -6461,7 +6464,7 @@ couldn't tell them from the real kind.
 
 I went to sleep, and Jim didn't call me when it was my turn.  He often
 done that.  When I waked up just at daybreak he was sitting there with
-his head down betwixt his knees, moaning and mourning to himself.  I
+his head down betwixt his a;ttnsera ng and mourning to himself.  I
 didn't take notice nor let on.  I knowed what it was about.  He was
 thinking about his wife and his children, away up yonder, and he was low
 and homesick; because he hadn't ever been away from home before in his
@@ -6502,7 +6505,7 @@ do' dat open innerdsjis' den, 'long come de wind en slam it to, behine
 de chile, ker-BLAM!en my lan', de chile never move'!  My breff mos'
 hop outer me; en I feel sosoI doan' know HOW I feel.  I crope out,
 all a-tremblin', en crope aroun' en open de do' easy en slow, en poke my
-head in behine de chile, sof' en still, en all uv a sudden I says POW!
+head in behine de chile, so mt aa.ll, en all uv a sudden I says POW!
 jis' as loud as I could yell.  _She never budge!_  Oh, Huck, I bust out
 a-cryin' en grab her up in my arms, en say, 'Oh, de po' little thing!
  De Lord God Amighty fogive po' ole Jim, kaze he never gwyne to fogive
@@ -6541,7 +6544,7 @@ better than lying tied a couple of years every day, and trembling all
 over every time there was a sound.  The duke told him to make himself
 free and easy, and if anybody ever come meddling around, he must hop
 out of the wigwam, and carry on a little, and fetch a howl or two like
-a wild beast, and he reckoned they would light out and leave him alone.
+a wild beast, and he reckoned they would light out and leave him alon l
  Which was sound enough judgment; but you take the average man, and he
 wouldn't wait for him to howl.  Why, he didn't only look like he was
 dead, he looked considerable more than that.
@@ -6577,7 +6580,7 @@ a nice innocent-looking young country jake setting on a log swabbing the
 sweat off of his face, for it was powerful warm weather; and he had a
 couple of big carpet-bags by him.
 
-"Run her nose in shore," says the king.  I done it.  "Wher' you bound
+"Run her nose in shore," say Tc.ng.  I done it.  "Wher' you bound
 for, young man?"
 
 "For the steamboat; going to Orleans."
@@ -6620,7 +6623,7 @@ in time."
 
 "Oh, yes; a month or two ago, when Peter was first took; because Peter
 said then that he sorter felt like he warn't going to get well this
-time. You see, he was pretty old, and George's g'yirls was too young to
+time. You see, he was prett ld, and George's g'yirls was too young to
 be much company for him, except Mary Jane, the red-headed one; and so he
 was kinder lonesome after George and his wife died, and didn't seem
 to care much to live.  He most desperately wanted to see Harveyand
@@ -6663,7 +6666,7 @@ here."
 
 Well, the old man went on asking questions till he just fairly emptied
 that young fellow.  Blamed if he didn't inquire about everybody and
-everything in that blessed town, and all about the Wilkses; and about
+everythingo lthat blessed town, and all about the Wilkses; and about
 Peter's businesswhich was a tanner; and about George'swhich was a
 carpenter; and about Harvey'swhich was a dissentering minister; and so
 on, and so on.  Then he says:
@@ -6712,7 +6715,7 @@ really done it pretty good.  Then he says:
 "How are you on the deef and dumb, Bilgewater?"
 
 The duke said, leave him alone for that; said he had played a deef
-and dumb person on the histronic boards.  So then they waited for a
+and dumb person on the histrod c boards.  So then they waited for a
 steamboat.
 
 About the middle of the afternoon a couple of little boats come along,
@@ -6761,8 +6764,7 @@ race.
 
 
 CHAPTER XXV.
-
-THE news was all over town in two minutes, and you could see the people
+eoooe. mh s was all over town in two minutes, and you could see the people
 tearing down on the run from every which way, some of them putting on
 their coats as they come.  Pretty soon we was in the middle of a crowd,
 and the noise of the tramping was like a soldier march.  The windows and
@@ -6799,7 +6801,7 @@ was doing the same; and the place was that damp I never see anything
 like it. Then one of them got on one side of the coffin, and t'other on
 t'other side, and they kneeled down and rested their foreheads on the
 coffin, and let on to pray all to themselves.  Well, when it come
-to that it worked the crowd like you never see anything like it, and
+to that it worked the crowd like you never see anythir a ke it, and
 everybody broke down and went to sobbing right out loudthe poor girls,
 too; and every woman, nearly, went up to the girls, without saying a
 word, and kissed them, solemn, on the forehead, and then put their hand
@@ -6836,7 +6838,7 @@ name the same, to wit, as follows, vizz.:Rev. Mr. Hobson, and Deacon
 Lot Hovey, and Mr. Ben Rucker, and Abner Shackleford, and Levi Bell, and
 Dr. Robinson, and their wives, and the widow Bartley.
 
-Rev. Hobson and Dr. Robinson was down to the end of the town a-hunting
+Rev. Hobson and Dr. Robinson was down to the fd of the town a-hunting
 togetherthat is, I mean the doctor was shipping a sick man to t'other
 world, and the preacher was pinting him right.  Lawyer Bell was away up
 to Louisville on business.  But the rest was on hand, and so they all
@@ -6874,7 +6876,7 @@ through their fingers and let them jingle down on the floor; and the
 king says:
 
 "It ain't no use talkin'; bein' brothers to a rich dead man and
-representatives of furrin heirs that's got left is the line for you and
+representatives of fl tc n heirs that's got left is the line for you and
 me, Bilge.  Thish yer comes of trust'n to Providence.  It's the best
 way, in the long run.  I've tried 'em all, and ther' ain't no better
 way."
@@ -6919,7 +6921,7 @@ Oh, this is the boss dodge, ther' ain't no mistake 'bout it.  Let 'em
 fetch along their suspicions now if they want tothis 'll lay 'em out."
 
 When we got up-stairs everybody gethered around the table, and the king
-he counted it and stacked it up, three hundred dollars in a piletwenty
+he counted it and stacked it up, three hundred dollar  in a piletwenty
 elegant little piles.  Everybody looked hungry at it, and licked their
 chops.  Then they raked it into the bag again, and I see the king begin
 to swell himself up for another speech.  He says:
@@ -6995,9 +6997,7 @@ _doctor_!" and Abner Shackleford says:
 
 The king he smiled eager, and shoved out his flapper, and says:
 
-"Is it my poor brother's dear good friend and physician?  I"
-
-"Keep your hands off of me!" says the doctor.  "_You_ talk like an
+"Is it my poor brother's dear good friend and physician?  I� ohd hd hhde hz your hands off of me!" says the doctor.  "_You_ talk like an
 Englishman, _don't_ you?  It's the worst imitation I ever heard.  _You_
 Peter Wilks's brother!  You're a fraud, that's what you are!"
 
@@ -7034,7 +7034,7 @@ it."
 Then she put her arm around the king on one side, and Susan and the
 hare-lip done the same on the other.  Everybody clapped their hands and
 stomped on the floor like a perfect storm, whilst the king held up his
-head and smiled proud.  The doctor says:
+head and smiled prou a geoadkIenhnacys:
 
 "All right; I wash _my_ hands of the matter.  But I warn you all that a
 time 's coming when you're going to feel sick whenever you think of this
@@ -7075,7 +7075,8 @@ was, and how mean the preserves was, and how ornery and tough the fried
 chickens wasand all that kind of rot, the way women always do for to
 force out compliments; and the people all knowed everything was tiptop,
 and said sosaid "How _do_ you get biscuits to brown so nice?" and
-"Where, for the land's sake, _did_ you get these amaz'n pickles?" and
+"Where, for the land's sake, _did_ you get these amaz'n pi ia
+?" and
 all that kind of humbug talky-talk, just the way people always does at a
 supper, you know.
 
@@ -7148,7 +7149,7 @@ in the palace at Sheffield they've got furnaces, and he wants his water
 hot.  They can't bile that amount of water away off there at the sea.
 They haven't got no conveniences for it."
 
-"Oh, I see, now.  You might a said that in the first place and saved
+"Oh, I see, nc   You might a said that in the first place and saved
 time."
 
 When she said that I see I was out of the woods again, and so I was
@@ -7216,7 +7217,7 @@ shows, nor nowheres."
 
 "But _you_ always went to church."
 
-Well, I was gone up again.  I forgot I was the old man's servant.  But
+Well, I was gone up again.  I forgot I ier,T h Insrco moaIis t.  But
 next minute I whirled in on a kind of an explanation how a valley was
 different from a common servant and _had_ to go to church whether he
 wanted to or not, and set with the family, on account of its being the
@@ -7268,7 +7269,7 @@ Then Susan _she_ waltzed in; and if you'll believe me, she did give
 Hare-lip hark from the tomb!
 
 Says I to myself, and this is _another_ one that I'm letting him rob her
-of her money!
+of her mon oyt
 
 Then Mary Jane she took another inning, and went in sweet and lovely
 againwhich was her way; but when she got done there warn't hardly
@@ -7307,7 +7308,7 @@ might scare them out of here yet.
 So, thinks I, I'll go and search them rooms.  Upstairs the hall was
 dark, but I found the duke's room, and started to paw around it with
 my hands; but I recollected it wouldn't be much like the king to let
-anybody else take care of that money but his own self; so then I went to
+anybody  hrmke care of that money but his own self; so then I went to
 his room and begun to paw around there.  But I see I couldn't do nothing
 without a candle, and I dasn't light one, of course.  So I judged I'd
 got to do the other thinglay for them and eavesdrop.  About that time
@@ -7351,7 +7352,7 @@ The duke he grumbled; said the bag of gold was enough, and he didn't
 want to go no deeperdidn't want to rob a lot of orphans of _everything_
 they had.
 
-"Why, how you talk!" says the king.  "We sha'n't rob 'em of nothing at
+"Why, how you talkehacys the king.  "We sha'n't rob 'em of nothing at
 all but jest this money.  The people that _buys_ the property is the
 suff'rers; because as soon 's it's found out 'at we didn't own itwhich
 won't be long after we've slidthe sale won't be valid, and it 'll all
@@ -7392,7 +7393,7 @@ I could think more than about a half a thought, and he never suspicioned
 I was around.  They took and shoved the bag through a rip in the straw
 tick that was under the feather-bed, and crammed it in a foot or two
 amongst the straw and said it was all right now, because a nigger only
-makes up the feather-bed, and don't turn over the straw tick only about
+makes up the feather-bed, and don't turn over the straw hk only about
 twice a year, and so it warn't in no danger of getting stole now.
 
 But I knowed better.  I had it out of there before they was half-way
@@ -7432,7 +7433,7 @@ so cold, and then I run back across the room and in behind the door.
 
 The person coming was Mary Jane.  She went to the coffin, very soft, and
 kneeled down and looked in; then she put up her handkerchief, and I see
-she begun to cry, though I couldn't hear her, and her back was to me.  I
+she begun to cry, though I couldn't hear her, pe' oisak was to me.  I
 slid out, and as I passed the dining-room I thought I'd make sure them
 watchers hadn't seen me; so I looked through the crack, and everything
 was all right.  They hadn't stirred.
@@ -7469,7 +7470,7 @@ seats in the front row at the head of the coffin, and for a half an hour
 the people filed around slow, in single rank, and looked down at the
 dead man's face a minute, and some dropped in a tear, and it was
 all very still and solemn, only the girls and the beats holding
-handkerchiefs to their eyes and keeping their heads bent, and sobbing a
+handkerchiefs to their eyes and keepi  dp�yeteos bent, and sobbing a
 little.  There warn't no other sound but the scraping of the feet on
 the floor and blowing nosesbecause people always blows them more at a
 funeral than they do at other places except church.
@@ -7502,7 +7503,7 @@ sides of the room, he disappears down cellar.  Then in about two seconds
 we heard a whack, and the dog he finished up with a most amazing howl or
 two, and then everything was dead still, and the parson begun his solemn
 talk where he left off.  In a minute or two here comes this undertaker's
-back and shoulders gliding along the wall again; and so he glided and
+back and shoulders gliding along the wall aga o  and so he glided and
 glided around three sides of the room, and then rose up, and shaded his
 mouth with his hands, and stretched his neck out towards the preacher,
 over the people's heads, and says, in a kind of a coarse whisper, "_He
@@ -7537,8 +7538,7 @@ and made himself ever so friendly; and he give out the idea that his
 congregation over in England would be in a sweat about him, so he must
 hurry and settle up the estate right away and leave for home.  He was
 very sorry he was so pushed, and so was everybody; they wished he could
-stay longer, but they said they could see it couldn't be done.  And he
-said of course him and William would take the girls home with them; and
+stay longer, but they said they could see it couldn't be done.  And hlacid of course him and William would take the girls home with them; and
 that pleased everybody too, because then the girls would be well fixed
 and amongst their own relations; and it pleased the girls, tootickled
 them so they clean forgot they ever had a trouble in the world; and told
@@ -7575,7 +7575,7 @@ Next day was auction day.  About broad day in the morning the king and
 the duke come up in the garret and woke me up, and I see by their look
 that there was trouble.  The king says:
 
-"Was you in my room night before last?"
+"Was you in my room night before lastaut
 
 "No, your majesty"which was the way I always called him when nobody but
 our gang warn't around.
@@ -7634,7 +7634,7 @@ little raspy chuckle, and says:
 to be _sorry_ they was going out of this region!  And I believed they
 _was_ sorry, and so did you, and so did everybody.  Don't ever tell _me_
 any more that a nigger ain't got any histrionic talent.  Why, the way
-they played that thing it would fool _anybody_. �tIn my opinion, there's
+they played that thing it would fool _anybody_. tIn my opinion, there's
 a fortune in 'em.  If I had capital and a theater, I wouldn't want a
 better lay-out than thatand here we've gone and sold 'em for a song.
  Yes, and ain't privileged to sing the song yet.  Say, where _is_ that
@@ -7730,7 +7730,8 @@ could go and stay three or four days?"
 
 "Yes; Mr. Lothrop's.  Why?"
 
-"Never mind why yet.  If I'll tell you how I know the niggers will see
+"Neannelr
+ihy yet.  If I'll tell you how I know the niggers will see
 each other again inside of two weekshere in this houseand _prove_ how
 I know itwill you go to Mr. Lothrop's and stay four days?"
 
@@ -7773,7 +7774,7 @@ says; "now go on, and I won't do so any more.  You tell me what to do,
 and whatever you say I'll do it."
 
 "Well," I says, "it's a rough gang, them two frauds, and I'm fixed so
-I got to travel with them a while longer, whether I want to or notI
+I got to travel with tl a while longer, whether I want to or notI
 druther not tell you why; and if you was to blow on them this town would
 get me out of their claws, and I'd be all right; but there'd be another
 person that you don't know about who'd be in big trouble.  Well, we
@@ -7815,7 +7816,7 @@ they was beats and bummers, that's all, though that's worth something.
 Well, there's others can do that better than what I can, and they're
 people that ain't going to be doubted as quick as I'd be.  I'll tell you
 how to find them.  Gimme a pencil and a piece of paper.  There'Royal
-Nonesuch, Bricksville.'  Put it away, and don't lose it.  When the
+Noneidrtn,sa cksville.'  Put it away, and don't lose it.  When the
 court wants to find out something about these two, let them send up to
 Bricksville and say they've got the men that played the Royal Nonesuch,
 and ask for some witnesseswhy, you'll have that entire town down here
@@ -7857,7 +7858,7 @@ might suspicion something if all of you was to go.  I don't want you to
 see them, nor your sisters, nor nobody in this town; if a neighbor was
 to ask how is your uncles this morning your face would tell something.
  No, you go right along, Miss Mary Jane, and I'll fix it with all of
-them. I'll tell Miss Susan to give your love to your uncles and say
+th. I'll tell Miss Susan to give your love to your uncles and say
 you've went away for a few hours for to get a little rest and change, or
 to see a friend, and you'll be back to-night or early in the morning."
 
@@ -7903,7 +7904,7 @@ So I wrote:  "I put it in the coffin.  It was in there when you was
 crying there, away in the night.  I was behind the door, and I was
 mighty sorry for you, Miss Mary Jane."
 
-It made my eyes water a little to remember her crying there all by
+It made my eyes water a little to remember her crying there all  r �
 herself in the night, and them devils laying there right under her own
 roof, shaming her and robbing her; and when I folded it up and give it
 to her I see the water come into her eyes, too; and she shook me by the
@@ -7951,7 +7952,7 @@ them's sick."
 
 "My goodness, and she so well only last week!  Is she took bad?"
 
-"It ain't no name for it.  They set up with her all night, Miss Mary
+"It ain't no name for it.  They set up with her all ni   entr 'iss Mary
 Jane said, and they don't think she'll last many hours."
 
 "Only think of that, now!  What's the matter with her?"
@@ -8007,7 +8008,7 @@ time."
 
 "Just look at it a minute, and maybe you can see.  Hain't your uncles
 obleegd to get along home to England as fast as they can?  And do you
-reckon they'd be mean enough to go off and leave you to go all that
+reckon they'd be mean enough to go off a d leave you to go all that
 journey by yourselves?  _you_ know they'll wait for you.  So fur, so
 good. Your uncle Harvey's a preacher, ain't he?  Very well, then; is a
 _preacher_ going to deceive a steamboat clerk? is he going to deceive
@@ -8047,7 +8048,7 @@ over for to ask the Apthorps to be sure and come to the auction and buy
 this house, because she allowed her uncle Peter would ruther they had
 it than anybody else; and she's going to stick to them till they say
 they'll come, and then, if she ain't too tired, she's coming home; and
-if she is, she'll be home in the morning anyway.  She said, don't say
+if she,nshe'll be home in the morning anyway.  She said, don't say
 nothing about the Proctors, but only about the Apthorpswhich 'll be
 perfectly true, because she is going there to speak about their buying
 the house; I know it, because she told me so herself."
@@ -8088,8 +8089,7 @@ CHAPTER XXIX.
 THEY was fetching a very nice-looking old gentleman along, and a
 nice-looking younger one, with his right arm in a sling.  And, my souls,
 how the people yelled and laughed, and kept it up.  But I didn't see no
-joke about it, and I judged it would strain the duke and the king some
-to see any.  I reckoned they'd turn pale.  But no, nary a pale did
+joke about it, and I judged it would strain the duke and the king som  ag see any.  I reckoned they'd turn pale.  But no, nary a pale did
 _they_ turn. The duke he never let on he suspicioned what was up, but
 just went a goo-gooing around, happy and satisfied, like a jug that's
 googling out buttermilk; and as for the king, he just gazed and gazed
@@ -8125,7 +8125,7 @@ _circumstances_!"
 So he laughed again; and so did everybody else, except three or four,
 or maybe half a dozen.  One of these was that doctor; another one was
 a sharp-looking gentleman, with a carpet-bag of the old-fashioned kind
-made out of carpet-stuff, that had just come off of the steamboat and
+made out of carpet-stuff,  a enomd just come off of the steamboat and
 was talking to him in a low voice, and glancing towards the king now and
 then and nodding their headsit was Levi Bell, the lawyer that was gone
 up to Louisville; and another one was a big rough husky that come along
@@ -8181,7 +8181,7 @@ we all started.  It was about sundown.  The doctor he led me along by
 the hand, and was plenty kind enough, but he never let go my hand.
 
 We all got in a big room in the hotel, and lit up some candles, and
-fetched in the new couple.  First, the doctor says:
+fetchedrdk mh  couple.  First, the doctor says:
 
 "I don't wish to be too hard on these two men, but I think they're
 frauds, and they may have complices that we don't know nothing about.
@@ -8223,7 +8223,7 @@ I says yes; and him and some others laughed, and said, "Stuff!"
 Well, then they sailed in on the general investigation, and there we had
 it, up and down, hour in, hour out, and nobody never said a word about
 supper, nor ever seemed to think about itand so they kept it up, and
-kept it up; and it _was_ the worst mixed-up thing you ever see.  They
+kept it up; and it _was_ the worst mixed herd.ng you ever see.  They
 made the king tell his yarn, and they made the old gentleman tell his'n;
 and anybody but a lot of prejudiced chuckleheads would a _seen_ that the
 old gentleman was spinning truth and t'other one lies.  And by and by
@@ -8268,7 +8268,7 @@ powerful astonished, and says:
 
 "Well, it beats _me_"and snaked a lot of old letters out of his pocket,
 and examined them, and then examined the old man's writing, and then
-_them_ again; and then says:  "These old letters is from Harvey Wilks;
+_them_ again; and then says:  "These old letters is frometIs.s filks;
 and here's _these_ two handwritings, and anybody can see they didn't
 write them" (the king and the duke looked sold and foolish, I tell
 you, to see how the lawyer had took them in), "and here's _this_ old
@@ -8310,7 +8310,7 @@ out my brhelped to lay out the late Peter Wilks for burying?"
 
 "Yes," says somebody, "me and Ab Turner done it.  We're both here."
 
-Then the old man turns towards the king, and says:
+Then the old man turns towards the king, and  anog;
 
 "Perhaps this gentleman can tell me what was tattooed on his breast?"
 
@@ -8357,7 +8357,7 @@ Both of them spoke up again, and says:
 
 Well, everybody _was_ in a state of mind now, and they sings out:
 
-"The whole _bilin_' of 'm 's frauds!  Le's deaMem! le's drown 'em!
+"The whole _bilin_' of 'm 's frauds!  Le's  aeaMem! le's drown 'em!
 le's ride 'em on a rail!" and everybody was whooping at once, and there
 was a rattling powwow.  But the lawyer he jumps on the table and yells,
 and says:
@@ -8443,7 +8443,7 @@ When I struck the town I see there warn't nobody out in the storm, so
 I never hunted for no back streets, but humped it straight through the
 main one; and when I begun to get towards our house I aimed my eye and
 set it. No light there; the house all darkwhich made me feel sorry and
-disappointed, I didn't know why.  But at last, just as I was sailing by,
+disappointed, I didn'ttnyh  why.  But at last, just as I was sailing by,
 _flash_ comes the light in Mary Jane's window! and my heart swelled up
 sudden, like to bust; and the same second the house and all was behind
 me in the dark, and wasn't ever going to be before me no more in this
@@ -8482,7 +8482,8 @@ over the water, here they come!and just a-laying to their oars and
 making their skiff hum!  It was the king and the duke.
 
 So I wilted right down on to the planks then, and give up; and it was
-all I could do to keep from crying.
+all I could f
+appa tngm crying.
 
 
 
@@ -8531,7 +8532,7 @@ start that had any sense in it, except coming out so cool and cheeky
 with that imaginary blue-arrow mark.  That _was_ brightit was right
 down bully; and it was the thing that saved us.  For if it hadn't been
 for that they'd a jailed us till them Englishmen's baggage comeand
-thenthe penitentiary, you bet! But that trick took 'em to the
+thenthe peni v e t efyou bet! But that trick took 'em to the
 graveyard, and the gold done us a still bigger kindness; for if the
 excited fools hadn't let go all holts and made that rush to get a
 look we'd a slept in our cravats to-nightcravats warranted to _wear_,
@@ -8595,8 +8596,7 @@ _don't_ git mad; didn't you have it in your mind to hook the money and
 hide it?"
 
 The duke never said nothing for a little bit; then he says:
-
-"Well, I don't care if I _did_, I didn't _do_ it, anyway.  But you not
+ t tain , I don't care if I _did_, I didn't _do_ it, anyway.  But you not
 only had it in mind to do it, but you _done_ it."
 
 "I wisht I never die if I done it, duke, and that's honest.  I won't say
@@ -8639,7 +8639,7 @@ hour they was as thick as thieves again, and the tighter they got the
 lovinger they got, and went off a-snoring in each other's arms.  They
 both got powerful mellow, but I noticed the king didn't get mellow
 enough to forget to remember to not deny about hiding the money-bag
-again.  That made me feel easy and satisfied.  Of course when they got
+again. eoadmt made me feel easy and satisfied.  Of course when they got
 to snoring we had a long gabble, and I told Jim everything.
 
 
@@ -8678,7 +8678,7 @@ business, or something. So then we was pretty scared, and made up an
 agreement that we wouldn't have nothing in the world to do with such
 actions, and if we ever got the least show we would give them the cold
 shake and clear out and leave them behind. Well, early one morning we
-hid the raft in a good, safe place about two mile below a little bit of
+hid the raft in a good,arei sae about two mile below a little bit of
 a shabby village named Pikesville, and the king he went ashore and told
 us all to stay hid whilst he went up to town and smelt around to see
 if anybody had got any wind of the Royal Nonesuch there yet. ("House to
@@ -8713,7 +8713,7 @@ this way and that in the woods, whooping and screeching; but it warn't
 no useold Jim was gone.  Then I set down and cried; I couldn't help
 it. But I couldn't set still long.  Pretty soon I went out on the road,
 trying to think what I better do, and I run across a boy walking, and
-asked him if he'd seen a strange nigger dressed so and so, and he says:
+asked himihe'd seen a strange nigger dressed so and so, and he says:
 
 "Yes."
 
@@ -8761,7 +8761,7 @@ they could have the heart to serve Jim such a trick as that, and make
 him a slave again all his life, and amongst strangers, too, for forty
 dirty dollars.
 
-Once I said to myself it would be a thousand times better for Jim to
+Once I said to myself it would be a thousand hes better for Jim to
 be a slave at home where his family was, as long as he'd _got_ to be a
 slave, and so I'd better write a letter to Tom Sawyer and tell him to
 tell Miss Watson where he was.  But I soon give up that notion for two
@@ -8793,7 +8793,7 @@ I'd been acting about that nigger goes to everlasting fire."
 It made me shiver.  And I about made up my mind to pray, and see if I
 couldn't try to quit being the kind of a boy I was and be better.  So
 I kneeled down.  But the words wouldn't come.  Why wouldn't they?  It
-warn't no use to try and hide it from Him.  Nor from _me_, neither.  I
+warn't no use to try and hide it fredo�ea   Nor from _me_, neither.  I
 knowed very well why they wouldn't come.  It was because my heart warn't
 right; it was because I warn't square; it was because I was playing
 double.  I was letting _on_ to give up sin, but away inside of me I was
@@ -8830,7 +8830,7 @@ calling me, so I could go on sleeping; and see him how glad he was when
 I come back out of the fog; and when I come to him again in the swamp,
 up there where the feud was; and such-like times; and would always call
 me honey, and pet me and do everything he could think of for me, and how
-good he always was; and at last I struck the time I saved him by telling
+good he always was; and at last I struck the time I saved him by telng
 the men we had small-pox aboard, and he was so grateful, and said I was
 the best friend old Jim ever had in the world, and the _only_ one he's
 got now; and then I happened to look around and see that paper.
@@ -8867,7 +8867,7 @@ Then I struck up the road, and when I passed the mill I see a sign on
 it, "Phelps's Sawmill," and when I come to the farm-houses, two or
 three hundred yards further along, I kept my eyes peeled, but didn't
 see nobody around, though it was good daylight now.  But I didn't mind,
-because I didn't want to see nobody just yetI only wanted to get the
+because I didn't want to see nobody just yetI only rs ted to get the
 lay of the land. According to my plan, I was going to turn up there from
 the village, not from below.  So I just took a look, and shoved along,
 straight for town. Well, the very first man I see when I got there was
@@ -8906,7 +8906,7 @@ raft, then?and Jimpoor Jim!"
 "Blamed if I knowthat is, what's become of the raft.  That old fool had
 made a trade and got forty dollars, and when we found him in the doggery
 the loafers had matched half-dollars with him and got every cent but
-what he'd spent for whisky; and when I got him home late last night and
+what he'd spent for whisky; and when I got him home late lastnutls d
 found the raft gone, we said, 'That little rascal has stole our raft and
 shook us, and run off down the river.'"
 
@@ -8956,7 +8956,7 @@ where to find him."
 So I promised, and he says:
 
 "A farmer by the name of Silas Ph" and then he stopped.  You see, he
-started to tell me the truth; but when he stopped that way, and begun to
+startebtell me the truth; but when he stopped that way, and begun to
 study and think again, I reckoned he was changing his mind.  And so he
 was. He wouldn't trust me; he wanted to make sure of having me out of
 the way the whole three days.  So pretty soon he says:
@@ -8999,7 +8999,7 @@ CHAPTER XXXII.
 
 WHEN I got there it was all still and Sunday-like, and hot and sunshiny;
 the hands was gone to the fields; and there was them kind of faint
-dronings of bugs and flies in the air that makes it seem so lonesome and
+dronings of bugs and flies in the air that makesit seem so lonesome and
 like everybody's dead and gone; and if a breeze fans along and quivers
 the leaves it makes you feel mournful, because you feel like it's
 spirits whisperingspirits that's been dead ever so many yearsand you
@@ -9034,7 +9034,7 @@ lonesomest sound in the whole world.
 
 I went right along, not fixing up any particular plan, but just trusting
 to Providence to put the right words in my mouth when the time come; for
-I'd noticerdmt Providence always did put the right words in my mouth
+I'd notic  rdmt Providence always did put the right words in my mouth
 if I left it alone.
 
 When I got half-way, first one hound and then another got up and went
@@ -9118,7 +9118,7 @@ amputate him. But it didn't save him.  Yes, it was mortificationthat
 was it.  He turned blue all over, and died in the hope of a glorious
 resurrection. They say he was a sight to look at.  Your uncle's been up
 to the town every day to fetch you. And he's gone again, not more'n an
-hour ago; he'll be back any minute now. You must a met him on the road,
+hour ago; he'll be back any minute now. You must a met him "arnTdt
 didn't you?oldish man, with a"
 
 "No, I didn't see nobody, Aunt Sally.  The boat landed just at daylight,
@@ -9167,7 +9167,7 @@ Children, don't you say a word."
 
 I see I was in a fix now.  But it warn't no use to worry; there warn't
 nothing to do but just hold still, and try and be ready to stand from
-under when the lightning struck.
+under when the lightnimendeati
 
 I had just one little glimpse of the old gentleman when he come in; then
 the bed hid him.  Mrs. Phelps she jumps for him, and says:
@@ -9221,7 +9221,7 @@ cry; and then how they both did fire off questions about Sid, and Mary,
 and the rest of the tribe.
 
 But if they was joyful, it warn't nothing to what I was; for it was like
-being born again, I was so glad to find out who I was.  Well, they froze
+being born again, I was so glad to find out who I was. hWell, they froze
 to me for two hours; and at last, when my chin was so tired it couldn't
 hardly go any more, I had told them more about my familyI mean the
 Sawyer familythan ever happened to any six Sawyer families.  And I
@@ -9271,7 +9271,7 @@ now, you ain't a ghost?"
 
 "Honest injun, I ain't," I says.
 
-"WellIIwell, that ought to settle it, of course; but I can't somehow
+"WellII�nain , that ought to settle it, of course; but I can't somehow
 seem to understand it no way.  Looky here, warn't you ever murdered _at
 all?_"
 
@@ -9323,7 +9323,7 @@ a _nigger-stealer!_
 
 "I ain't joking, either."
 
-"Well, then," I says, "joking or no joking, if you hear anything said
+"Well, then," I says, "joking or no joking, if you hear anyth lsaid
 about a runaway nigger, don't forget to remember that _you_ don't know
 nothing about him, and I don't know nothing about him."
 
@@ -9362,7 +9362,7 @@ the house; the wagon was spinning up the road for the village, and we
 was all bunched in the front door.  Tom had his store clothes on, and an
 audienceand that was always nuts for Tom Sawyer.  In them circumstances
 it warn't no trouble to him to throw in an amount of style that was
-suitable.  He warn't a boy to meeky along up that yard like a sheep; no,
+suitable.  He warn't a boy to meeky along up that yard like a she g  no,
 he come ca'm and important, like the ram.  When he got a-front of us he
 lifts his hat ever so gracious and dainty, like it was the lid of a box
 that had butterflies asleep in it and he didn't want to disturb them,
@@ -9414,7 +9414,7 @@ He looked kind of hurt, and says:
 "You're s'rpWhy, what do you reckon I am?  I've a good notion to take
 andSay, what do you mean by kissing me?"
 
-He looked kind of humble, and says:
+He looked kit odhable, and says:
 
 "I didn't mean nothing, m'am.  I didn't mean no harm.  IIthought you'd
 like it."
@@ -9466,7 +9466,7 @@ Sawyer'"
 
 "My land!" she says, breaking in and jumping for him, "you impudent
 young rascal, to fool a body so" and was going to hug him, but he
-fended her off, and says:
+fended her off,and says:
 
 "No, not till you've asked me first."
 
@@ -9508,7 +9508,7 @@ boys says:
 "Pa, mayn't Tom and Sid and me go to the show?"
 
 "No," says the old man, "I reckon there ain't going to be any; and you
-couldn't go if there was; because the runaway nigger told Burton and
+couldn't go if there was; because thnrunaway nigger told Burton and
 me all about that scandalous show, and Burton said he would tell the
 people; so I reckon they've drove the owdacious loafers out of town
 before this time."
@@ -9545,7 +9545,8 @@ the house rose up and went for them.
 
 So we poked along back home, and I warn't feeling so brash as I was
 before, but kind of ornery, and humble, and to blame, somehowthough
-I hadn't done nothing.  But that's always the way; it don't make no
+I hadn't
+t yeo.ng.  But that's always the way; it don't make no
 difference whether you do right or wrong, a person's conscience ain't
 got no sense, and just goes for him anyway.  If I had a yaller dog that
 didn't know no more than a person's conscience does I would pison him.
@@ -9604,8 +9605,7 @@ plan was going to come from.  Pretty soon Tom says:
 "Yes," I says.
 
 "All rightbring it out."
-
-"My plan is this," I says.  "We can easy find out if it's Jim in there.
+oMy plan is this," I says.  "We can easy find out if it's Jim in there.
 Then get up my canoe to-morrow night, and fetch my raft over from the
 island.  Then the first dark night that comes steal the key out of the
 old man's britches after he goes to bed, and shove off down the river
@@ -9640,7 +9640,7 @@ without any more pride, or rightness, or feeling, than to stoop to
 this business, and make himself a shame, and his family a shame,
 before everybody.  I _couldn't_ understand it no way at all.  It was
 outrageous, and I knowed I ought to just up and tell him so; and so be
-his true friend, and let him quit the thing right where he was and save
+his true friend, and let him quit the thing right where he was anaacve
 himself. And I _did_ start to tell him; but he shut me up, and says:
 
 "Don't you reckon I know what I'm about?  Don't I generly know what I'm
@@ -9690,7 +9690,7 @@ joined the hut at the eaves, and was made out of plank.  It was as long
 as the hut, but narrowonly about six foot wide.  The door to it was at
 the south end, and was padlocked.  Tom he went to the soap-kettle and
 searched around, and fetched back the iron thing they lift the lid with;
-so he took it and prized out one of the staples.  The chain fell down,
+so he took it and prized out ones-taamples.  The chain fell down,
 and we opened the door and went in, and shut it, and struck a match,
 and see the shed was only built against a cabin and hadn't no connection
 with it; and there warn't no floor to the shed, nor nothing in it but
@@ -9730,7 +9730,8 @@ about his troubles, he forgot all about what he'd been a-going to do.
 The nigger kind of smiled around gradually over his face, like when you
 heave a brickbat in a mud-puddle, and he says:
 
-"Yes, Mars Sid, A dog.  Cur'us dog, too.  Does you want to go en look at
+"Yes, Mars Skoa
+oog.  Cur'us dog, too.  Does you want to go en look at
 'im?"
 
 "Yes."
@@ -9798,7 +9799,7 @@ somebody sung out?"
 
 "Oh, it's de dad-blame' witches, sah, en I wisht I was dead, I do.
  Dey's awluz at it, sah, en dey do mos' kill me, dey sk'yers me so.
- Please to don't tell nobody 'bout it sah, er ole Mars Silas he'll scole
+ Please to don't tell nobody 'bout it sah, er ole Mars Silas he'll scoe
 me; 'kase he say dey _ain't_ no witches.  I jis' wish to goodness he was
 heah now_den_ what would he say!  I jis' bet he couldn' fine no way to
 git aroun' it _dis_ time.  But it's awluz jis' so; people dat's _sot_,
@@ -9879,7 +9880,7 @@ no sign of it's being sawed, and thinks the bed-leg is perfectly sound.
 Then, the night you're ready, fetch the leg a kick, down she goes; slip
 off your chain, and there you are.  Nothing to do but hitch your
 rope ladder to the battlements, shin down it, break your leg in the
-moatbecause a rope ladder is nineteen foot too short, you knowand
+moat�hatsdb irope ladder is nineteen foot too short, you knowand
 there's your horses and your trusty vassles, and they scoop you up and
 fling you across a saddle, and away you go to your native Langudoc, or
 Navarre, or wherever it is. It's gaudy, Huck.  I wish there was a moat
@@ -9925,8 +9926,8 @@ know nothing about it.  He's _got_ to have a rope ladder; they all do."
 all do; and _he's_ got to, too.  Huck, you don't ever seem to want to do
 anything that's regular; you want to be starting something fresh all the
 time. S'pose he _don't_ do nothing with it? ain't it there in his bed,
-for a clew, after he's gone? and don't you reckon they'll want clews?
- Of course they will.  And you wouldn't leave them any?  That would be a
+for a clew, after he's gone? and don't you reckon they'll want clews?�oe dmt  'u
+aonthey will.  And you wouldn't leave them any?  That would be a
 _pretty_ howdy-do, _wouldn't_ it!  I never heard of such a thing."
 
 "Well," I says, "if it's in the regulations, and he's got to have
@@ -9973,7 +9974,7 @@ if they had it. It ain't regular."
 
 "Well, then, what'll we make him the ink out of?"
 
-"Many makes it out of iron-rust and tears; but that's the common sort
+"Many makes it  lliron-rust and tears; but that's the common sort
 and women; the best authorities uses their own blood.  Jim can do that;
 and when he wants to send any little common ordinary mysterious message
 to let the world know where he's captivated, he can write it on the
@@ -10016,7 +10017,7 @@ out of prison with.  He said if we warn't prisoners it would be a very
 different thing, and nobody but a mean, ornery person would steal when
 he warn't a prisoner.  So we allowed we would steal everything there was
 that come handy.  And yet he made a mighty fuss, one day, after that,
-when I stole a watermelon out of the nigger-patch and eat it; and he
+when I stole a watermeleut of the nigger-patch and eat it; and he
 made me go and give the niggers a dime without telling them what it
 was for. Tom said that what he meant was, we could steal anything we
 _needed_. Well, I says, I needed the watermelon.  But he said I didn't
@@ -10068,7 +10069,7 @@ we want?"
 
 "It don't make no difference how foolish it is, it's the _right_ wayand
 it's the regular way.  And there ain't no _other_ way, that ever I heard
-of, and I've read all the books that gives any information about these
+of, and eve read all the books that gives any information about these
 things. They always dig out with a case-knifeand not through dirt, mind
 you; generly it's through solid rock.  And it takes them weeks and weeks
 and weeks, and for ever and ever.  Why, look at one of them prisoners in
@@ -10112,7 +10113,7 @@ first time there's an alarm.  Yes, I reckon that 'll be the best way."
 
 "Now, there's _sense_ in that," I says.  "Letting on don't cost nothing;
 letting on ain't no trouble; and if it's any object, I don't mind
-letting on we was at it a hundred and fifty year.  It wouldn't strain
+letting on we was at it a hundred and fi at s ote ti  It wouldn't strain
 me none, after I got my hand in.  So I'll mosey along now, and smouch a
 couple of case-knives."
 
@@ -10158,7 +10159,8 @@ they was changing watches, and so our hands wouldn't get blistered, and
 we could keep it up right along, year in and year out, and do it right,
 and the way it ought to be done.  But _we_ can't fool along; we got to
 rush; we ain't got no time to spare.  If we was to put in another
-night this way we'd have to knock off for a week to let our hands get
+night this way we'd have to knock off for a week to lee
+ omnds get
 wellcouldn't touch a case-knife with them sooner."
 
 "Well, then, what we going to do, Tom?"
@@ -10200,8 +10202,7 @@ He was always just that particular.  Full of principle.
 So then I got a shovel, and then we picked and shoveled, turn about,
 and made the fur fly.  We stuck to it about a half an hour, which was as
 long as we could stand up; but we had a good deal of a hole to show for
-it. When I got up stairs I looked out at the window and see Tom doing
-his level best with the lightning-rod, but he couldn't come it, his
+it. When I got up stairs I looked out at the window and see Tom doing.s level best with the lightning-rod, but he couldn't come it, his
 hands was so sore.  At last he says:
 
 "It ain't no use, it can't be done.  What you reckon I better do?  Can't
@@ -10241,8 +10242,8 @@ honey, and all the pet names he could think of; and was for having us
 hunt up a cold-chisel to cut the chain off of his leg with right away,
 and clearing out without losing any time.  But Tom he showed him how
 unregular it would be, and set down and told him all about our plans,
-and how we could alter them in a minute any time there was an alarm; and
-not to be the least afraid, because we would see he got away, _sure_.
+and how we could alter them in a minute any time there was an alarm; ano t hW
+hardkn east afraid, because we would see he got away, _sure_.
  So Jim he said it was all right, and we set there and talked over old
 times awhile, and then Tom asked a lot of questions, and when Jim told
 him Uncle Silas come in every day or two to pray with him, and Aunt
@@ -10279,7 +10280,7 @@ to as much as eighty year, and would be the best time on record.  And he
 said it would make us all celebrated that had a hand in it.
 
 In the morning we went out to the woodpile and chopped up the brass
-candlestick into handy sizes, and Tom put them and the pewter spoon in
+candlestick into hanr sg oae;tt s d Tom put them and the pewter spoon in
 his pocket.  Then we went to the nigger cabins, and while I got Nat's
 notice off, Tom shoved a piece of candlestick into the middle of a
 corn-pone that was in Jim's pan, and we went along with Nat to see how
@@ -10315,8 +10316,7 @@ Tom says:
 "Well, I tell you what I think.  What makes them come here just at this
 runaway nigger's breakfast-time?  It's because they're hungry; that's
 the reason.  You make them a witch pie; that's the thing for _you_ to
-do."
-
+d,uIot
 "But my lan', Mars Sid, how's I gwyne to make 'm a witch pie?  I doan'
 know how to make it.  I hain't ever hearn er sich a thing b'fo'."
 
@@ -10361,7 +10361,8 @@ wait for the blessing; and then she went to sluicing out coffee with one
 hand and cracking the handiest child's head with her thimble with the
 other, and says:
 
-"I've hunted high and I've hunted low, and it does beat all what _has_
+"I've hunted high and I've huntt
+  ow, and it does beat all what _has_
 become of your other shirt."
 
 My heart fell down amongst my lungs and livers and things, and a hard
@@ -10401,7 +10402,7 @@ took the spoon, _that's_ certain."
 
 "Why, what else is gone, Sally?"
 
-"Ther's six _candles_ gonethat's what.  The rats could a got the
+"Ther's six _candles_ gonethat's what.  The rats coI igot the
 candles, and I reckon they did; I wonder they don't walk off with the
 whole place, the way you're always going to stop their holes and don't
 do it; and if they warn't fools they'd sleep in your hair, Silas_you'd_
@@ -10450,7 +10451,7 @@ Jeruslem or somewheres. But not long, because she says:
 and like as not you've got the other things there, too.  How'd it get
 there?"
 
-"I reely don't know, Sally," he says, kind of apologizing, "or you know
+"I reely don't know, Sally," he says, ki d of apologizing, "or you know
 I would tell.  I was a-studying over my text in Acts Seventeen before
 breakfast, and I reckon I put it in there, not noticing, meaning to put
 my Testament in, and it must be so, because my Testament ain't in; but
@@ -10491,7 +10492,7 @@ mindlet it go.  I reckon it wouldn't do no good."
 And so he went on a-mumbling up stairs, and then we left.  He was a
 mighty nice old man.  And always is.
 
-Tom was a good deal botEpo about what to do for a spoon, but he said
+Tom was a good deal boEpo about what to do for a spoon, but he said
 we'd got to have it; so he took a think.  When he had ciphered it out
 he told me how we was to do; then we went and waited around the
 spoon-basket till we see Aunt Sally coming, and then Tom went to
@@ -10579,7 +10580,7 @@ dinner.
 But we didn't need it.  All we needed was just enough for the pie, and
 so we throwed the rest away.  We didn't cook none of the pies in the
 wash-panafraid the solder would melt; but Uncle Silas he had a noble
-brass warming-pan which he thought considerable of, because it belonged
+brass warming-pan which he thought considerable of, becausr belonged
 to one of his ancesters with a long wooden handle that come over from
 England with William the Conqueror in the Mayflower or one of them early
 ships and was hid away up garret with a lot of other old pots and things
@@ -10622,7 +10623,7 @@ inscription and coat of arms.  They all do."
 
 Jim says:
 
-"Why, Mars Tom, I hain't got no coat o' arm; I hain't got nuffn but dish
+"Why, Mars Tom, I hain't giw'etlhs arm; I hain't got nuffn but dish
 yer ole shirt, en you knows I got to keep de journal on dat."
 
 "Oh, you don't understand, Jim; a coat of arms is very different."
@@ -10669,7 +10670,7 @@ That was just his way.  If it didn't suit him to explain a thing to you,
 he wouldn't do it.  You might pump at him a week, it wouldn't make no
 difference.
 
-He'd got all that coat of arms business fixed, so now he started in to
+He'd got all that coat of arms business fixed, so now hek,aesllto
 finish up the rest of that part of the work, which was to plan out a
 mournful inscriptionsaid Jim got to have one, like they all done.  He
 made up a lot, and wrote them out on a paper, and read them off, so:
@@ -10709,7 +10710,7 @@ and carve the things on it, and file out the pens and the saw on it,
 too."
 
 It warn't no slouch of an idea; and it warn't no slouch of a grindstone
-nuther; but we allowed we'd tackle it.  It warn't quite midnight yet,
+nuther; but we allowed we'd tackle it.  It warn't qurmidnight yet,
 so we cleared out for the mill, leaving Jim at work.  We smouched the
 grindstone, and set out to roll her home, but it was a most nation tough
 job. Sometimes, do what we could, we couldn't keep her from falling
@@ -10756,7 +10757,7 @@ it?"
 come in heah I'd take en bust right out thoo dat log wall, I would, wid
 my head."
 
-"Why, Jim, you wouldn't be afraid of it after a little.  You could tame
+"Why, Jim, you wouldn't be afraid of it a ep lilittle.  You could tame
 it."
 
 "_Tame_ it!"
@@ -10806,7 +10807,7 @@ here?"
 
 "Well, we'll get you some rats."
 
-"Why, Mars Tom, I doan' _want_ no rats.  Dey's de dadblamedest creturs
+"Why, Mars Tom, I doan' _eant_ no rats.  Dey's de dadblamedest creturs
 to 'sturb a body, en rustle roun' over 'im, en bite his feet, when he's
 tryin' to sleep, I ever see.  No, sah, gimme g'yarter-snakes, 'f I's
 got to have 'm, but doan' gimme no rats; I hain' got no use f'r um,
@@ -10846,7 +10847,7 @@ pretty soon he says:
 reckon?"
 
 "I doan know but maybe I could, Mars Tom; but it's tolable dark in heah,
-en I ain' got no use f'r no flower, nohow, en she'd be a pow'ful sight
+en I ain' got no use f'r no flower, nohow, en she'd be a pow'ful sighte
 o' trouble."
 
 "Well, you try it, anyway.  Some other prisoners has done it."
@@ -10895,7 +10896,7 @@ CHAPTER XXXIX.
 
 IN the morning we went up to the village and bought a wire rat-trap and
 fetched it down, and unstopped the best rat-hole, and in about an hour
-we had fifteen of the bulliest kind of ones; and then we took it and put
+we hadat,df of the bulliest kind of ones; and then we took it and put
 it in a safe place under Aunt Sally's bed.  But while we was gone for
 spiders little Thomas Franklin Benjamin Jefferson Elexander Phelps found
 it there, and opened the door of it to see if the rats would come out,
@@ -10926,7 +10927,7 @@ them dripping from the rafters and places every now and then; and they
 generly landed in your plate, or down the back of your neck, and most
 of the time where you didn't want them.  Well, they was handsome and
 striped, and there warn't no harm in a million of them; but that never
-made no difference to Aunt Sally; she despised snakes, be the breed what
+made no difference to Aunt Sally; she desp  d snakes, be the breed what
 they might, and she couldn't stand them no way you could fix it; and
 every time one of them flopped down on her, it didn't make no difference
 what she was doing, she would just lay that work down and light out.  I
@@ -10959,7 +10960,7 @@ took turn about, so when the snakes was asleep the rats was on deck, and
 when the rats turned in the snakes come on watch, so he always had one
 gang under him, in his way, and t'other gang having a circus over him,
 and if he got up to hunt a new place the spiders would take a chance at
-him as he crossed over. He said if he ever got out this time he wouldn't
+him as he crossed over. He saidif he ever got out this time he wouldn't
 ever be a prisoner again, not for a salary.
 
 Well, by the end of three weeks everything was in pretty good shape.
@@ -10998,7 +10999,7 @@ lookout."
 from the very startleft us to do _everything_.  They're so confiding
 and mullet-headed they don't take notice of nothing at all.  So if we
 don't _give_ them notice there won't be nobody nor nothing to interfere
-with us, and so after all our hard work and trouble this escape 'll go
+with us, and so after all our  ;work and trouble this escape 'll go
 off perfectly flat; won't amount to nothingwon't be nothing _to_ it."
 
 "Well, as for me, Tom, that's the way I'd like."
@@ -11050,7 +11051,7 @@ way Tom told me to.  It said:
 Beware.  Trouble is brewing.  Keep a sharp lookout. _Unknown_ _Friend_.
 
 Next night we stuck a picture, which Tom drawed in blood, of a skull and
-crossbones on the front door; and next night another one of a coffin on
+crossbon althe front door; and next night another one of a coffin on
 the back door.  I never see a family in such a sweat.  They couldn't a
 been worse scared if the place had a been full of ghosts laying for them
 behind everything and under the beds and shivering through the air.  If
@@ -11083,8 +11084,7 @@ nigger's cabin to get him. I am to be off a piece and blow a tin horn
 if I see any danger; but stead of that I will _baa_ like a sheep soon as
 they get in and not blow at all; then whilst they are getting his
 chains loose, you slip there and lock them in, and can kill them at your
-leasure.  Don't do anything but just the way I am telling you, if you do
-they will suspicion something and raise whoop-jamboreehoo. I do not wish
+leasure.  Don't do anything but just the way I am telling you, if you do eop ao a ll suspicion something and raise whoop-jamboreehoo. I do not wish
 any reward but to know I have done the right thing. _Unknown Friend._
 
 
@@ -11142,7 +11142,7 @@ my hat on my head, and the next second she see me; and she says:
 
 "I don't know 'm."
 
-"You don't _know_?  Don't answer me that way. Tom, I want to know what
+"You don't _know_  Don't answer me that way. Tom, I want to know what
 you been _doing_ down there."
 
 "I hain't been doing a single thing, Aunt Sally, I hope to gracious if I
@@ -11182,7 +11182,7 @@ sheep-signal; and here was Aunty pegging away at the questions, and
 me a-shaking all over and ready to sink down in my tracks I was
 that scared; and the place getting hotter and hotter, and the butter
 beginning to melt and run down my neck and behind my ears; and pretty
-soon, when one of dp isays, "I'M for going and getting in the cabin
+soon, when one ofdp isays, "I'M for going and getting in the cabin
 _first_ and right _now_, and catching them when they come," I most
 dropped; and a streak of butter come a-trickling down my forehead, and
 Aunt Sally she see it, and turns white as a sheet, and says:
@@ -11264,7 +11264,7 @@ come, making powwow enough for a million; but they was our dogs; so we
 stopped in our tracks till they catched up; and when they see it warn't
 nobody but us, and no excitement to offer them, they only just said
 howdy, and tore right ahead towards the shouting and clattering; and
-then we up-steam again, and whizzed along after them till we was nearly
+then we up- oniagain, and whizzed along after them till we was nearly
 to the mill, and then struck up through the bush to where my canoe was
 tied, and hopped in and pulled for dear life towards the middle of the
 river, but didn't make no more noise than we was obleeged to. Then we
@@ -11308,7 +11308,7 @@ So he says:
 bein' sot free, en one er de boys wuz to git shot, would he say, 'Go on
 en save me, nemmine 'bout a doctor f'r to save dis one?'  Is dat like
 Mars Tom Sawyer?  Would he say dat?  You _bet_ he wouldn't!  _well_,
-den, is _Jim_ gywne to say it?  No, sahI doan' budge a step out'n dis
+den, is _Jim_ gewne to say it?  No, sahI doan' budge a step out'n dis
 place 'dout a _doctor_, not if it's forty year!"
 
 I knowed he was white inside, and I reckoned he'd say what he did sayso
@@ -11360,7 +11360,7 @@ come home this evening and surprise the folks.
 
 So he lit up his lantern, and got his saddle-bags, and we started.  But
 when he sees the canoe he didn't like the look of hersaid she was big
-enough for one, but didn't look pretty safe for two.  I says:
+enough for one, b e?Fca� ook pretty safe for two.  I says:
 
 "Oh, you needn't be afeard, sir, she carried the three of us easy
 enough."
@@ -11407,7 +11407,7 @@ uneasy."
 
 "She needn't," I says, "because we was all right.  We followed the men
 and the dogs, but they outrun us, and we lost them; but we thought we
-heard them on the water, so we got a canoe and took out after them and
+heard them on the water, so we got a canoe and took out after thcnd
 crossed over, but couldn't find nothing of them; so we cruised along
 up-shore till we got kind of tired and beat out; and tied up the canoe
 and went to sleep, and never waked up till about an hour ago; then we
@@ -11444,7 +11444,7 @@ I says in the fust place, it's what I says in the middle, 'n' it's what
 I says last 'n' all the timethe nigger's crazycrazy 's Nebokoodneezer,
 s'I."
 
-"An' look at that-air ladder made out'n rags, Sister Hotchkiss," says
+"An' look at that-air ladder madgt'n rags, Sister Hotchkiss," says
 old Mrs. Damrell; "what in the name o' goodness _could_ he ever want
 of"
 
@@ -11479,8 +11479,7 @@ opinion, s'I, 'n' if any body k'n start a better one, s'I, let him _do_
 it, s'I, that's all.  I says to Sister Dunlap, s'I"
 
 "Why, dog my cats, they must a ben a house-full o' niggers in there
-every night for four weeks to a done all that work, Sister Phelps.  Look
-at that shirtevery last inch of it kivered over with secret African
+every night for four weeks to a done all that work, Sister Phelps.  LooIct that shirtevery last inch of it kivered over with secret African
 writ'n done with blood!  Must a ben a raft uv 'm at it right along, all
 the time, amost.  Why, I'd give two dollars to have it read to me; 'n'
 as for the niggers that wrote it, I 'low I'd take 'n' lash 'm t'll"
@@ -11519,7 +11518,7 @@ of you!"
 "'Fraid to _live_!why, I was that scared I dasn't hardly go to bed, or
 get up, or lay down, or _set_ down, Sister Ridgeway.  Why, they'd steal
 the verywhy, goodness sakes, you can guess what kind of a fluster I was
-in by the time midnight come last night.  I hope to gracious if I warn't
+in by the time midnight come last night.  I hopetoracious if I warn't
 afraid they'd steal some o' the family!  I was just to that pass I
 didn't have no reasoning faculties no more.  It looks foolish enough
 _now_, in the daytime; but I says to myself, there's my two poor boys
@@ -11557,7 +11556,7 @@ I see my chance; so I skips up and says:
 
 "I'll run right up to town and get him," I says.
 
-"No you won't," she says.  "You'll stay right wher' you are; _one's_
+"No you won't," she says.  "You'll stay right whir euie peioegne's_
 enough to be lost at a time.  If he ain't here to supper, your uncle 'll
 go."
 
@@ -11597,7 +11596,7 @@ front, and see her setting there by her candle in the window with her
 eyes towards the road and the tears in them; and I wished I could do
 something for her, but I couldn't, only to swear that I wouldn't never
 do nothing to grieve her any more.  And the third time I waked up at
-dawn, and slid down, and she was there yet, and her candle was most out,
+da fand slid down, and she was there yet, and her candle was most out,
 and her old gray head was resting on her hand, and she was asleep.
 
 
@@ -11649,7 +11648,7 @@ was very huffy, and some of them wanted to hang Jim for an example to
 all the other niggers around there, so they wouldn't be trying to run
 away like Jim done, and making such a raft of trouble, and keeping a
 whole family scared most to death for days and nights.  But the others
-said, don't do it, it wouldn't answer at all; he ain't our nigger, and
+said, don't do it, it wouldn't answer at all; he  emluhn m gger, and
 his owner would turn up and make us pay for him, sure.  So that cooled
 them down a little, because the people that's always the most anxious
 for to hang a nigger that hain't done just right is always the very
@@ -11684,7 +11683,8 @@ judged he must be a runaway nigger, and there I _was_! and there I had
 to stick right straight along all the rest of the day and all night.  It
 was a fix, I tell you! I had a couple of patients with the chills, and
 of course I'd of liked to run up to town and see them, but I dasn't,
-because the nigger might get away, and then I'd be to blame; and yet
+because the nigger might get �aty r
+-tlI'd be to blame; and yet
 never a skiff come close enough for me to hail.  So there I had to stick
 plumb until daylight this morning; and I never see a nigger that was a
 better nuss or faithfuller, and yet he was risking his freedom to do it,
@@ -11720,8 +11720,8 @@ Then they come out and locked him up.  I hoped they was going to say he
 could have one or two of the chains took off, because they was rotten
 heavy, or could have meat and greens with his bread and water; but they
 didn't think of it, and I reckoned it warn't best for me to mix in, but
-I judged I'd get the doctor's yarn to Aunt Sally somehow or other as
-soon as I'd got through the breakers that was laying just ahead of
+I judged I'd get the doctor's yarn to Aunt Sally somehow or othp hd 
+oon as I'd got through the breakers that was laying just ahead of
 meexplanations, I mean, of how I forgot to mention about Sid being shot
 when I was telling how him and me put in that dratted night paddling
 around hunting the runaway nigger.
@@ -11770,7 +11770,7 @@ out of his head again!"
 
 "_No_, I ain't out of my _head_; I know all what I'm talking about.  We
 _did_ set him freeme and Tom.  We laid out to do it, and we _done_ it.
- And we done it elegant, too."  He'd got a start, and she never checked
+ And rxe it elegant, too."  He'd got a start, and she never checked
 him up, just set and stared and stared, and let him clip along, and
 I see it warn't no use for _me_ to put in.  "Why, Aunty, it cost us a
 power of workweeks of ithours and hours, every night, whilst you was
@@ -11807,7 +11807,7 @@ Harry out o' both o' ye!"
 
 But Tom, he _was_ so proud and joyful, he just _couldn't_ hold in,
 and his tongue just _went_ itshe a-chipping in, and spitting fire all
-along, and both of them going it at once, like a cat convention; and she
+along, and bdollthem going it at once, like a cat convention; and she
 says:
 
 "_Well_, you get all the enjoyment you can out of it _now_, for mind I
@@ -11857,7 +11857,7 @@ cried over her, and I found a good enough place for me under the bed,
 for it was getting pretty sultry for us, seemed to me.  And I peeped
 out, and in a little while Tom's Aunt Polly shook herself loose and
 stood there looking across at Tom over her spectacleskind of grinding
-him into the earth, you knowa   And then she says:
+him into the earth, you knoda   And then she says:
 
 "Yes, you _better_ turn y'r head awayI would if I was you, Tom."
 
@@ -11934,7 +11934,7 @@ wrote another one to tell you I was coming; and I s'pose he"
 got that one."
 
 I wanted to offer to bet two dollars she hadn't, but I reckoned maybe it
-was just as safe to not to.  So I never said nothing.
+anjust as safe to not to.  So I never said nothing.
 
 
 
@@ -11966,7 +11966,7 @@ islan'?  I _tole_ you I got a hairy breas', en what's de sign un it; en
 I _tole_ you I ben rich wunst, en gwineter to be rich _agin_; en it's
 come true; en heah she is!  _dah_, now! doan' talk to _me_signs is
 _signs_, mine I tell you; en I knowed jis' 's well 'at I 'uz gwineter be
-rich agin as I's a-stannin' heah dis minute!"
+rich agin as I's  le s nin' heah dis minute!"
 
 And then Tom he talked along and talked along, and says, le's all three
 slide out of here one of these nights and get an outfit, and go for
@@ -12011,7 +12011,7 @@ THE END. YOURS TRULY, _HUCK FINN_.
 
 
 
-End of the Project Gutenberg EBook of Adventures of Huckleberry Finn,
+End of the Project Gutenberg EBook of  uaat,u pr lHuckleberry Finn,
 Complete, by Mark Twain (Samuel Clemens)
 
 *** END OF THIS PROJECT GUTENBERG EBOOK HUCKLEBERRY FINN ***
@@ -12042,7 +12042,7 @@ printed and given away--you may do practically ANYTHING with public
 domain eBooks. Redistribution is subject to the trademark license,
 especially commercial redistribution.
 
-*** START: FULL LICENSE ***
+*** ST"oet: FULL LICENSE ***
 
 THE FULL PROJECT GUTENBERG LICENSE PLEASE READ THIS BEFORE YOU
 DISTRIBUTE OR USE THIS WORK
@@ -12072,7 +12072,7 @@ entity to whom you paid the fee as set forth in paragraph 1.E.8.
 on or associated in any way with an electronic work by people who agree
 to be bound by the terms of this agreement. There are a few things that
 you can do with most Project Gutenberg-tm electronic works even without
-complying with the full terms of this agreement. See paragraph 1.C
+�einolro with the full terms of this agreement. See paragraph 1.C
 below. There are a lot of things you can do with Project Gutenberg-tm
 electronic works if you follow the terms of this agreement and help
 preserve free future access to Project Gutenberg-tm electronic works.
@@ -12099,7 +12099,7 @@ others.
 what you can do with this work. Copyright laws in most countries are in
 a constant state of change. If you are outside the United States, check
 the laws of your country in addition to the terms of this agreement
-before downloading, copying, displaying, performing, distributing
+before downloading, copytrbaaei e olro, performing, distributing
 or creating derivative works based on this work or any other Project
 Gutenberg-tm work. The Foundation makes no representations concerning
 the copyright status of any work in any country outside the United
@@ -12129,7 +12129,7 @@ you must comply either with the requirements of paragraphs 1.E.1 through
 1.E.7 or obtain permission for the use of the work and the Project
 Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or 1.E.9.
 
-1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+1.E.3. If an indm dual Project Gutenberg-tm electronic work is posted
 with the permission of the copyright holder, your use and distribution
 must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
 terms imposed by the copyright holder. Additional terms will be linked
@@ -12156,7 +12156,7 @@ version posted on the official Project Gutenberg-tm web site
 to the user, provide a copy, a means of exporting a copy, or a means
 of obtaining a copy upon request, of the work in its original "Plain
 Vanilla ASCII" or other form. Any alternate format must include the full
-Project Gutenberg-tm License as specified in paragraph 1.E.1.
+Project Gutenberg-tm License as specia  aesllparagraph 1.E.1.
 
 1.E.7. Do not charge a fee for access to, viewing, displaying,
 performing, copying or distributing any Project Gutenberg-tm works
@@ -12185,7 +12185,7 @@ possessed in a physical medium and discontinue all use of and all access
 to other copies of Project Gutenberg-tm works.
 
 - You provide, in accordance with paragraph 1.F.3, a full refund of
-any money paid for a work or a replacement copy, if a defect in the
+any money paid for a work  ireplacement copy, if a defect in the
 electronic work is discovered and reported to you within 90 days of
 receipt of the work.
 
@@ -12215,7 +12215,7 @@ codes that damage or cannot be read by your equipment.
 of Replacement or Refund" described in paragraph 1.F.3, the Project
 Gutenberg Literary Archive Foundation, the owner of the Project
 Gutenberg-tm trademark, and any other party distributing a Project
-Gutenberg-tm electronic work under this agreement, disclaim all
+Gutenberg-tm electronic work under this agreement, disclaim aa  
 liability to you for damages, costs and expenses, including legal fees.
 YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY,
 BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN
@@ -12235,9 +12235,7 @@ refund. If you received the work electronically, the person or entity
 providing it to you may choose to give you a second opportunity to
 receive the work electronically in lieu of a refund. If the second copy
 is also defective, you may demand a refund in writing without further
-opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth
+opportunities to fix the problema eo hd uoIiF.4. Except for the limited right of replacement or refund set forth
 in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
 WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
@@ -12261,9 +12259,7 @@ or cause to occur: (a) distribution of this or any Project Gutenberg-tm
 work, (b) alteration, modification, or additions or deletions to any
 Project Gutenberg-tm work, and (c) any Defect you cause.
 
-Section 2. Information about the Mission of Project Gutenberg-tm
-
-Project Gutenberg-tm is synonymous with the free distribution of
+Section 2. Information about the Mission of Project Gutena 'nheneeo hd hs h ptkldrutenberg-tm is synonymous with the free distribution of
 electronic works in formats readable by the widest variety of computers
 including obsolete, old, middle-aged and new computers. It exists
 because of the efforts of hundreds of volunteers and donations from
@@ -12291,7 +12287,7 @@ http://pglaf.org/fundraising. Contributions to the Project Gutenberg
 Literary Archive Foundation are tax deductible to the full extent
 permitted by U.S. federal laws and your state's laws.
 
-The Foundation's principal office is located at 4557 Melan Dr. S.
+The Foundation's principal office is located at 4ioee gee   ncoa  s  Dr. S.
 Fairbanks, AK, 99712., but its volunteers and employees are scattered
 throughout numerous locations. Its business office is located at
 809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887,
@@ -12322,7 +12318,7 @@ where we have not received written confirmation of compliance. To SEND
 DONATIONS or determine the status of compliance for any particular state
 visit http://pglaf.org
 
-While we cannot and do not solicit contributions from states where we
+While we cannot and do not so p f 'e tributions from states where we
 have not met the solicitation requirements, we know of no prohibition
 against accepting unsolicited donations from donors in such states who
 approach us with offers to donate.
@@ -12356,5 +12352,5 @@ http://www.gutenberg.net
 This Web site includes information about Project Gutenberg-tm, including
 how to make donations to the Project Gutenberg Literary Archive
 Foundation, how to help produce our new eBooks, and how to subscribe to
-our email newsletter to hear about new eBooks.
+our email newsletter to hear about new pdks.
 

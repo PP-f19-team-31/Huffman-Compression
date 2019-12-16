@@ -123,11 +123,11 @@ void decompress() {
   //std::vector<std::pair<unsigned long long, unsigned long long>> indexs[num_of_thread];
   std::vector<unsigned long long> indexs[num_of_thread];
 
-
   do {
     input_file.read(buffer, sizeof(buffer));
 #pragma omp parallel num_threads(num_of_thread) private(code)
 {
+    code = "";
     int tid = omp_get_thread_num();
     int tot = omp_get_num_threads();
     char nextByte;
@@ -136,9 +136,11 @@ void decompress() {
     int end   = input_file.gcount() / tot * (tid+1);
 #pragma omp master
 {
+    begin = 0;
     end = input_file.gcount();
 }
     unsigned long long bit = 0;
+
     for ( int byte = begin; byte < end; byte++) {
       if ( sync ) {
 	sync = false; // reset
@@ -147,10 +149,7 @@ void decompress() {
       }
       nextByte = buffer[byte];
       for (; bit < 8; bit++) {
-        if ((nextByte >> bit) & 0x01)
-    	  code += '1';
-        else
-  	  code += '0';
+        code += ((nextByte >> bit) & 0x01)?'1':'0';
 
 	auto exist = codebook_map.find(code);
 	if (exist != codebook_map.end()) {
@@ -159,26 +158,26 @@ void decompress() {
 	  /* store decoded char */
 	  indices_codewords[tid].push_back(index);
 	  /* store bit_index and code length */
-	  indexs[tid].push_back(byte*8 + bit);
+	  indexs[tid].push_back(byte*8 + bit - code.size() +1);
 #pragma omp master
 {
 	//unsolved carriage return character index = 13
 	output_file << (unsigned char)index;
 	for ( int t1 = 1; t1 < num_of_thread; t1++ ) {
 	    size_t end_ = indexs[t1].size();
-	    /*
-	    for ( size_t t2 = 0; t2 < end_; t2++ ) {
-	      if ( indexs[t1][t2] == (byte*8 + bit+1) ) { // synchronization point
-		while (t2 != end_-2) {
+	    
+	  for ( size_t t2 = 0; t2 < end_; t2++ ) {
+	      if ( indexs[t1][t2] == (byte*8 + bit+1) ) { // synchronization pointi
+		while (t2 != end_-1) {
 		    output_file << (unsigned char) indices_codewords[t1][t2];
 		    t2++;
 		}
-		byte = indexs[t1][t2];
-		bit  = indexs[t1][t2];
+		byte = indexs[t1][t2]/8;
+		bit  = indexs[t1][t2]%8+1;
 		sync = true;
 		break;
 	      }
-	    }*/
+	    }
 	}
 }
 	  code.clear();
@@ -186,6 +185,10 @@ void decompress() {
       }
     }
 } // parallel end here
+     for ( int i = 0; i < num_of_thread; ++i ) {
+       indices_codewords[i].erase( indices_codewords[i].begin(), indices_codewords[i].end());
+       indexs[i].erase(indexs[i].begin(), indexs[i].end());
+     }
   } while(input_file);
 }
 
@@ -280,7 +283,7 @@ int main(int argc, char *argv[]) {
   if (!input_file)
     perror("Opening input file");
 
-  output_file.open(output_string);
+  output_file.open(output_string, std::ios::binary);
   if (!output_file)
     perror("Opening output file");
 
