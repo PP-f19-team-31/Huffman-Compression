@@ -16,8 +16,10 @@
 #include <omp.h>
 #include <utility>
 #include <vector>
-
-
+#include <algorithm>
+#define num_of_thread 16
+#define BUFFER_SIZE 20000
+char buffer[BUFFER_SIZE];
 void putOut();
 Node *constructHeap();
 
@@ -28,9 +30,18 @@ std::vector<char> bitvec;
 
 typedef enum { ENCODE, DECODE } MODES;
 
+struct CompareFirst
+{ 
+  CompareFirst(int val) : val_(val) {}
+  bool operator()(const std::pair<unsigned long long, unsigned long long>& elem) const {
+    return val_ == elem.first;
+  }
+  private:
+  unsigned long long val_;
+};
+
 std::ifstream input_file;
 std::ofstream output_file;
-
 void compress() {
   uint8_t nextChar;
   input_file >> std::noskipws;
@@ -51,7 +62,7 @@ void putOut() {
   for (i = 0; i < 256; i++) {
     output_file << (char)(0x000000ff & frequencies[i]);
     output_file << (char)((0x0000ff00 & frequencies[i]) >> 8);
-    output_file << (char)((0x00ff0000 & frequencies[i]) >> 16);
+    output_file << (char)((0x00ff0000 & frequencies[i]) >> num_of_thread);
     output_file << (char)((0xff000000 & frequencies[i]) >> 24);
   }
 
@@ -94,11 +105,9 @@ void decompress() {
   input_file >> std::noskipws;
   char magic[8];
   input_file.read(magic, 8);
-  char nextByte;
   for (int i = 0; i < 256; i++) {
     input_file.read((char *)&frequencies[i], 4);
   }
-
   Node *root = constructHeap();
   std::string code;
   root->fillCodebook(codebook, code);
@@ -109,30 +118,82 @@ void decompress() {
       codebook_map[codebook[i]] = i;
     }
   }
+  std::vector<int>
+	        indices_codewords[num_of_thread];
 
-  while (input_file >> nextByte) {
-    for (int i = 0; i < 8; i++) {
-      if ((nextByte >> i) & 0x01)
-        code += '1';
-      else
-        code += '0';
+  //std::vector<std::pair<unsigned long long, unsigned long long>> indexs[num_of_thread];
+  std::vector<unsigned long long> indexs[num_of_thread];
+  std::vector<unsigned long long> code_len[num_of_thread];
 
-      auto exist = codebook_map.find(code);
-      if (exist != codebook_map.end()) {
-        int index = exist->second;
-        if (frequencies[index]--) {
-          output_file << (unsigned char)index;
-          code.clear();
-        } else {
-          return;
-        }
+
+  do {
+    input_file.read(buffer, sizeof(buffer));
+#pragma omp parallel num_threads(num_of_thread) private(code)
+{
+    int tid = omp_get_thread_num();
+    int tot = omp_get_num_threads();
+    char nextByte;
+    bool sync = false;
+    int begin = input_file.gcount() / tot * tid;
+    int end   = input_file.gcount() / tot * (tid-1);
+#pragma omp master
+    end = input_file.gcount();
+    unsigned long long bit = 0;
+    for ( unsigned long long byte = begin; byte < end; byte++) {
+      if ( sync ) {
+	sync = false; // reset
+      } else {
+	bit = 0;
+      }
+      nextByte = buffer[byte];
+      for (; bit < 8; bit++) {
+        if ((nextByte >> bit) & 0x01)
+    	  code += '1';
+        else
+  	  code += '0';
+
+	auto exist = codebook_map.find(code);
+	if (exist != codebook_map.end()) {
+	  int index = exist->second;
+
+	  /* store decoded char */
+	  indices_codewords[tid].push_back(index);
+	  /* store bit_index and code length */
+	  indexs[tid].push_back(byte*8 + bit);
+	  code_len[tid].push_back(code.size());
+#pragma omp master
+{
+  	  if (index!=13) {
+	    output_file << (unsigned char)index;
+	  } else {
+	    //unsolved carriage return character
+	  }
+	  for ( int t1 = 1; t1 < num_of_thread; t1++ ) {
+	    size_t end_ = indexs[t1].size();
+	    for ( size_t t2 = 0; t2 < end_; t2++ ) {
+	      if ( indexs[t1][t2] == (byte*8 + bit) ) { // synchronization point
+		while (t2 != end_-1) {
+	          if ( indices_codewords[t1][t2] != 13 ) // unsolved carriage return
+		    output_file << (unsigned char) indices_codewords[t1][t2];
+		  t2++;
+		}
+		byte = byte + code_len[t1][t2] - 1 ;
+		bit  = (bit + code_len[t1][t2]) % 8;
+		sync = true;
+		break;
+	      }
+	    }
+	  }
+}
+	  code.clear();
+	}
       }
     }
-  }
+} // parallel end here
+  } while(input_file);
 }
 
 Node *constructHeap() {
-  struct timeval start, end;
   auto cmp = [](Node *a, Node *b) { return *a > *b; };
   std::priority_queue<Node *, std::vector<Node *>, decltype(cmp)> minHeap(cmp);
   Node *nextNode;
