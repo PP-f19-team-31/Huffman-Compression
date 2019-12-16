@@ -1,5 +1,6 @@
 CXX = g++
 MPI = /home/PP-f19/MPI/bin/mpic++
+MPIEXE = /home/PP-f19/MPI/bin/mpiexec
 CXXFLAGS += -O3 -Wall -g -fopenmp
 LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
@@ -33,8 +34,8 @@ test: all
 perf: all
 	perf record --call-graph dwarf ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
 mpi: all
-	./$(TARGET) -c $(TEST).txt -o $(TEST)_compressed.txt
-	/home/PP-f19/MPI/bin/mpiexec --npernode 1 --hostfile $(TARGET) -d $(TEST)_compressed.txt -o extract.txt
-
+	./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
+	$(MPIEXE) --npernode 1 $(TARGET) -d $(TEST).compress.txt -o $(TEST)_decompress.txt
+	diff $(TEST).txt $(TEST)_decompress.txt
 clean :
-	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt
+	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt $(TEST)_decompress.txt

@@ -180,6 +180,7 @@ void decompress() {
 	}
       }
   }
+  MPI_Barrier(MPI_COMM_WORLD);
   if (MPI_rank==0) {
 	for( int i = 1; i < MPI_size; i++ ) {
 		int size;
@@ -195,33 +196,35 @@ void decompress() {
 		   char nextByte = buffer[byte];
 		   bit = bit % 8;
 		   for ( ; bit < 8; bit ++ ) {
-			   unsigned long long int c = byte*8+bit;
-			   while (indexs[ptr] < c)
-				   ptr++;
-			   if ( indexs[ptr] == c ) {
-				idx = ptr;
-				MPI_Send(&idx, 1, MPI_INT,
-						i, 0, MPI_COMM_WORLD);
-				MPI_Recv(&size, 1, MPI_INT,
-						i, 0, MPI_COMM_WORLD, NULL);
-				decoded_char.resize(size);
-				MPI_Recv(&decoded_char[0], size, MPI_INT,
-					i, 0, MPI_COMM_WORLD, NULL);
-				int k;
-				for (k = idx; k < size-1; k++ )
-					output_file << (unsigned char) decoded_char[k];
-				byte= indexs[k+1]/8;
-				bit = indexs[k+1]%8;
-				code.clear();
-				break;
-			   }
-			   code += ((nextByte >> bit) & 0x01)?'1':'0';
-			   auto exist = codebook_map.find(code);
-			   if (exist != codebook_map.end()) {
-				   int index = exist->second;
-				   output_file << (unsigned char)index;
-				   code.clear();
-			   }
+		     code += ((nextByte >> bit) & 0x01)?'1':'0';
+		     auto exist = codebook_map.find(code);
+		     if (exist != codebook_map.end()) {
+		         int index = exist->second;
+		         output_file << (unsigned char)index;
+		         code.clear();
+		     }
+		     if(code.size()==1) {
+		         unsigned long long int c = byte*8+bit+1;
+			 while (indexs[ptr] < c) 
+			     ptr++;
+			 if ( indexs[ptr] == c ) {
+		             idx = ptr;
+			     MPI_Send(&idx, 1, MPI_INT,
+					     i, 0, MPI_COMM_WORLD);
+			     MPI_Recv(&size, 1, MPI_INT,
+					     i, 0, MPI_COMM_WORLD, NULL);
+			     decoded_char.resize(size);
+			     MPI_Recv(&decoded_char[0], size, MPI_INT,
+					     i, 0, MPI_COMM_WORLD, NULL);
+			     int k;
+			     for (k = idx; k < size-1; k++ )
+				     output_file << (unsigned char) decoded_char[k];
+			     byte= indexs[k+1]/8;
+			     bit = indexs[k+1]%8-1;
+			     code.clear();
+			     continue;
+			 }
+		     }
 		   }
 		   if(idx != -1) break;
 		}
@@ -246,6 +249,7 @@ void decompress() {
 	  }
   }
   MPI_Finalize();
+  output_file.close();
 }
 
 Node *constructHeap() {
