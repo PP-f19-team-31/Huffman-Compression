@@ -118,12 +118,10 @@ void decompress() {
       codebook_map[codebook[i]] = i;
     }
   }
-  std::vector<int>
-	        indices_codewords[num_of_thread];
+  std::vector<int> indices_codewords[num_of_thread];
 
   //std::vector<std::pair<unsigned long long, unsigned long long>> indexs[num_of_thread];
   std::vector<unsigned long long> indexs[num_of_thread];
-  std::vector<unsigned long long> code_len[num_of_thread];
 
 
   do {
@@ -135,11 +133,13 @@ void decompress() {
     char nextByte;
     bool sync = false;
     int begin = input_file.gcount() / tot * tid;
-    int end   = input_file.gcount() / tot * (tid-1);
+    int end   = input_file.gcount() / tot * (tid+1);
 #pragma omp master
+{
     end = input_file.gcount();
+}
     unsigned long long bit = 0;
-    for ( unsigned long long byte = begin; byte < end; byte++) {
+    for ( int byte = begin; byte < end; byte++) {
       if ( sync ) {
 	sync = false; // reset
       } else {
@@ -160,30 +160,26 @@ void decompress() {
 	  indices_codewords[tid].push_back(index);
 	  /* store bit_index and code length */
 	  indexs[tid].push_back(byte*8 + bit);
-	  code_len[tid].push_back(code.size());
 #pragma omp master
 {
-  	  if (index!=13) {
-	    output_file << (unsigned char)index;
-	  } else {
-	    //unsolved carriage return character
-	  }
-	  for ( int t1 = 1; t1 < num_of_thread; t1++ ) {
+	//unsolved carriage return character index = 13
+	output_file << (unsigned char)index;
+	for ( int t1 = 1; t1 < num_of_thread; t1++ ) {
 	    size_t end_ = indexs[t1].size();
+	    /*
 	    for ( size_t t2 = 0; t2 < end_; t2++ ) {
-	      if ( indexs[t1][t2] == (byte*8 + bit) ) { // synchronization point
-		while (t2 != end_-1) {
-	          if ( indices_codewords[t1][t2] != 13 ) // unsolved carriage return
+	      if ( indexs[t1][t2] == (byte*8 + bit+1) ) { // synchronization point
+		while (t2 != end_-2) {
 		    output_file << (unsigned char) indices_codewords[t1][t2];
-		  t2++;
+		    t2++;
 		}
-		byte = byte + code_len[t1][t2] - 1 ;
-		bit  = (bit + code_len[t1][t2]) % 8;
+		byte = indexs[t1][t2];
+		bit  = indexs[t1][t2];
 		sync = true;
 		break;
 	      }
-	    }
-	  }
+	    }*/
+	}
 }
 	  code.clear();
 	}
