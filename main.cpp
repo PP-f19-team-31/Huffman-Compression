@@ -253,7 +253,7 @@ void decompress() {
   for (int i = 0; i < 256; ++i) {
     if (codebook[i] != "") {
       codebook_map[codebook[i]] = i;
-      //std::cout << (unsigned char)i << " : " << codebook[i] << std::endl;
+      // std::cout << (unsigned char)i << " : " << codebook[i] << std::endl;
     }
   }
   // -----------------------------------------------------------------------
