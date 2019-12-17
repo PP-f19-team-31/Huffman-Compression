@@ -108,7 +108,7 @@ void compress() {
   putOut();
 }
 
-#define BLOCK_N (4)
+#define BLOCK_N (32)
 #define BLOCK_SIZE (50 << 10 << 10)
 #define BUFFER_SIZE ((BLOCK_N) * (BLOCK_SIZE))
 
@@ -176,7 +176,7 @@ auto partition(int n, encode_block *blocks, char *buffer, int len,
     bitCounter = (bitCounter + bits) % 8;
   }
 
-#pragma omp parallel for num_threads(16)
+#pragma omp parallel for num_threads(8)
   for (int i = 0; i < n; i++) {
     encode(blocks[i], buffer + begs[i], buffer + ends[i], counters[i]);
   }
@@ -282,7 +282,7 @@ void decompress() {
   // -----------------------------------------------------------------------
   //                 starting parallel for each block_i
   // -----------------------------------------------------------------------
-#pragma omp parallel for num_threads(16)
+#pragma omp parallel for num_threads(8)
   for (size_t block_idx = 0; block_idx < num_of_block; ++block_idx) {
     unsigned long long bit_index = 0;
     char nextByte;
