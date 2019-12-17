@@ -6,7 +6,7 @@ LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
-TEST = HuckleBerry
+TEST = data32M
 FORMATER = clang-format -i
 
 all: $(OBJ) $(TARGET) 
@@ -35,7 +35,7 @@ perf: all
 	perf record --call-graph dwarf ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
 mpi: all
 	./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
-	$(MPIEXE) --npernode 1 $(TARGET) -d $(TEST).compress.txt -o $(TEST)_decompress.txt
+	time --format="exe time: %E" $(MPIEXE) --npernode 4 --hostfile hostfile $(TARGET) -d $(TEST).compress.txt -o $(TEST)_decompress.txt
 	diff $(TEST).txt $(TEST)_decompress.txt
 clean :
 	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt $(TEST)_decompress.txt

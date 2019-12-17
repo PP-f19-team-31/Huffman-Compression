@@ -112,7 +112,6 @@ void decompress() {
 	    input_file.read((char *)&frequencies[i], 4); // 4 bytes * 256 = 1024
     }
   }
-
   /* construct heap for every rank */
   if ( MPI_rank == 0 ) {
     for (int i = 1; i < MPI_size; i++) {
@@ -133,9 +132,8 @@ void decompress() {
 		  codebook_map[codebook[i]] = i;
 	  }
   }
-
   /* decode */
-  unsigned long long int block_size;
+  unsigned long long block_size;
   std::string code;
   encoded_size = size_of_file - 1032;
   unsigned char *buffer;
@@ -145,12 +143,23 @@ void decompress() {
     input_file.read((char*)buffer, size_of_file);
     block_size = encoded_size/MPI_size;
     for (int i = 1; i < MPI_size; i++) {
-      MPI_Send(&block_size, 1, MPI_UNSIGNED_LONG_LONG, 
-		      i, 0, MPI_COMM_WORLD);
-      MPI_Send(&buffer[block_size*i], 
-		      block_size, 
-		      MPI_UNSIGNED_CHAR,
-		      i, 0, MPI_COMM_WORLD);
+      if( i == MPI_size-1 ) {
+	unsigned long long last_block_size = block_size + (encoded_size%MPI_size);
+        MPI_Send(&last_block_size, 1, MPI_UNSIGNED_LONG_LONG, 
+			i, 0, MPI_COMM_WORLD);
+	MPI_Send(&buffer[block_size*i], 
+			last_block_size, 
+			MPI_UNSIGNED_CHAR,
+			i, 0, MPI_COMM_WORLD);
+	
+      } else {
+        MPI_Send(&block_size, 1, MPI_UNSIGNED_LONG_LONG, 
+			i, 0, MPI_COMM_WORLD);
+	MPI_Send(&buffer[block_size*i], 
+			block_size, 
+			MPI_UNSIGNED_CHAR,
+			i, 0, MPI_COMM_WORLD);
+      }
     }
   } else {
       MPI_Recv(&block_size, 1, MPI_UNSIGNED_LONG_LONG,
@@ -159,8 +168,9 @@ void decompress() {
       MPI_Recv(&buffer[0], block_size, MPI_UNSIGNED_CHAR,
 	       0, 0, MPI_COMM_WORLD, NULL);
   }
-  std::vector<int> decoded_char;
+  std::vector<int> decoded_char, bit_idx;
   std::vector<unsigned long long> indexs;
+  int last_len=0;
   unsigned long long int byte, bit=0;
   for (byte = 0; byte < block_size; byte++) {
     char nextByte = buffer[byte];
@@ -172,81 +182,79 @@ void decompress() {
  	  if( MPI_rank == 0 ) {
 	    output_file << (unsigned char)index;
 	  } else {
-	    indexs.push_back( (block_size*MPI_rank*8 + byte*8) + 
-			    bit - code.size() + 1);
+	    indexs.push_back( (block_size*MPI_rank + byte) - (code.size())/8 );
+	    bit_idx.push_back(  (bit - code.size())%8 );
 	    decoded_char.push_back(index);
+	    last_len = code.size();
 	  }
 	  code.clear();
 	}
       }
   }
-  MPI_Barrier(MPI_COMM_WORLD);
   if (MPI_rank==0) {
+	  /* iterate all rank and find synchro */
 	for( int i = 1; i < MPI_size; i++ ) {
+		bool syc = false;
 		int size;
 		MPI_Recv(&size, 1, MPI_INT,
 				i, 0, MPI_COMM_WORLD, NULL);
 		indexs.resize(size);
-		MPI_Recv(&indexs[0], size, MPI_INT,
+		MPI_Recv(&indexs[0], size, MPI_UNSIGNED_LONG_LONG,
 				i, 0, MPI_COMM_WORLD, NULL);
-		int idx = -1;
-		unsigned long long int end = std::min(block_size*(i+1), (unsigned long long )encoded_size);
-		int ptr = 0;
+		decoded_char.resize(size);
+		MPI_Recv(&decoded_char[0], size, MPI_INT,
+				i, 0, MPI_COMM_WORLD, NULL);
+		bit_idx.resize(size);
+		MPI_Recv(&bit_idx[0], size, MPI_INT,
+				i, 0, MPI_COMM_WORLD, NULL);
+		MPI_Recv(&last_len, 1, MPI_INT,
+				i, 0, MPI_COMM_WORLD, NULL);
+		unsigned long long end = std::min(block_size*(i+1), (unsigned long long )encoded_size);
+		unsigned long long ptr = 0;
 		for ( ; byte < end; byte++ ) {
 		   char nextByte = buffer[byte];
-		   bit = bit % 8;
-		   for ( ; bit < 8; bit ++ ) {
+		   bit%=8;
+		   for (; bit < 8; bit ++ ) {
 		     code += ((nextByte >> bit) & 0x01)?'1':'0';
 		     auto exist = codebook_map.find(code);
 		     if (exist != codebook_map.end()) {
 		         int index = exist->second;
 		         output_file << (unsigned char)index;
 		         code.clear();
-		     }
-		     if(code.size()==1) {
-		         unsigned long long int c = byte*8+bit+1;
-			 while (indexs[ptr] < c) 
-			     ptr++;
-			 if ( indexs[ptr] == c ) {
-		             idx = ptr;
-			     MPI_Send(&idx, 1, MPI_INT,
-					     i, 0, MPI_COMM_WORLD);
-			     MPI_Recv(&size, 1, MPI_INT,
-					     i, 0, MPI_COMM_WORLD, NULL);
-			     decoded_char.resize(size);
-			     MPI_Recv(&decoded_char[0], size, MPI_INT,
-					     i, 0, MPI_COMM_WORLD, NULL);
-			     int k;
-			     for (k = idx; k < size-1; k++ )
-				     output_file << (unsigned char) decoded_char[k];
-			     byte= indexs[k+1]/8;
-			     bit = indexs[k+1]%8-1;
-			     code.clear();
-			     continue;
+			 while ( ptr < indexs.size() && indexs[ptr] < byte)  ptr++;
+			 if (  ptr < indexs.size() && indexs[ptr] == byte && bit_idx[ptr] == (bit+1) ) {
+				 int k;
+				 for (k = ptr; k < size; k++ ) {
+					 output_file << (unsigned char) decoded_char[k];
+				 }
+			         nextByte = buffer[byte];
+				 byte= indexs[k-1];
+				 bit = bit_idx[k-1];
+				 byte += last_len/8;
+				 bit  += last_len%8 + 1;
+				 if(bit/8) byte++;
+				 code.clear();
+			     
+				 syc = true;
+				 break;
 			 }
 		     }
 		   }
-		   if(idx != -1) break;
-		}
-		if(idx == -1){
-			MPI_Send(&idx, 1, MPI_INT, i, 0, MPI_COMM_WORLD);
+		   if(syc) break;
 		}
 	}
   } else {
+	  /* send bit index and decode to rank 0 */
 	  int size = indexs.size();
-	  int idx;
 	  MPI_Send(&size, 1, MPI_INT,
 			  0, 0, MPI_COMM_WORLD);
-	  MPI_Send(&indexs[0], size, MPI_INT,
+	  MPI_Send(&indexs[0], size, MPI_UNSIGNED_LONG_LONG,
 			  0, 0, MPI_COMM_WORLD);
-	  MPI_Recv(&idx, 1, MPI_INT,
-			  0, 0, MPI_COMM_WORLD, NULL);
-	  if ( idx >=0 ) {
-		  size = decoded_char.size();
-		  MPI_Send(&size, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-		  MPI_Send(&decoded_char[0], size, MPI_INT,
-				  0, 0, MPI_COMM_WORLD);
-	  }
+	  MPI_Send(&decoded_char[0], size, MPI_INT,
+			  0, 0, MPI_COMM_WORLD);
+	  MPI_Send(&bit_idx[0], size, MPI_INT,
+			  0, 0, MPI_COMM_WORLD);
+	  MPI_Send(&last_len, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
   }
   MPI_Finalize();
   output_file.close();
