@@ -221,15 +221,14 @@ void decompress() {
 		         int index = exist->second;
 		         output_file << (unsigned char)index;
 		         code.clear();
-			 while ( ptr < indexs.size() && indexs[ptr] < byte)  ptr++;
-			 if (  ptr < indexs.size() && indexs[ptr] == byte && bit_idx[ptr] == (bit+1) ) {
-				 int k;
-				 for (k = ptr; k < size; k++ ) {
-					 output_file << (unsigned char) decoded_char[k];
-				 }
+			 while ( ptr < size && indexs[ptr] < byte)  ptr++;
+			 if (  ptr < size && indexs[ptr] == byte && bit_idx[ptr] == (bit+1) ) {
+				 std::vector<int>::iterator nth = decoded_char.begin() + ptr;
+				 auto print = [](const int&n){ output_file << (unsigned char) n; };
+				 std::for_each(nth, decoded_char.end(), print);
 			         nextByte = buffer[byte];
-				 byte= indexs[k-1];
-				 bit = bit_idx[k-1];
+				 byte= indexs[size-1];
+				 bit = bit_idx[size-1];
 				 byte += last_len/8;
 				 bit  += last_len%8 + 1;
 				 if(bit/8) byte++;

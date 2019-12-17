@@ -6,7 +6,7 @@ LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
-TEST = data32M
+TEST = HuckleBerry
 FORMATER = clang-format -i
 
 all: $(OBJ) $(TARGET) 
