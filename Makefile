@@ -1,10 +1,13 @@
 CXX = g++
-CXXFLAGS += -O3 -Wall -g -fopenmp
+CXXFLAGS += -O3 -Wall -g -fopenmp -mavx
 LDFALGS += -lpthread -fopenmp
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:%.cpp=%.o)
 TARGET = huffman
-TEST = data32M
+TEST = HuckleBerry
+#TEST = data32M
+#TEST = ~/test200M
+
 FORMATER = clang-format -i
 
 all: $(SRC) $(TARGET)
