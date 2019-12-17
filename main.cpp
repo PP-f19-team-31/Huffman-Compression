@@ -61,9 +61,10 @@ std::ofstream output_file;
 #define NUM_BLOCKS 48
 
 void compress() {
+  struct timeval start, end;
+  START_TIME(start);
   input_file.seekg(0, std::ifstream::end);
   size_t size_of_file = input_file.tellg();
-  std::cout << "size of file (bytes): " << size_of_file << "\n";
   input_file.seekg(0);
   input_file >> std::noskipws;
 
@@ -85,7 +86,9 @@ void compress() {
   // reading from file into buffer
   unsigned char *buffer = new unsigned char[size_of_file];
   input_file.read((char *)buffer, size_of_file);
+  END_TIME("reading file into buffer", end);
 
+  START_TIME(start);
   // frequenices counting (parallel)
   unsigned int frequencies_threads[NUM_BLOCKS][256] = {0};
 #pragma omp parallel for num_threads(16)
@@ -101,11 +104,20 @@ void compress() {
       frequencies[j] += frequencies_threads[i][j];
     }
   }
+  END_TIME("counting frequencies", end);
 
+  START_TIME(start);
   Node *root = constructHeap();
+  END_TIME("construct heap", end);
+
+  START_TIME(start);
   std::string code;
   root->fillCodebook(newcodebook, code, bitvec);
+  END_TIME("fill codebook", end);
+
+  START_TIME(start);
   putOut();
+  END_TIME("flush to output", end);
 }
 
 #define BLOCK_N (32)
@@ -226,6 +238,8 @@ void putOut() {
 // 2002 Journal
 // Parallel Huffman Decoding with Application to JPEG Files
 void decompress() {
+  struct timeval start, end;
+  START_TIME(start)
   // -----------------------------------------------------------------------
   // calculate the encoded code size (exclude the magic number and frequencies)
   // -----------------------------------------------------------------------
@@ -239,23 +253,32 @@ void decompress() {
     input_file.read((char *)&frequencies[i], 4); // 4 bytes * 256 = 1024
   }
   size_t encoded_size = size_of_file - 1032;
-  std::cout << "encoded size (bytes): " << encoded_size << "\n";
+  END_TIME("reading file into buffer", end);
+
   // 1024 + 8 = 1032 bytes
   // -----------------------------------------------------------------------
 
+  START_TIME(start);
   Node *root = constructHeap();
+  END_TIME("construct heap", end);
   {
     std::string code;
+    START_TIME(start);
     root->fillCodebook(codebook, code);
+    END_TIME("fill codebook", end);
   }
   std::unordered_map<std::string, int> codebook_map;
 
+  START_TIME(start);
   for (int i = 0; i < 256; ++i) {
     if (codebook[i] != "") {
       codebook_map[codebook[i]] = i;
       // std::cout << (unsigned char)i << " : " << codebook[i] << std::endl;
     }
   }
+  END_TIME("build code maping table <code, char>", end);
+
+  START_TIME(start);
   // -----------------------------------------------------------------------
   //                 split the input_file into blocks
   // -----------------------------------------------------------------------
@@ -263,9 +286,6 @@ void decompress() {
   // size_t block_size = 31; // (bytes) 31 256
   size_t block_size = 256; // (bytes) 31 256
   size_t num_of_block = ceild(encoded_size, block_size);
-
-  std::cout << "block size: " << block_size << std::endl;
-  std::cout << "number of block: " << num_of_block << std::endl;
 
   // reading from file into buffer
   unsigned char *buffer = new unsigned char[encoded_size];
@@ -322,7 +342,9 @@ void decompress() {
       indexs[block_idx] = std::make_pair(bidx / 8, bidx % 8);
     }
   }
+  END_TIME("parallel interpret each blocks", end);
 
+  START_TIME(start);
   unsigned long long last_bit =
       indices_codewords[num_of_block - 1].back().first;
   bool shit = false;
@@ -358,7 +380,7 @@ DOTAIL:
       for (int k = offset; k < 8; ++k) {
         // reached the last bit, stops the decompress process
         if (idx * 8 + k >= last_bit)
-          return;
+          goto END;
 
         last_idx = idx * 8 + k;
         code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
@@ -417,6 +439,9 @@ DOTAIL:
     // match the boundary
     // but do nothing
   }
+ END:
+  END_TIME("sequential interpret the error blocks", end)
+  return;
 }
 
 Node *constructHeap() {

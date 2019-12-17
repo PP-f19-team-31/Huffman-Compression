@@ -34,9 +34,15 @@
 #include <vector>
 #include <utility>
 
+#ifdef DEBUG
 #define START_TIME(start)                                                      \
   { gettimeofday(&start, NULL); }
+#else
+#define START_TIME(start)                                                      \
+  { }
+#endif
 
+#ifdef DEBUG
 #define END_TIME(name, end)                                                    \
   {                                                                            \
     gettimeofday(&end, NULL);                                                  \
@@ -46,6 +52,10 @@
                                                                                \
     printf("\033[92m[%s]\033[0m Execute time: %lf\n", name, delta);            \
   }
+#else
+#define END_TIME(name, end)                                                    \
+  { }
+#endif
 
 class Node{
     unsigned char data;
