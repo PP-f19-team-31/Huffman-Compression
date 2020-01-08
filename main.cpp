@@ -45,6 +45,11 @@
 #include <utility>
 #include <vector>
 
+#ifndef THREAD_NUMBER
+#define THREAD_NUMBER 16
+#error NotDefThreadNumber
+#endif
+
 void putOut();
 Node *constructHeap();
 
@@ -91,7 +96,7 @@ void compress() {
   START_TIME(start);
   // frequenices counting (parallel)
   unsigned int frequencies_threads[NUM_BLOCKS][256] = {0};
-#pragma omp parallel for num_threads(16)
+#pragma omp parallel for num_threads(THREAD_NUMBER)
   for (size_t i = 0; i < NUM_BLOCKS; ++i) {
     for (size_t j = from[i]; j < to[i] + 1; ++j) {
       frequencies_threads[i][buffer[j]]++;
@@ -120,8 +125,11 @@ void compress() {
   END_TIME("flush to output", end);
 }
 
-#define BLOCK_N (32)
-#define BLOCK_SIZE (50 << 10 << 10)
+//#define BLOCK_N (32)
+#define BLOCK_N THREAD_NUMBER
+#define MB(x) ((x)<< 10 << 10)
+#define KB(x) ((x) << 10)
+#define BLOCK_SIZE (MB(1ull)) // KB(500ul) //KB(100)
 #define BUFFER_SIZE ((BLOCK_N) * (BLOCK_SIZE))
 
 char buffer[BUFFER_SIZE];
@@ -188,7 +196,7 @@ auto partition(int n, encode_block *blocks, char *buffer, int len,
     bitCounter = (bitCounter + bits) % 8;
   }
 
-#pragma omp parallel for num_threads(8)
+#pragma omp parallel for num_threads(THREAD_NUMBER)
   for (int i = 0; i < n; i++) {
     encode(blocks[i], buffer + begs[i], buffer + ends[i], counters[i]);
   }
@@ -302,7 +310,7 @@ void decompress() {
   // -----------------------------------------------------------------------
   //                 starting parallel for each block_i
   // -----------------------------------------------------------------------
-#pragma omp parallel for num_threads(8)
+#pragma omp parallel for num_threads(THREAD_NUMBER)
   for (size_t block_idx = 0; block_idx < num_of_block; ++block_idx) {
     unsigned long long bit_index = 0;
     char nextByte;
@@ -347,7 +355,7 @@ void decompress() {
   START_TIME(start);
   unsigned long long last_bit =
       indices_codewords[num_of_block - 1].back().first;
-  bool shit = false;
+  //bool shit = false;
   size_t block_idx = 0;
   size_t it_offset = 0;
 
@@ -359,7 +367,7 @@ void decompress() {
   });
 
   std::string code;
-  unsigned long long last_idx = 0;
+  //unsigned long long last_idx = 0;
 DOTAIL:
   // rollback
   auto idx = indexs[block_idx].first;
@@ -371,9 +379,9 @@ DOTAIL:
   block_idx++;
   if (bit_index % block_size != 0) {
     unsigned long long start_index = block_idx * block_size;
-    unsigned long long end_index =
-        start_index +
-        (block_idx != num_of_block - 1 ? block_size : last_block_size);
+    //unsigned long long end_index =
+    //    start_index +
+    //    (block_idx != num_of_block - 1 ? block_size : last_block_size);
 
     // decode next codeword
     while (true) {
@@ -382,7 +390,7 @@ DOTAIL:
         if (idx * 8 + k >= last_bit)
           goto END;
 
-        last_idx = idx * 8 + k;
+        //last_idx = idx * 8 + k;
         code += ((buffer[idx] >> k) & 0x01) ? '1' : '0';
         offset++;
 
@@ -398,7 +406,7 @@ DOTAIL:
 
         NEXTBLOCK:
           auto bit_index = idx * 8 + offset;
-          int r = 0;
+          long unsigned int r = 0;
           for (; r < indices_codewords[block_idx].size(); r++) {
             if (bit_index <= indices_codewords[block_idx][r].first)
               break;

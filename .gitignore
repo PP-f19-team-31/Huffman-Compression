@@ -3,3 +3,8 @@ compile_commands.json
 
 *.o
 huffman
+binary
+chinese
+english
+compressed.txt
+decompressed.txt

@@ -16,7 +16,7 @@ $(TARGET): $(OBJ)
 	$(CXX) $(LDFALGS) $^ -o $@
 
 %.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) -DTHREAD_NUMBER=$(THREAD_NUMBER) $(CXXFLAGS) -c $< -o $@
 
 format:
 	$(FORMATER) $(SRC)
@@ -35,5 +35,8 @@ test: all
 perf: all
 	perf record --call-graph dwarf ./$(TARGET) -c $(TEST).txt -o $(TEST).compress.txt
 
-clean :
-	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt
+clean:
+	$(RM) $(OBJ) $(TARGET) $(TEST).2.txt $(TEST).compress.txt serial *.o
+
+serial:
+	g++ -Wall -g -O3 -o serial serial_main.cc serial_huff.cc
