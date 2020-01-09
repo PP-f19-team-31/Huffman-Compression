@@ -129,7 +129,7 @@ void compress() {
 #define BLOCK_N THREAD_NUMBER
 #define MB(x) ((x)<< 10 << 10)
 #define KB(x) ((x) << 10)
-#define BLOCK_SIZE (MB(1ull)) // KB(500ul) //KB(100)
+#define BLOCK_SIZE KB(100ull) //(MB(1ull)) // KB(500ul) //KB(100)
 #define BUFFER_SIZE ((BLOCK_N) * (BLOCK_SIZE))
 
 char buffer[BUFFER_SIZE];

@@ -11,20 +11,20 @@ mkdir -p performance
 rm performance/*
 
 # /usr/bin/time -f "%E real,%U user,%S sys" sleep 2
-make clean
-make serial || exit 1
-echo serial beg
-for d in chinese english binary;do
-    for f in $(seq -f '%02g' 1 $FILENUM);do
-        ./serial -f < $d/d${f}.txt > performance/${d}_${f}_frequency.txt
-        echo "compressing... $d/d${f}.txt"
-        /usr/bin/time -f "${f} %E" ./serial < $d/d${f}.txt > compressed.txt         2>>performance/serial_compress_${d}.txt
-        echo "decompressing... $d/d${f}.txt"
-        /usr/bin/time -f "${f} %E" ./serial -d < compressed.txt > decompressed.txt  2>>performance/serial_decompress_${d}.txt
-        echo 
-    done
-done
-echo serial end
+#make clean
+#make serial || exit 1
+#echo serial beg
+#for d in chinese english binary;do
+#    for f in $(seq -f '%02g' 1 $FILENUM);do
+#        ./serial -f < $d/d${f}.txt > performance/${d}_${f}_frequency.txt
+#        echo "compressing... $d/d${f}.txt"
+#        /usr/bin/time -f "${f} %E" ./serial < $d/d${f}.txt > compressed.txt         2>>performance/serial_compress_${d}.txt
+#        echo "decompressing... $d/d${f}.txt"
+#        /usr/bin/time -f "${f} %E" ./serial -d < compressed.txt > decompressed.txt  2>>performance/serial_decompress_${d}.txt
+#        echo 
+#    done
+#done
+#echo serial end
 
 echo parallel beg
 for t in 4 8 16 32 64;do
