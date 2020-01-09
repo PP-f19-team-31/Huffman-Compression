@@ -10,9 +10,10 @@ set term png enhanced font 'Verdana,10'
 set output outfile 
 set logscale y
 
-plot [:][:100]infile using 2:xtic(1) with histogram title 'serial', \
-'' using 3:xtic(1) with histogram title '#t=4'  , \
-'' using 4:xtic(1) with histogram title '#t=8'  , \
-'' using 5:xtic(1) with histogram title '#t=16'  , \
-'' using 6:xtic(1) with histogram title '#t=32'  , \
-'' using 7:xtic(1) with histogram title '#t=64'
+plot [:][:100]infile using 2:xtic(1) with histogram title 'origin', \
+'' using 3:xtic(1) with histogram title '#t=1'  , \
+'' using 4:xtic(1) with histogram title '#t=4'  , \
+'' using 5:xtic(1) with histogram title '#t=8'  , \
+'' using 6:xtic(1) with histogram title '#t=16'  , \
+'' using 7:xtic(1) with histogram title '#t=32'  , \
+'' using 8:xtic(1) with histogram title '#t=64'

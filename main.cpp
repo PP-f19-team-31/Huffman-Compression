@@ -129,7 +129,7 @@ void compress() {
 #define BLOCK_N THREAD_NUMBER
 #define MB(x) ((x)<< 10 << 10)
 #define KB(x) ((x) << 10)
-#define BLOCK_SIZE KB(100ull) //(MB(1ull)) // KB(500ul) //KB(100)
+#define BLOCK_SIZE KB(500ull) //(MB(1ull)) // KB(500ul) //KB(100ull)
 #define BUFFER_SIZE ((BLOCK_N) * (BLOCK_SIZE))
 
 char buffer[BUFFER_SIZE];
@@ -378,7 +378,7 @@ DOTAIL:
   // increase the block index
   block_idx++;
   if (bit_index % block_size != 0) {
-    unsigned long long start_index = block_idx * block_size;
+    //unsigned long long start_index = block_idx * block_size;
     //unsigned long long end_index =
     //    start_index +
     //    (block_idx != num_of_block - 1 ? block_size : last_block_size);
